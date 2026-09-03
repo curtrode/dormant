@@ -117,5 +117,7 @@ Do not resolve these; where a default is given, use it and say so.
 3. Reveal presentation: in-place swap-back vs tooltip vs ghost layer. *Default: in-place swap-back.*
 4. Translate on submit vs live on input. *Default: on submit.*
 5. Instruction wording on the landing state, if any.
-6. Typeface.
+6. Typeface — two questions, not one: the title face need not be the body face.
+   - **Title.** *Working choice: Cormorant* (SIL OFL, self-hostable). Which release in the family — Cormorant Garamond, Cormorant, Cormorant Infant — is not yet fixed.
+   - **Body.** *Open.* Cormorant is drawn light and high-contrast for display sizes; a sturdier text face is likely wanted for a paragraph the reader studies closely.
 7. What happens to the pasted original — discarded, or recoverable whole (an "unsleep" control)? *Default: no control; the hover is the only recovery.*
