@@ -1,6 +1,30 @@
 {
   "metadata": {
-    "generated": true
+    "generated": true,
+    "description": "Research queue for the Semantic Archaeology lexicon. Entries await independent verification before promotion to canonical.json.",
+    "schema": [
+      "word",
+      "gloss",
+      "etymon",
+      "language",
+      "note",
+      "part_of_speech",
+      "image_family",
+      "recovery_type",
+      "surprise_score",
+      "frequency_score",
+      "confidence_score",
+      "verified",
+      "verification_source",
+      "editorial_notes"
+    ],
+    "score_range": "1-5 (null until editorially scored)",
+    "recovery_types": [
+      "literal",
+      "conceptual",
+      "semantic",
+      "contested"
+    ]
   },
   "candidates": []
 }
