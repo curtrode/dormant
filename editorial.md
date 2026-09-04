@@ -142,8 +142,6 @@ The project is maintained as a set of complementary resources:
 4. **poetics_of_semantic_archaeology.md** — the conceptual essay.
 5. **research_notes.md** — laboratory notebook: observations, open
    questions, rejected candidates, and disputed etymologies.
-6. **semantic_archaeology_strongest_entries.md** — legacy source
-   snapshot, now superseded by `canonical.json`.
 
 ## Future Scope
 
