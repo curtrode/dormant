@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:en.wiktionary.org)",
+      "WebFetch(domain:www.etymonline.com)",
+      "WebSearch",
+      "WebFetch(domain:www.wiktionary.org)",
+      "WebFetch(domain:etymonline.com)",
+      "Bash(python3 -c ' *)",
+      "Bash(node -e ' *)"
+    ]
+  }
+}
