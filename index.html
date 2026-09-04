@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Semantic Archaeology</title>
+<style>
+  :root{
+    --ink:#1c1a17; --faint:#6b655c; --line:#d9d2c5; --paper:#f4efe6;
+    --card:#fbf8f2; --gloss:#7a3b2e; --gloss-bg:#f0e3d6; --contested:#3a5a6b;
+    --accent:#a8532f;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0}
+  body{
+    background:var(--paper); color:var(--ink);
+    font-family:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;
+    line-height:1.6; -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:820px;margin:0 auto;padding:48px 24px 96px}
+  header{text-align:center;margin-bottom:8px}
+  h1{font-size:30px;font-weight:600;letter-spacing:.01em;margin:0}
+  .sub{color:var(--faint);font-style:italic;margin:6px 0 0;font-size:16px}
+  .lead{color:var(--faint);font-size:15px;text-align:center;max-width:60ch;margin:18px auto 34px;line-height:1.55}
+
+  .controls{
+    display:flex;flex-wrap:wrap;gap:18px 24px;align-items:center;justify-content:center;
+    padding:16px 18px;margin-bottom:22px;border:1px solid var(--line);border-radius:10px;background:var(--card);
+  }
+  .samples{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+  .samples .lbl{color:var(--faint);font-size:13px;letter-spacing:.04em;text-transform:uppercase}
+  button.chip{
+    font:inherit;font-size:14px;cursor:pointer;background:transparent;color:var(--ink);
+    border:1px solid var(--line);padding:5px 12px;border-radius:20px;transition:.15s;
+  }
+  button.chip:hover{border-color:var(--accent);color:var(--accent)}
+  .dial{display:flex;align-items:center;gap:10px}
+  .dial .lbl{color:var(--faint);font-size:13px;letter-spacing:.04em;text-transform:uppercase}
+  input[type=range]{width:150px;accent-color:var(--accent)}
+  .dial .val{font-size:13px;color:var(--faint);min-width:78px;font-style:italic}
+
+  textarea{
+    width:100%;min-height:96px;resize:vertical;font:inherit;font-size:16px;line-height:1.5;
+    padding:14px 16px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--ink);
+  }
+  textarea:focus{outline:none;border-color:var(--accent)}
+  .row{display:flex;gap:12px;align-items:center;margin:12px 0 30px}
+  button.go{
+    font:inherit;font-size:15px;cursor:pointer;background:var(--ink);color:var(--paper);
+    border:none;padding:9px 22px;border-radius:8px;transition:.15s;
+  }
+  button.go:hover{background:var(--accent)}
+  .stat{color:var(--faint);font-size:14px;font-style:italic}
+
+  .card{border:1px solid var(--line);border-radius:12px;background:var(--card);padding:26px 30px;margin-bottom:18px}
+  .card .tag{
+    font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--faint);
+    margin:0 0 14px;display:flex;align-items:center;gap:8px;
+  }
+  .card .tag::after{content:"";flex:1;height:1px;background:var(--line)}
+  .prose{font-size:19px;line-height:1.72}
+  .prose.original{color:var(--faint);font-size:17px}
+
+  .w{border-radius:3px;transition:background .12s}
+  .gloss{color:var(--gloss);background:var(--gloss-bg);padding:0 3px;cursor:help;
+         box-shadow:inset 0 -1px 0 rgba(122,59,46,.35)}
+  .contested{color:var(--contested);border-bottom:1px dotted var(--contested);cursor:help;font-style:italic}
+  .lit .w.hot{background:#efe0b8}
+  .highlight{background:#efe0b8 !important}
+
+  #tip{
+    position:fixed;pointer-events:none;z-index:50;max-width:280px;opacity:0;transform:translateY(4px);
+    transition:opacity .12s, transform .12s;background:var(--ink);color:var(--paper);
+    padding:10px 13px;border-radius:8px;font-size:13px;line-height:1.45;box-shadow:0 8px 24px rgba(0,0,0,.22);
+  }
+  #tip.show{opacity:1;transform:translateY(0)}
+  #tip .orig{font-weight:600;font-size:14px}
+  #tip .arrow{opacity:.6;margin:0 5px}
+  #tip .ety{color:#d9c9b0;font-style:italic;margin-top:5px;font-size:12.5px}
+  #tip .rt{color:#b7a98f;font-size:11px;letter-spacing:.08em;text-transform:uppercase;margin-top:5px}
+
+  .legend{color:var(--faint);font-size:13px;text-align:center;margin-top:26px;line-height:1.7}
+  .legend .g{color:var(--gloss);background:var(--gloss-bg);padding:0 4px;border-radius:3px}
+  .legend .c{color:var(--contested);border-bottom:1px dotted var(--contested);font-style:italic}
+  footer{text-align:center;color:var(--faint);font-size:12.5px;margin-top:44px;line-height:1.7}
+  a{color:var(--accent)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Semantic Archaeology</h1>
+    <p class="sub">reading English as if it were a foreign language, translated too literally</p>
+  </header>
+  <p class="lead">Every word below hides an older image. This piece recovers it &mdash; replacing a word
+     with the literal meaning of its roots. The translation appears on top; your text, beneath.
+     Hover a recovered word to see what it was.</p>
+
+  <div class="controls">
+    <div class="samples">
+      <span class="lbl">Passage</span>
+      <button class="chip" data-sample="0">The household</button>
+      <button class="chip" data-sample="1">The scholar</button>
+    </div>
+    <div class="dial">
+      <span class="lbl">Estrangement</span>
+      <input id="dial" type="range" min="1" max="5" step="1" value="3">
+      <span class="val" id="dialVal"></span>
+    </div>
+  </div>
+
+  <textarea id="input" spellcheck="false" placeholder="Paste any English prose here, or pick a passage above&hellip;"></textarea>
+  <div class="row">
+    <button class="go" id="go">Translate</button>
+    <span class="stat" id="stat"></span>
+  </div>
+
+  <div class="card">
+    <p class="tag">Translation</p>
+    <div class="prose lit" id="out"></div>
+  </div>
+  <div class="card">
+    <p class="tag">Original</p>
+    <div class="prose original" id="src"></div>
+  </div>
+
+  <p class="legend">
+    <span class="g">recovered image</span> &mdash; hover for the word and its root &nbsp;&middot;&nbsp;
+    <span class="c">origin contested</span> &mdash; scholars disagree; no image is invented<br>
+    Raise <em>estrangement</em> to recover subtler words; at maximum, even the contested words surface.
+  </p>
+
+  <footer>
+    A lexicon of forgotten images. Entries drawn from <code>canonical.json</code>.<br>
+    Recover forgotten images where possible; represent the limits of historical knowledge where necessary.
+  </footer>
+</div>
+
+<div id="tip"></div>
+
+<script src="lexicon.js"></script>
+<script>
+(function(){
+  "use strict";
+  var L = window.LEXICON || [];
+
+  // Build lookup by word (lowercase).
+  var MAP = {};
+  L.forEach(function(e){ MAP[e.word.toLowerCase()] = e; });
+
+  var SAMPLES = [
+    // dense with entries, but readable prose
+    "Every month the husband sat at the window and calculated the mortgage against his "
+    + "salary, certain that some disaster written into the stars would undo them. The lady "
+    + "kept the accounts and the lord kept the peace, while the girl watched from the orchard.",
+
+    "Reading the old manuscript by candlelight, the candidate felt a nostalgia for the forum, "
+    + "where a marshal once waited with the horses. Such things were pecuniary now: gossip, "
+    + "salary, the daily calculus of a life measured in salt."
+  ];
+
+  var INTENSITY_LABEL = {1:"faint",2:"low",3:"moderate",4:"high",5:"maximum"};
+
+  // Candidate lemmas for a surface token (lightweight morphology).
+  function lemmas(w){
+    w = w.toLowerCase();
+    var out = [w];
+    if(w.length > 3){
+      if(w.slice(-2) === "'s") out.push(w.slice(0,-2));
+      if(w.slice(-2) === "es") out.push(w.slice(0,-2));
+      if(w.slice(-1) === "s")  out.push(w.slice(0,-1));
+      if(w.slice(-3) === "ing"){ out.push(w.slice(0,-3)); out.push(w.slice(0,-3)+"e"); }
+      if(w.slice(-2) === "ed"){ out.push(w.slice(0,-2)); out.push(w.slice(0,-1)); out.push(w.slice(0,-2)+"e"); }
+    }
+    return out;
+  }
+
+  function lookup(token){
+    var ls = lemmas(token);
+    for(var i=0;i<ls.length;i++){ if(MAP[ls[i]]) return MAP[ls[i]]; }
+    return null;
+  }
+
+  // Should this entry fire at the given intensity (1..5)?
+  function fires(entry, intensity){
+    if(entry.recovery_type === "contested") return intensity >= 5;
+    var s = entry.surprise_score || 0;
+    return s >= (6 - intensity); // int5 -> s>=1 (all), int1 -> s>=5 (only the strongest)
+  }
+
+  function matchCase(sample, target){
+    if(!sample) return target;
+    if(sample[0] === sample[0].toUpperCase() && sample[0] !== sample[0].toLowerCase()){
+      return target.charAt(0).toUpperCase() + target.slice(1);
+    }
+    return target;
+  }
+
+  function esc(s){ return s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;"); }
+
+  var TOKEN = /[A-Za-z]+(?:'[A-Za-z]+)?|[^A-Za-z]+/g;
+
+  function render(text, intensity){
+    var out = [], src = [], tokens = text.match(TOKEN) || [], n = 0;
+    for(var i=0;i<tokens.length;i++){
+      var t = tokens[i];
+      if(!/[A-Za-z]/.test(t)){ out.push(esc(t)); src.push(esc(t)); continue; }
+      var e = lookup(t);
+      if(e && fires(e, intensity)){
+        var id = "m"+(n++);
+        if(e.recovery_type === "contested"){
+          out.push('<span class="w contested" data-id="'+id+'" data-kind="contested">'+esc(t)+'</span>');
+        } else {
+          var g = matchCase(t, e.gloss);
+          out.push('<span class="w gloss" data-id="'+id+'" data-word="'+esc(e.word)+'"'
+                 + ' data-gloss="'+esc(e.gloss)+'" data-ety="'+esc(e.etymon||"")+'"'
+                 + ' data-lang="'+esc(e.language||"")+'" data-rt="'+esc(e.recovery_type||"")+'">'+esc(g)+'</span>');
+        }
+        src.push('<span class="w src" data-id="'+id+'">'+esc(t)+'</span>');
+      } else {
+        out.push(esc(t)); src.push(esc(t));
+      }
+    }
+    return {out:out.join(""), src:src.join(""), count:n};
+  }
+
+  var input=document.getElementById("input"), outEl=document.getElementById("out"),
+      srcEl=document.getElementById("src"), stat=document.getElementById("stat"),
+      dial=document.getElementById("dial"), dialVal=document.getElementById("dialVal"),
+      tip=document.getElementById("tip");
+
+  function run(){
+    var text = input.value.trim();
+    if(!text){ outEl.innerHTML=""; srcEl.innerHTML=""; stat.textContent=""; return; }
+    var r = render(text, +dial.value);
+    outEl.innerHTML = r.out; srcEl.innerHTML = r.src;
+    stat.textContent = r.count ? (r.count + (r.count===1?" word":" words") + " recovered")
+                               : "no words recovered at this setting";
+    wire();
+  }
+
+  // Link hover between the two cards + tooltip.
+  function wire(){
+    var pairs = {};
+    [].forEach.call(document.querySelectorAll(".w[data-id]"), function(el){
+      (pairs[el.dataset.id] = pairs[el.dataset.id] || []).push(el);
+    });
+    Object.keys(pairs).forEach(function(id){
+      var els = pairs[id];
+      els.forEach(function(el){
+        el.addEventListener("mouseenter", function(ev){
+          els.forEach(function(x){ x.classList.add("highlight"); });
+          showTip(el, ev);
+        });
+        el.addEventListener("mousemove", function(ev){ moveTip(ev); });
+        el.addEventListener("mouseleave", function(){
+          els.forEach(function(x){ x.classList.remove("highlight"); });
+          hideTip();
+        });
+      });
+    });
+  }
+
+  function showTip(el, ev){
+    var html;
+    if(el.dataset.kind === "contested"){
+      html = '<span class="orig">'+esc(el.textContent)+'</span>'
+           + '<div class="ety">origin contested &mdash; scholars disagree about the original image</div>';
+    } else {
+      html = '<span class="orig">'+esc(el.dataset.word)+'</span><span class="arrow">&rarr;</span>'+esc(el.dataset.gloss)
+           + (el.dataset.ety ? '<div class="ety">'+esc(el.dataset.ety)+(el.dataset.lang?' &middot; '+esc(el.dataset.lang):'')+'</div>' : '')
+           + (el.dataset.rt ? '<div class="rt">'+esc(el.dataset.rt)+' recovery</div>' : '');
+    }
+    tip.innerHTML = html; tip.classList.add("show"); moveTip(ev);
+  }
+  function moveTip(ev){
+    var pad=14, w=tip.offsetWidth, h=tip.offsetHeight;
+    var x=ev.clientX+pad, y=ev.clientY+pad;
+    if(x+w>innerWidth-8) x=ev.clientX-w-pad;
+    if(y+h>innerHeight-8) y=ev.clientY-h-pad;
+    tip.style.left=x+"px"; tip.style.top=y+"px";
+  }
+  function hideTip(){ tip.classList.remove("show"); }
+
+  // Controls.
+  [].forEach.call(document.querySelectorAll("[data-sample]"), function(b){
+    b.addEventListener("click", function(){ input.value = SAMPLES[+b.dataset.sample]; run(); });
+  });
+  document.getElementById("go").addEventListener("click", run);
+  dial.addEventListener("input", function(){
+    dialVal.textContent = INTENSITY_LABEL[dial.value];
+    if(input.value.trim()) run();
+  });
+
+  dialVal.textContent = INTENSITY_LABEL[dial.value];
+  input.value = SAMPLES[0];
+  run();
+})();
+</script>
+</body>
+</html>
