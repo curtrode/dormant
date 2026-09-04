@@ -66,7 +66,7 @@ or
 
 > scholars disagree about the original meaning
 
-Current examples: **girl**, **boy**, **bride**.
+Current examples: **girl**, **boy**, **bride**, **sycophant**.
 
 Where most entries recover a forgotten image, contested entries reveal
 the limits of historical reconstruction — making uncertainty itself part
@@ -81,6 +81,9 @@ of the literary experience.
 - Salt, cattle, pebbles, hands
 - Horses, kinship
 - Law, religion, navigation, agriculture
+- Medicine, trade, textile, measurement (added in the second research pass:
+  clinic, budget, tally, symbol)
+- Geography, water, theater, knowledge (rival, trivial, person, encyclopedia)
 
 Organize discoveries by these forgotten images rather than
 alphabetically.
