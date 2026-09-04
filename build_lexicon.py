@@ -8,7 +8,7 @@ source of truth. Re-run this whenever canonical.json changes:
 """
 import json
 
-FIELDS = ("word", "gloss", "etymon", "language", "note",
+FIELDS = ("word", "gloss", "etymon", "language", "note", "part_of_speech",
           "recovery_type", "image_family", "surprise_score")
 
 def main():

@@ -7,6 +7,7 @@ window.LEXICON = [
     "etymon": null,
     "language": null,
     "note": "Origin uncertain; competing derivations without consensus.",
+    "part_of_speech": "noun",
     "recovery_type": "contested",
     "image_family": "Contested",
     "surprise_score": null
@@ -17,6 +18,7 @@ window.LEXICON = [
     "etymon": null,
     "language": null,
     "note": "Ultimate origin disputed despite long study.",
+    "part_of_speech": "noun",
     "recovery_type": "contested",
     "image_family": "Contested",
     "surprise_score": null
@@ -27,6 +29,7 @@ window.LEXICON = [
     "etymon": "brȳdguma",
     "language": "Old English",
     "note": "Modern -groom is folk-etymological.",
+    "part_of_speech": "noun",
     "recovery_type": "literal",
     "image_family": "Kinship",
     "surprise_score": 3
@@ -37,6 +40,7 @@ window.LEXICON = [
     "etymon": "calculare",
     "language": "Latin",
     "note": "Using calculi on counting boards.",
+    "part_of_speech": "verb",
     "recovery_type": "conceptual",
     "image_family": "Pebbles",
     "surprise_score": 5
@@ -47,6 +51,7 @@ window.LEXICON = [
     "etymon": "calculus",
     "language": "Latin",
     "note": "Pebble used for reckoning.",
+    "part_of_speech": "noun",
     "recovery_type": "literal",
     "image_family": "Pebbles",
     "surprise_score": 4
@@ -57,6 +62,7 @@ window.LEXICON = [
     "etymon": "candidus",
     "language": "Latin",
     "note": "Later developed 'frank'.",
+    "part_of_speech": "adjective",
     "recovery_type": "literal",
     "image_family": "Law",
     "surprise_score": 4
@@ -67,6 +73,7 @@ window.LEXICON = [
     "etymon": "candidatus",
     "language": "Latin",
     "note": "White toga of office-seekers.",
+    "part_of_speech": "noun",
     "recovery_type": "conceptual",
     "image_family": "Law",
     "surprise_score": 5
@@ -77,6 +84,7 @@ window.LEXICON = [
     "etymon": "dæges ēage",
     "language": "Old English",
     "note": "Flower opens by day.",
+    "part_of_speech": "noun",
     "recovery_type": "literal",
     "image_family": "Sky",
     "surprise_score": 4
@@ -87,6 +95,7 @@ window.LEXICON = [
     "etymon": "disastro",
     "language": "Italian",
     "note": "Attributed to an unfavorable star.",
+    "part_of_speech": "noun",
     "recovery_type": "conceptual",
     "image_family": "Sky",
     "surprise_score": 5
@@ -97,6 +106,7 @@ window.LEXICON = [
     "etymon": "ēarwicga",
     "language": "Old English",
     "note": "Not related to the folk belief.",
+    "part_of_speech": "noun",
     "recovery_type": "literal",
     "image_family": "Animals",
     "surprise_score": 2
@@ -107,6 +117,7 @@ window.LEXICON = [
     "etymon": null,
     "language": null,
     "note": "Origin uncertain; no scholarly consensus.",
+    "part_of_speech": "noun",
     "recovery_type": "contested",
     "image_family": "Contested",
     "surprise_score": null
@@ -117,6 +128,7 @@ window.LEXICON = [
     "etymon": "godspell",
     "language": "Old English",
     "note": "Translation of evangelium.",
+    "part_of_speech": "noun",
     "recovery_type": "literal",
     "image_family": "Religion",
     "surprise_score": 3
@@ -127,6 +139,7 @@ window.LEXICON = [
     "etymon": "godsibb",
     "language": "Old English",
     "note": "god + sibb 'kin'.",
+    "part_of_speech": "noun",
     "recovery_type": "literal",
     "image_family": "Kinship",
     "surprise_score": 4
@@ -137,6 +150,7 @@ window.LEXICON = [
     "etymon": "hāligdæġ",
     "language": "Old English",
     "note": "Religious feast day.",
+    "part_of_speech": "noun",
     "recovery_type": "literal",
     "image_family": "Religion",
     "surprise_score": 2
@@ -147,6 +161,7 @@ window.LEXICON = [
     "etymon": "húsbóndi",
     "language": "Old English (from Old Norse)",
     "note": "hús 'house' + bóndi 'dweller/farmer'.",
+    "part_of_speech": "noun",
     "recovery_type": "literal",
     "image_family": "Bread & household",
     "surprise_score": 3
@@ -157,6 +172,7 @@ window.LEXICON = [
     "etymon": "hlæfdige",
     "language": "Old English",
     "note": "hlaf 'loaf' + a second element traditionally linked to 'kneader/maker'.",
+    "part_of_speech": "noun",
     "recovery_type": "literal",
     "image_family": "Bread & household",
     "surprise_score": 5
@@ -167,6 +183,7 @@ window.LEXICON = [
     "etymon": "hlafweard",
     "language": "Old English",
     "note": "hlaf 'loaf' + weard 'keeper'.",
+    "part_of_speech": "noun",
     "recovery_type": "literal",
     "image_family": "Bread & household",
     "surprise_score": 5
@@ -177,6 +194,7 @@ window.LEXICON = [
     "etymon": "manufactura",
     "language": "Medieval Latin",
     "note": "manu 'by hand' + factura 'making'; originally literal.",
+    "part_of_speech": "noun",
     "recovery_type": "literal",
     "image_family": "Hands",
     "surprise_score": 4
@@ -187,6 +205,7 @@ window.LEXICON = [
     "etymon": "manuscriptus",
     "language": "Medieval Latin",
     "note": "manu 'by hand' + scriptus 'written'.",
+    "part_of_speech": "noun",
     "recovery_type": "literal",
     "image_family": "Hands",
     "surprise_score": 3
@@ -197,6 +216,7 @@ window.LEXICON = [
     "etymon": "mareschal",
     "language": "Old French",
     "note": "From a Germanic compound (marah 'horse' + skalk 'servant').",
+    "part_of_speech": "noun",
     "recovery_type": "literal",
     "image_family": "Horses",
     "surprise_score": 4
@@ -207,6 +227,7 @@ window.LEXICON = [
     "etymon": "mort gage",
     "language": "Old French",
     "note": "mort 'dead' + gage 'pledge'.",
+    "part_of_speech": "noun",
     "recovery_type": "literal",
     "image_family": "Law",
     "surprise_score": 5
@@ -217,6 +238,7 @@ window.LEXICON = [
     "etymon": "musculus",
     "language": "Latin",
     "note": "Diminutive of mus 'mouse'.",
+    "part_of_speech": "noun",
     "recovery_type": "literal",
     "image_family": "Animals",
     "surprise_score": 5
@@ -227,6 +249,7 @@ window.LEXICON = [
     "etymon": "night + mare",
     "language": "Old English",
     "note": "mare is a supernatural being that sits on the sleeper's chest.",
+    "part_of_speech": "noun",
     "recovery_type": "literal",
     "image_family": "Religion",
     "surprise_score": 4
@@ -237,6 +260,7 @@ window.LEXICON = [
     "etymon": "nostalgia",
     "language": "Modern Latin",
     "note": "Greek nostos 'homecoming' + algos 'pain'.",
+    "part_of_speech": "noun",
     "recovery_type": "literal",
     "image_family": "Body",
     "surprise_score": 5
@@ -247,6 +271,7 @@ window.LEXICON = [
     "etymon": "nosþyrl",
     "language": "Old English",
     "note": "nose + hole.",
+    "part_of_speech": "noun",
     "recovery_type": "literal",
     "image_family": "Body",
     "surprise_score": 2
@@ -257,6 +282,7 @@ window.LEXICON = [
     "etymon": "ortġeard",
     "language": "Old English",
     "note": "Enclosed place of plants.",
+    "part_of_speech": "noun",
     "recovery_type": "literal",
     "image_family": "Agriculture",
     "surprise_score": 4
@@ -267,6 +293,7 @@ window.LEXICON = [
     "etymon": "pecuniarius",
     "language": "Latin",
     "note": "From pecus 'cattle'; wealth measured in livestock.",
+    "part_of_speech": "adjective",
     "recovery_type": "conceptual",
     "image_family": "Cattle",
     "surprise_score": 5
@@ -277,6 +304,7 @@ window.LEXICON = [
     "etymon": "salarium",
     "language": "Latin",
     "note": "Avoid the 'paid in salt' myth; connected to salt provision/allowance.",
+    "part_of_speech": "noun",
     "recovery_type": "conceptual",
     "image_family": "Salt",
     "surprise_score": 4
@@ -287,6 +315,7 @@ window.LEXICON = [
     "etymon": "sċīrġerēfa",
     "language": "Old English",
     "note": "Shire officer.",
+    "part_of_speech": "noun",
     "recovery_type": "literal",
     "image_family": "Law",
     "surprise_score": 3
@@ -297,6 +326,7 @@ window.LEXICON = [
     "etymon": "stiġrāp",
     "language": "Old English",
     "note": "stige 'climbing' + rap 'rope'; original mounting strap.",
+    "part_of_speech": "noun",
     "recovery_type": "conceptual",
     "image_family": "Horses",
     "surprise_score": 4
@@ -307,6 +337,7 @@ window.LEXICON = [
     "etymon": "vindauga",
     "language": "Old Norse",
     "note": "vindr 'wind' + auga 'eye'.",
+    "part_of_speech": "noun",
     "recovery_type": "literal",
     "image_family": "Sky",
     "surprise_score": 5

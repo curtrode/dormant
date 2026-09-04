@@ -161,24 +161,80 @@
 
   var INTENSITY_LABEL = {1:"faint",2:"low",3:"moderate",4:"high",5:"maximum"};
 
-  // Candidate lemmas for a surface token (lightweight morphology).
+  // Candidate lemmas for a surface token, each tagged with the inflection
+  // that produced it (lightweight morphology). "s" is ambiguous (plural noun
+  // or 3rd-person verb) and resolved later by part of speech.
   function lemmas(w){
     w = w.toLowerCase();
-    var out = [w];
+    var out = [{base:w, infl:"base"}];
     if(w.length > 3){
-      if(w.slice(-2) === "'s") out.push(w.slice(0,-2));
-      if(w.slice(-2) === "es") out.push(w.slice(0,-2));
-      if(w.slice(-1) === "s")  out.push(w.slice(0,-1));
-      if(w.slice(-3) === "ing"){ out.push(w.slice(0,-3)); out.push(w.slice(0,-3)+"e"); }
-      if(w.slice(-2) === "ed"){ out.push(w.slice(0,-2)); out.push(w.slice(0,-1)); out.push(w.slice(0,-2)+"e"); }
+      if(w.slice(-2) === "'s") out.push({base:w.slice(0,-2), infl:"poss"});
+      if(w.slice(-3) === "ies") out.push({base:w.slice(0,-3)+"y", infl:"es"});
+      if(w.slice(-2) === "es")  out.push({base:w.slice(0,-2), infl:"es"});
+      if(w.slice(-1) === "s")   out.push({base:w.slice(0,-1), infl:"s"});
+      if(w.slice(-3) === "ing"){ out.push({base:w.slice(0,-3), infl:"ing"}); out.push({base:w.slice(0,-3)+"e", infl:"ing"}); }
+      if(w.slice(-2) === "ed"){ out.push({base:w.slice(0,-2), infl:"ed"}); out.push({base:w.slice(0,-1), infl:"ed"}); out.push({base:w.slice(0,-2)+"e", infl:"ed"}); }
     }
     return out;
   }
 
   function lookup(token){
     var ls = lemmas(token);
-    for(var i=0;i<ls.length;i++){ if(MAP[ls[i]]) return MAP[ls[i]]; }
+    for(var i=0;i<ls.length;i++){ if(MAP[ls[i].base]) return {entry:MAP[ls[i].base], infl:ls[i].infl}; }
     return null;
+  }
+
+  // Inflect the gloss to agree with the surface word. Verbs inflect their
+  // first word (count -> counted); nouns inflect their last word (eye -> eyes).
+  var IRREG_PLURAL = {mouse:"mice", man:"men"};
+  var IRREG_PAST   = {make:"made"};
+  var NO_INFLECT   = {money:1, news:1, pain:1, white:1, hand:1, salt:1}; // mass/adjectival heads
+
+  function pluralize(w){
+    if(IRREG_PLURAL[w]) return IRREG_PLURAL[w];
+    if(NO_INFLECT[w]) return w;
+    if(/(s|x|z|ch|sh)$/.test(w)) return w + "es";
+    if(/[^aeiou]y$/.test(w)) return w.slice(0,-1) + "ies";
+    return w + "s";
+  }
+  function past(w){
+    if(IRREG_PAST[w]) return IRREG_PAST[w];
+    if(/e$/.test(w)) return w + "d";
+    if(/[^aeiou]y$/.test(w)) return w.slice(0,-1) + "ied";
+    return w + "ed";
+  }
+  function gerund(w){
+    if(/[^aeiou]e$/.test(w)) return w.slice(0,-1) + "ing";
+    return w + "ing";
+  }
+  function thirdPerson(w){
+    if(/(s|x|z|ch|sh)$/.test(w)) return w + "es";
+    if(/[^aeiou]y$/.test(w)) return w.slice(0,-1) + "ies";
+    return w + "s";
+  }
+
+  function inflectGloss(entry, infl){
+    var gloss = entry.gloss;
+    if(!gloss || infl === "base") return gloss;
+    var pos = entry.part_of_speech;
+    if(pos === "adjective") return gloss;            // shining white, of cattle — leave as-is
+    var words = gloss.split(" ");
+    var isVerb = (pos === "verb");
+    var hi = isVerb ? 0 : words.length - 1;          // head-word index
+    var head = words[hi].toLowerCase(), out = head;
+    if(isVerb){
+      if(infl === "ed") out = past(head);
+      else if(infl === "ing") out = gerund(head);
+      else if(infl === "s" || infl === "es") out = thirdPerson(head);
+      else return gloss;                             // possessive on a verb: skip
+    } else {                                         // noun
+      if(infl === "s" || infl === "es") out = pluralize(head);
+      else if(infl === "poss") out = (NO_INFLECT[head] ? head : head + "'s");
+      else return gloss;                             // -ed/-ing on a noun: skip
+    }
+    if(out === head) return gloss;                   // NO_INFLECT head, no change
+    words[hi] = out;
+    return words.join(" ");
   }
 
   // Should this entry fire at the given intensity (1..5)?
@@ -205,13 +261,13 @@
     for(var i=0;i<tokens.length;i++){
       var t = tokens[i];
       if(!/[A-Za-z]/.test(t)){ out.push(esc(t)); src.push(esc(t)); continue; }
-      var e = lookup(t);
+      var m = lookup(t), e = m && m.entry;
       if(e && fires(e, intensity)){
         var id = "m"+(n++);
         if(e.recovery_type === "contested"){
           out.push('<span class="w contested" data-id="'+id+'" data-kind="contested">'+esc(t)+'</span>');
         } else {
-          var g = matchCase(t, e.gloss);
+          var g = matchCase(t, inflectGloss(e, m.infl));
           out.push('<span class="w gloss" data-id="'+id+'" data-word="'+esc(e.word)+'"'
                  + ' data-gloss="'+esc(e.gloss)+'" data-ety="'+esc(e.etymon||"")+'"'
                  + ' data-lang="'+esc(e.language||"")+'" data-rt="'+esc(e.recovery_type||"")+'">'+esc(g)+'</span>');
