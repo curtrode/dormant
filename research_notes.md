@@ -225,3 +225,26 @@ in noun slots (capital -> "of the head", cynic -> "dog-like"), desire
 ("one who suffers's"), influence plural ("flowing ins"). Also tidy the
 singleton image families (decide/Cutting, eliminate/Household,
 school/Time, etc.).
+
+**Idea — contested words as part of the conversation (2026-09-18).**
+Contested entries stay unglossed in the translation (no invented image),
+but the hover reveal becomes richer, in two layers:
+
+1. *Competing theories in English*, clearly labelled as theories, never
+   asserted — e.g. sycophant: the "fig-shower" story(ies) vs. the
+   alternatives. The fun of the fig image is part of the point.
+2. *Elsewhere*: translation equivalents in other languages that did keep
+   a secure image — e.g. boy: Spanish *muchacho* "the shorn one", *chico*
+   "a trifle", French *garçon* "servant boy"; girl: French *fille*
+   "daughter". Spanish *niño* and Italian *ragazzo* are themselves
+   uncertain, which is a nice rhyme: words for children seem prone to
+   losing their origins. (All from memory — verify before use.)
+
+Decisions: limit "elsewhere" to Romance and Germanic languages. Mark
+equivalents clearly as equivalents, not cognates, so no reader takes
+*chico* for the origin of *boy*. Every theory and equivalent carries a
+verification source like any other entry. Sketch schema on contested
+entries: `theories: [{gloss, summary, source}]`,
+`elsewhere: [{language, word, gloss, verification_source}]`.
+Answers the open question "How should contested recoveries appear in
+the interface?" and applies to all four: girl, boy, bride, sycophant.
