@@ -101,6 +101,7 @@
       <span class="lbl">Passage</span>
       <button class="chip" data-sample="0">The household</button>
       <button class="chip" data-sample="1">The scholar</button>
+      <button class="chip" data-sample="2">The sentence</button>
     </div>
     <div class="dial">
       <span class="lbl">Estrangement</span>
@@ -156,7 +157,12 @@
 
     "Reading the old manuscript by candlelight, the candidate felt a nostalgia for the forum, "
     + "where a marshal once waited with the horses. Such things were pecuniary now: gossip, "
-    + "salary, the daily calculus of a life measured in salt."
+    + "salary, the daily calculus of a life measured in salt.",
+
+    "All night the governor considered the sentence while a comet burned over the town. "
+    + "The patient called the whole affair trivial, a tragedy staged for fools; his companion "
+    + "felt only panic, and the doctors blamed melancholy. The chancellor began to prevaricate. "
+    + "By morning the sheriff was ready to exonerate everyone, and his nostalgia had become enthusiasm."
   ];
 
   var INTENSITY_LABEL = {1:"faint",2:"low",3:"moderate",4:"high",5:"maximum"};
@@ -187,7 +193,9 @@
   // Inflect the gloss to agree with the surface word. Verbs inflect their
   // first word (count -> counted); nouns inflect their last word (eye -> eyes).
   var IRREG_PLURAL = {mouse:"mice", man:"men"};
-  var IRREG_PAST   = {make:"made"};
+  var IRREG_PAST   = {make:"made", come:"came", take:"took", cut:"cut", put:"put", sit:"sat"};
+  var IRREG_GERUND = {cut:"cutting", put:"putting", sit:"sitting"};
+  var NO_INFLECT_VERB = {from:1};                    // gloss not headed by a verb (desire -> from the stars)
   var NO_INFLECT   = {money:1, news:1, pain:1, white:1, hand:1, salt:1}; // mass/adjectival heads
 
   function pluralize(w){
@@ -204,6 +212,7 @@
     return w + "ed";
   }
   function gerund(w){
+    if(IRREG_GERUND[w]) return IRREG_GERUND[w];
     if(/[^aeiou]e$/.test(w)) return w.slice(0,-1) + "ing";
     return w + "ing";
   }
@@ -215,14 +224,18 @@
 
   function inflectGloss(entry, infl){
     var gloss = entry.gloss;
-    if(!gloss || infl === "base") return gloss;
+    if(!gloss) return gloss;
     var pos = entry.part_of_speech;
+    if(pos === "verb") gloss = gloss.replace(/^to /, "");      // "to sit before" -> "sit before" in running text
+    if(infl === "s" || infl === "es") gloss = gloss.replace(/^an? /, ""); // plural nouns drop "a": verdicts -> truly said things
+    if(infl === "base") return gloss;
     if(pos === "adjective") return gloss;            // shining white, of cattle — leave as-is
     var words = gloss.split(" ");
     var isVerb = (pos === "verb");
     var hi = isVerb ? 0 : words.length - 1;          // head-word index
     var head = words[hi].toLowerCase(), out = head;
     if(isVerb){
+      if(NO_INFLECT_VERB[head]) return gloss;
       if(infl === "ed") out = past(head);
       else if(infl === "ing") out = gerund(head);
       else if(infl === "s" || infl === "es") out = thirdPerson(head);
@@ -252,28 +265,44 @@
     return target;
   }
 
+  // A determiner right before a recovered word makes the gloss's own article
+  // redundant ("the hospital" -> "the guest-house", not "the a guest-house").
+  var DETERMINERS = {a:1, an:1, the:1, his:1, her:1, its:1, their:1, my:1, your:1, our:1,
+                     this:1, that:1, these:1, those:1, some:1, every:1, each:1, no:1, any:1,
+                     another:1, whose:1};
+  function takesAn(g){ return /^[aeiou]/i.test(g) && !/^one\b/i.test(g); }
+
   function esc(s){ return s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;"); }
 
   var TOKEN = /[A-Za-z]+(?:'[A-Za-z]+)?|[^A-Za-z]+/g;
 
   function render(text, intensity){
     var out = [], src = [], tokens = text.match(TOKEN) || [], n = 0;
+    var prev = null, prevIdx = -1;                   // last plain word, if only whitespace follows it
     for(var i=0;i<tokens.length;i++){
       var t = tokens[i];
-      if(!/[A-Za-z]/.test(t)){ out.push(esc(t)); src.push(esc(t)); continue; }
-      var m = lookup(t), e = m && m.entry;
+      if(!/[A-Za-z]/.test(t)){
+        if(!/^\s+$/.test(t)) prev = null;
+        out.push(esc(t)); src.push(esc(t)); continue;
+      }
+      var m = lookup(t), e = m && m.entry, before = prev;
+      prev = null;
       if(e && fires(e, intensity)){
         var id = "m"+(n++);
         if(e.recovery_type === "contested"){
           out.push('<span class="w contested" data-id="'+id+'" data-kind="contested">'+esc(t)+'</span>');
         } else {
-          var g = matchCase(t, inflectGloss(e, m.infl));
+          var g = inflectGloss(e, m.infl);
+          if(before && DETERMINERS[before.toLowerCase()]) g = g.replace(/^(a|an|the) /, "");
+          if(before && /^an?$/i.test(before)) out[prevIdx] = matchCase(before, takesAn(g) ? "an" : "a");
+          g = matchCase(t, g);
           out.push('<span class="w gloss" data-id="'+id+'" data-word="'+esc(e.word)+'"'
                  + ' data-gloss="'+esc(e.gloss)+'" data-ety="'+esc(e.etymon||"")+'"'
                  + ' data-lang="'+esc(e.language||"")+'" data-rt="'+esc(e.recovery_type||"")+'">'+esc(g)+'</span>');
         }
         src.push('<span class="w src" data-id="'+id+'">'+esc(t)+'</span>');
       } else {
+        prev = t; prevIdx = out.length;
         out.push(esc(t)); src.push(esc(t));
       }
     }
