@@ -451,42 +451,44 @@ stirs the word or opens the reveal.
 
 ------------------------------------------------------------------------
 
-## Start Here (as of 2026-09-18)
+## Start Here (as of 2026-09-18, end of session)
 
-State: 288 verified entries (10 contested) + 19 derived forms; three sample
-passages; `build_lexicon.py` validates before building. Everything pushed.
+State: 288 verified entries (278 glossed, 10 contested) + 19 derived
+forms = 307 words; ~40 recovered words per 1,000 in modern English.
+`index.html` opens in the *Stir* view (text stirred in place: word →
+root → image), with *Translate* as the second view; no estrangement
+dial. `build_lexicon.py` validates before building. Everything pushed.
+
+This session: hedged glosses approved; stir-fry built, paused, and now
+viable; two high-frequency passes (106 → 288); dial removed. See the
+2026-09-18 log entries above.
 
 Candidate next tasks (user to choose):
 
-1. **Stir-fry prototype — built 2026-09-18; PAUSED by user to return to
-   lexicon building.** Too few words stir in real prose (4–9 per 1,000 in
-   twelve Gutenberg novels) for new poems to emerge yet. Default
-   *Stir* view: one text, plain English, stirred in place as the mouse
-   passes over words (word → root → image → word; tap on touch). The
-   user's aim: **the text itself is transformed, so that new poems
-   emerge** — the mixed state the reader leaves behind is the poem.
-   "Copy poem" keeps it; "Stir all" / "Settle". The old two-card view
-   survives as *Translate* (click to stir there). Contested words stir
-   only if they have an etymon; roots identical to the word are skipped.
-   Estrangement dial removed 2026-09-18 (see log). Not yet: a way to save or
-   share poems beyond the clipboard. Observed: fully stirred to roots,
-   the passage becomes a pidgin of Old Norse, Latin, Old English and
-   Greek (*the húsbóndi sat at the vindauga*).
-2. **High-frequency research — two rounds done 2026-09-18** (novels,
-   then modern prose via `wordfreq`; see log). Coverage of modern
-   English ~40 words per 1,000. Held words listed in the log. Next
-   round could go deeper down the wordfreq list (ranks 1,500–6,000).
-3. **Contested-words feature** — `theories` / `elsewhere` fields. The
-   hedged-gloss policy is now decided (yes; see `editorial.md`), so this
-   is unblocked. Add the new fields to the validator's allowed list and
-   require a `source` on every theory. Research sourced theories for
-   girl, boy, bride, sycophant first.
+1. **Resume the stir-fry.** It was paused because too few words stirred
+   (4–9 per 1,000); coverage is now ~40, so test whether new poems
+   emerge on real prose. Ideas: "Stir all" ordered by `surprise_score`
+   (strongest images first); saving or sharing poems beyond the
+   clipboard; hover-stir feel (width jumps).
+2. **Contested-words feature** — `theories` / `elsewhere` fields (policy
+   decided: sourced, always "perhaps"). Six contested entries already
+   carry sourced theories in `editorial_notes` (soul, silver, book,
+   calm, human, religion); boy, girl, bride, sycophant still need
+   research. Validator must require a `source` per theory. Plan
+   `concept` ids in (see direction below).
+3. **More coverage** — deeper down the `wordfreq` list (ranks
+   1,500–6,000); revisit held words (place, island, fan, believe,
+   doubt, satisfy, peculiar …, reasons in the logs).
+
+**Pending decision (user):** the zero-derivation verb gloss — a noun
+gloss used as a verb where no verb image is attested (focused →
+*hearthed*, checked → *kinged*). Written into `editorial.md` as
+current practice; user has not confirmed it.
 
 Direction: leaning toward parallel-language reading as where the
-lexicon leads (not final). Tasks 1 and 3 both point that way — the
-stir-fry's other-language layer and `elsewhere` data. Plan `concept`
-ids into any new schema.
+lexicon leads (not final; confirm after a prototype).
 
-Smaller open items: broken glosses in running text (capital, cynic,
-desire, influence, possessives); singleton image families; re-score
-`frequency_score`.
+Smaller open items: old glosses that break in running text (capital,
+cynic, desire as a noun, influence, possessives); singleton image
+families; re-score `frequency_score` for the pre-2026-09-18 entries
+(new ones use corpus counts).
