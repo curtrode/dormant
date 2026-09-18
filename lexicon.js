@@ -13,6 +13,19 @@ window.LEXICON = [
     "surprise_score": 4
   },
   {
+    "word": "arrival",
+    "gloss": "coming to shore",
+    "etymon": "adrīpāre",
+    "language": "Latin",
+    "note": "ad + rīpa 'riverbank, shore'.",
+    "part_of_speech": "noun",
+    "recovery_type": "literal",
+    "image_family": "Navigation",
+    "surprise_score": 4,
+    "base": "arrive",
+    "plural": "comings to shore"
+  },
+  {
     "word": "arrive",
     "gloss": "come to shore",
     "etymon": "adrīpāre",
@@ -101,6 +114,18 @@ window.LEXICON = [
     "surprise_score": 5
   },
   {
+    "word": "calculation",
+    "gloss": "pebble-counting",
+    "etymon": "calculare",
+    "language": "Latin",
+    "note": "Using calculi on counting boards.",
+    "part_of_speech": "noun",
+    "recovery_type": "conceptual",
+    "image_family": "Pebbles",
+    "surprise_score": 5,
+    "base": "calculate"
+  },
+  {
     "word": "calculus",
     "gloss": "little pebble",
     "etymon": "calculus",
@@ -110,6 +135,18 @@ window.LEXICON = [
     "recovery_type": "literal",
     "image_family": "Pebbles",
     "surprise_score": 4
+  },
+  {
+    "word": "cancel",
+    "gloss": "cross with lattice bars",
+    "etymon": "cancellārius",
+    "language": "Latin",
+    "note": "cancellī 'lattice, grating'; an official stationed at the screened barrier of a court.",
+    "part_of_speech": "verb",
+    "recovery_type": "literal",
+    "image_family": "Law",
+    "surprise_score": 4,
+    "base": "chancellor"
   },
   {
     "word": "candid",
@@ -211,6 +248,19 @@ window.LEXICON = [
     "surprise_score": 4
   },
   {
+    "word": "company",
+    "gloss": "sharing of bread",
+    "etymon": "companiōnem",
+    "language": "Latin",
+    "note": "com + panis 'bread'.",
+    "part_of_speech": "noun",
+    "recovery_type": "literal",
+    "image_family": "Bread & household",
+    "surprise_score": 4,
+    "base": "companion",
+    "plural": "sharings of bread"
+  },
+  {
     "word": "congregation",
     "gloss": "a herding together",
     "etymon": "congregātiō",
@@ -233,6 +283,18 @@ window.LEXICON = [
     "surprise_score": 5
   },
   {
+    "word": "consideration",
+    "gloss": "star-watching",
+    "etymon": "considerāre",
+    "language": "Latin",
+    "note": "com + sidus 'star'; an astrological/augural metaphor.",
+    "part_of_speech": "noun",
+    "recovery_type": "conceptual",
+    "image_family": "Sky",
+    "surprise_score": 5,
+    "base": "consider"
+  },
+  {
     "word": "currency",
     "gloss": "a flowing",
     "etymon": "currentia",
@@ -242,6 +304,18 @@ window.LEXICON = [
     "recovery_type": "literal",
     "image_family": "Trade",
     "surprise_score": 4
+  },
+  {
+    "word": "current",
+    "gloss": "running",
+    "etymon": "currentia",
+    "language": "Medieval Latin",
+    "note": "currere 'to run'; money kept in circulation.",
+    "part_of_speech": "adjective",
+    "recovery_type": "literal",
+    "image_family": "Trade",
+    "surprise_score": 3,
+    "base": "currency"
   },
   {
     "word": "cynic",
@@ -288,6 +362,31 @@ window.LEXICON = [
     "surprise_score": 4
   },
   {
+    "word": "decision",
+    "gloss": "cutting off",
+    "etymon": "dēcīdere",
+    "language": "Latin",
+    "note": "de + caedere 'to cut'.",
+    "part_of_speech": "noun",
+    "recovery_type": "literal",
+    "image_family": "Cutting",
+    "surprise_score": 4,
+    "base": "decide",
+    "plural": "cuttings off"
+  },
+  {
+    "word": "delirious",
+    "gloss": "off the furrow",
+    "etymon": "dēlīrium",
+    "language": "Latin",
+    "note": "de + līra 'furrow'; a plowman straying from the furrow.",
+    "part_of_speech": "adjective",
+    "recovery_type": "conceptual",
+    "image_family": "Agriculture",
+    "surprise_score": 5,
+    "base": "delirium"
+  },
+  {
     "word": "delirium",
     "gloss": "off the furrow",
     "etymon": "dēlīrium",
@@ -332,6 +431,18 @@ window.LEXICON = [
     "surprise_score": 5
   },
   {
+    "word": "disastrous",
+    "gloss": "ill-starred",
+    "etymon": "disastro",
+    "language": "Italian",
+    "note": "Attributed to an unfavorable star.",
+    "part_of_speech": "adjective",
+    "recovery_type": "conceptual",
+    "image_family": "Sky",
+    "surprise_score": 5,
+    "base": "disaster"
+  },
+  {
     "word": "earwig",
     "gloss": "ear insect",
     "etymon": "ēarwicga",
@@ -374,6 +485,30 @@ window.LEXICON = [
     "recovery_type": "literal",
     "image_family": "Religion",
     "surprise_score": 5
+  },
+  {
+    "word": "enthusiastic",
+    "gloss": "god-filled",
+    "etymon": "enthousiasmos",
+    "language": "Greek",
+    "note": "en 'in' + theos 'god'; the state of being possessed by a god.",
+    "part_of_speech": "adjective",
+    "recovery_type": "literal",
+    "image_family": "Religion",
+    "surprise_score": 5,
+    "base": "enthusiasm"
+  },
+  {
+    "word": "examination",
+    "gloss": "weighing",
+    "etymon": "exāmināre",
+    "language": "Latin",
+    "note": "exāmen 'the tongue of a balance'.",
+    "part_of_speech": "noun",
+    "recovery_type": "literal",
+    "image_family": "Measurement",
+    "surprise_score": 3,
+    "base": "examine"
   },
   {
     "word": "examine",
@@ -440,6 +575,30 @@ window.LEXICON = [
     "recovery_type": "literal",
     "image_family": "Kinship",
     "surprise_score": 4
+  },
+  {
+    "word": "govern",
+    "gloss": "steer",
+    "etymon": "kybernētēs",
+    "language": "Greek",
+    "note": "kybernan 'to steer a ship', via Latin gubernator.",
+    "part_of_speech": "verb",
+    "recovery_type": "literal",
+    "image_family": "Navigation",
+    "surprise_score": 5,
+    "base": "governor"
+  },
+  {
+    "word": "government",
+    "gloss": "steering",
+    "etymon": "kybernētēs",
+    "language": "Greek",
+    "note": "kybernan 'to steer a ship', via Latin gubernator.",
+    "part_of_speech": "noun",
+    "recovery_type": "literal",
+    "image_family": "Navigation",
+    "surprise_score": 5,
+    "base": "governor"
   },
   {
     "word": "governor",
@@ -539,6 +698,19 @@ window.LEXICON = [
     "recovery_type": "conceptual",
     "image_family": "Religion",
     "surprise_score": 5
+  },
+  {
+    "word": "inauguration",
+    "gloss": "taking of omens from birds",
+    "etymon": "inaugurāre",
+    "language": "Latin",
+    "note": "in + augurāre 'to act as augur'.",
+    "part_of_speech": "noun",
+    "recovery_type": "conceptual",
+    "image_family": "Religion",
+    "surprise_score": 5,
+    "base": "inaugurate",
+    "plural": "takings of omens from birds"
   },
   {
     "word": "influence",
@@ -772,6 +944,18 @@ window.LEXICON = [
     "surprise_score": 5
   },
   {
+    "word": "patience",
+    "gloss": "suffering",
+    "etymon": "patiēns",
+    "language": "Latin",
+    "note": "present participle of patī 'to suffer, endure'.",
+    "part_of_speech": "noun",
+    "recovery_type": "literal",
+    "image_family": "Medicine",
+    "surprise_score": 4,
+    "base": "patient"
+  },
+  {
     "word": "patient",
     "gloss": "one who suffers",
     "etymon": "patiēns",
@@ -847,6 +1031,19 @@ window.LEXICON = [
     "recovery_type": "literal",
     "image_family": "Law",
     "surprise_score": 3
+  },
+  {
+    "word": "president",
+    "gloss": "one who sits before",
+    "etymon": "praesidēre",
+    "language": "Latin",
+    "note": "prae 'before' + sedēre 'to sit'.",
+    "part_of_speech": "noun",
+    "recovery_type": "literal",
+    "image_family": "Law",
+    "surprise_score": 3,
+    "base": "preside",
+    "plural": "ones who sit before"
   },
   {
     "word": "prevaricate",
@@ -1023,6 +1220,18 @@ window.LEXICON = [
     "recovery_type": "literal",
     "image_family": "Body",
     "surprise_score": 5
+  },
+  {
+    "word": "surgeon",
+    "gloss": "hand-worker",
+    "etymon": "kheirourgia",
+    "language": "Greek",
+    "note": "kheir 'hand' + ergon 'work'.",
+    "part_of_speech": "noun",
+    "recovery_type": "literal",
+    "image_family": "Hands",
+    "surprise_score": 5,
+    "base": "surgery"
   },
   {
     "word": "surgery",

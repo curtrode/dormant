@@ -127,6 +127,11 @@ Each entry should include:
 - `verified`
 - `verification_source`
 - `editorial_notes`
+- `forms` (optional) — derived words that share the entry's etymon and
+  image (governor → *govern*, *government*). Each form gives its own
+  `word`, `gloss`, `part_of_speech` and `verification_source`, with
+  optional `plural` and `surprise_score` overrides; everything else is
+  inherited. Admit a form only if the parent's image survives in it.
 
 This metadata separates philological evidence from editorial judgment
 and is intended for curation rather than reader-facing display.

@@ -173,13 +173,16 @@
   function lemmas(w){
     w = w.toLowerCase();
     var out = [{base:w, infl:"base"}];
+    function undouble(stem, infl){                  // cancelled -> cancel
+      if(/([^aeiou])\1$/.test(stem)) out.push({base:stem.slice(0,-1), infl:infl});
+    }
     if(w.length > 3){
       if(w.slice(-2) === "'s") out.push({base:w.slice(0,-2), infl:"poss"});
       if(w.slice(-3) === "ies") out.push({base:w.slice(0,-3)+"y", infl:"es"});
       if(w.slice(-2) === "es")  out.push({base:w.slice(0,-2), infl:"es"});
       if(w.slice(-1) === "s")   out.push({base:w.slice(0,-1), infl:"s"});
-      if(w.slice(-3) === "ing"){ out.push({base:w.slice(0,-3), infl:"ing"}); out.push({base:w.slice(0,-3)+"e", infl:"ing"}); }
-      if(w.slice(-2) === "ed"){ out.push({base:w.slice(0,-2), infl:"ed"}); out.push({base:w.slice(0,-1), infl:"ed"}); out.push({base:w.slice(0,-2)+"e", infl:"ed"}); }
+      if(w.slice(-3) === "ing"){ out.push({base:w.slice(0,-3), infl:"ing"}); out.push({base:w.slice(0,-3)+"e", infl:"ing"}); undouble(w.slice(0,-3), "ing"); }
+      if(w.slice(-2) === "ed"){ out.push({base:w.slice(0,-2), infl:"ed"}); out.push({base:w.slice(0,-1), infl:"ed"}); out.push({base:w.slice(0,-2)+"e", infl:"ed"}); undouble(w.slice(0,-2), "ed"); }
     }
     return out;
   }
@@ -227,6 +230,7 @@
     if(!gloss) return gloss;
     var pos = entry.part_of_speech;
     if(pos === "verb") gloss = gloss.replace(/^to /, "");      // "to sit before" -> "sit before" in running text
+    if((infl === "s" || infl === "es") && pos === "noun" && entry.plural) return entry.plural; // cuttings off
     if(infl === "s" || infl === "es") gloss = gloss.replace(/^an? /, ""); // plural nouns drop "a": verdicts -> truly said things
     if(infl === "base") return gloss;
     if(pos === "adjective") return gloss;            // shining white, of cattle — leave as-is
@@ -298,7 +302,8 @@
           g = matchCase(t, g);
           out.push('<span class="w gloss" data-id="'+id+'" data-word="'+esc(e.word)+'"'
                  + ' data-gloss="'+esc(e.gloss)+'" data-ety="'+esc(e.etymon||"")+'"'
-                 + ' data-lang="'+esc(e.language||"")+'" data-rt="'+esc(e.recovery_type||"")+'">'+esc(g)+'</span>');
+                 + ' data-lang="'+esc(e.language||"")+'" data-rt="'+esc(e.recovery_type||"")+'"'
+                 + ' data-base="'+esc(e.base||"")+'">'+esc(g)+'</span>');
         }
         src.push('<span class="w src" data-id="'+id+'">'+esc(t)+'</span>');
       } else {
@@ -353,7 +358,7 @@
            + '<div class="ety">origin contested &mdash; scholars disagree about the original image</div>';
     } else {
       html = '<span class="orig">'+esc(el.dataset.word)+'</span><span class="arrow">&rarr;</span>'+esc(el.dataset.gloss)
-           + (el.dataset.ety ? '<div class="ety">'+esc(el.dataset.ety)+(el.dataset.lang?' &middot; '+esc(el.dataset.lang):'')+'</div>' : '')
+           + (el.dataset.ety ? '<div class="ety">'+esc(el.dataset.ety)+(el.dataset.lang?' &middot; '+esc(el.dataset.lang):'')+(el.dataset.base?' &middot; via '+esc(el.dataset.base):'')+'</div>' : '')
            + (el.dataset.rt ? '<div class="rt">'+esc(el.dataset.rt)+' recovery</div>' : '');
     }
     tip.innerHTML = html; tip.classList.add("show"); moveTip(ev);

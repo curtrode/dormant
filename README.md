@@ -5,7 +5,8 @@ replaces a common English word with the literal meaning of its etymological
 roots (window → *wind eye*, mortgage → *death pledge*), making ordinary prose
 briefly strange without becoming unintelligible.
 
-106 verified entries as of 2026-09-04, spanning Old English/Norse household
+106 verified entries as of 2026-09-04 (plus 17 derived forms such as
+government, president and company, added 2026-09-18), spanning Old English/Norse household
 and kinship terms, Latin/Greek abstractions, law & religion, medicine,
 trade & textiles, and measurement. See `research_notes.md` for the session
 log and open research domains.

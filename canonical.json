@@ -25,7 +25,8 @@
       "semantic",
       "contested"
     ],
-    "verification_pass": "2026-09-04 (batch 2: Latin, Greek, sky/mind/medicine, trade/textiles, law/religion)"
+    "verification_pass": "2026-09-04 (batch 2: Latin, Greek, sky/mind/medicine, trade/textiles, law/religion)",
+    "forms": "Optional per-entry list of derived words sharing the entry's etymon (governor -> govern, government). Each form has word, gloss, part_of_speech, verification_source, and optional plural / surprise_score overrides; everything else is inherited from the parent entry."
   },
   "entries": [
     {
@@ -58,7 +59,16 @@
       "confidence_score": 5,
       "verified": true,
       "verification_source": "https://en.wiktionary.org/wiki/arrive",
-      "editorial_notes": ""
+      "editorial_notes": "",
+      "forms": [
+        {
+          "word": "arrival",
+          "gloss": "coming to shore",
+          "part_of_speech": "noun",
+          "plural": "comings to shore",
+          "verification_source": "https://en.wiktionary.org/wiki/arrival"
+        }
+      ]
     },
     {
       "word": "asterisk",
@@ -170,7 +180,15 @@
       "confidence_score": 5,
       "verified": true,
       "verification_source": "https://en.wiktionary.org/wiki/calculate",
-      "editorial_notes": "Recovers the abacus/counting-board practice."
+      "editorial_notes": "Recovers the abacus/counting-board practice.",
+      "forms": [
+        {
+          "word": "calculation",
+          "gloss": "pebble-counting",
+          "part_of_speech": "noun",
+          "verification_source": "https://en.wiktionary.org/wiki/calculation"
+        }
+      ]
     },
     {
       "word": "calculus",
@@ -250,7 +268,15 @@
       "confidence_score": 5,
       "verified": true,
       "verification_source": "https://www.etymonline.com/word/chancellor",
-      "editorial_notes": ""
+      "editorial_notes": "",
+      "forms": [
+        {
+          "word": "cancel",
+          "gloss": "cross with lattice bars",
+          "part_of_speech": "verb",
+          "verification_source": "https://en.wiktionary.org/wiki/cancel"
+        }
+      ]
     },
     {
       "word": "character",
@@ -330,7 +356,16 @@
       "confidence_score": 5,
       "verified": true,
       "verification_source": "https://www.etymonline.com/word/companion",
-      "editorial_notes": ""
+      "editorial_notes": "",
+      "forms": [
+        {
+          "word": "company",
+          "gloss": "sharing of bread",
+          "part_of_speech": "noun",
+          "plural": "sharings of bread",
+          "verification_source": "https://en.wiktionary.org/wiki/company"
+        }
+      ]
     },
     {
       "word": "congregation",
@@ -362,7 +397,15 @@
       "confidence_score": 4,
       "verified": true,
       "verification_source": "https://www.etymonline.com/word/consider",
-      "editorial_notes": ""
+      "editorial_notes": "",
+      "forms": [
+        {
+          "word": "consideration",
+          "gloss": "star-watching",
+          "part_of_speech": "noun",
+          "verification_source": "https://en.wiktionary.org/wiki/consideration"
+        }
+      ]
     },
     {
       "word": "currency",
@@ -378,7 +421,16 @@
       "confidence_score": 5,
       "verified": true,
       "verification_source": "https://en.wiktionary.org/wiki/currency",
-      "editorial_notes": ""
+      "editorial_notes": "",
+      "forms": [
+        {
+          "word": "current",
+          "gloss": "running",
+          "part_of_speech": "adjective",
+          "surprise_score": 3,
+          "verification_source": "https://en.wiktionary.org/wiki/current"
+        }
+      ]
     },
     {
       "word": "cynic",
@@ -426,7 +478,16 @@
       "confidence_score": 5,
       "verified": true,
       "verification_source": "https://www.etymonline.com/word/decide",
-      "editorial_notes": ""
+      "editorial_notes": "",
+      "forms": [
+        {
+          "word": "decision",
+          "gloss": "cutting off",
+          "part_of_speech": "noun",
+          "plural": "cuttings off",
+          "verification_source": "https://en.wiktionary.org/wiki/decision"
+        }
+      ]
     },
     {
       "word": "decimate",
@@ -458,7 +519,15 @@
       "confidence_score": 5,
       "verified": true,
       "verification_source": "https://www.etymonline.com/word/delirium",
-      "editorial_notes": ""
+      "editorial_notes": "",
+      "forms": [
+        {
+          "word": "delirious",
+          "gloss": "off the furrow",
+          "part_of_speech": "adjective",
+          "verification_source": "https://en.wiktionary.org/wiki/delirious"
+        }
+      ]
     },
     {
       "word": "desire",
@@ -506,7 +575,15 @@
       "confidence_score": 4,
       "verified": true,
       "verification_source": "https://en.wiktionary.org/wiki/disaster",
-      "editorial_notes": "Borrowed into English via Middle French désastre; dis- 'bad' + astro 'star'."
+      "editorial_notes": "Borrowed into English via Middle French désastre; dis- 'bad' + astro 'star'.",
+      "forms": [
+        {
+          "word": "disastrous",
+          "gloss": "ill-starred",
+          "part_of_speech": "adjective",
+          "verification_source": "https://en.wiktionary.org/wiki/disastrous"
+        }
+      ]
     },
     {
       "word": "earwig",
@@ -570,7 +647,15 @@
       "confidence_score": 5,
       "verified": true,
       "verification_source": "https://en.wiktionary.org/wiki/enthusiasm",
-      "editorial_notes": ""
+      "editorial_notes": "",
+      "forms": [
+        {
+          "word": "enthusiastic",
+          "gloss": "god-filled",
+          "part_of_speech": "adjective",
+          "verification_source": "https://en.wiktionary.org/wiki/enthusiastic"
+        }
+      ]
     },
     {
       "word": "examine",
@@ -586,7 +671,15 @@
       "confidence_score": 5,
       "verified": true,
       "verification_source": "https://www.etymonline.com/word/examine",
-      "editorial_notes": ""
+      "editorial_notes": "",
+      "forms": [
+        {
+          "word": "examination",
+          "gloss": "weighing",
+          "part_of_speech": "noun",
+          "verification_source": "https://en.wiktionary.org/wiki/examination"
+        }
+      ]
     },
     {
       "word": "exonerate",
@@ -682,7 +775,21 @@
       "confidence_score": 5,
       "verified": true,
       "verification_source": "https://en.wiktionary.org/wiki/governor",
-      "editorial_notes": ""
+      "editorial_notes": "",
+      "forms": [
+        {
+          "word": "govern",
+          "gloss": "steer",
+          "part_of_speech": "verb",
+          "verification_source": "https://en.wiktionary.org/wiki/govern"
+        },
+        {
+          "word": "government",
+          "gloss": "steering",
+          "part_of_speech": "noun",
+          "verification_source": "https://en.wiktionary.org/wiki/government"
+        }
+      ]
     },
     {
       "word": "heathen",
@@ -810,7 +917,16 @@
       "confidence_score": 5,
       "verified": true,
       "verification_source": "https://www.etymonline.com/word/inaugurate",
-      "editorial_notes": ""
+      "editorial_notes": "",
+      "forms": [
+        {
+          "word": "inauguration",
+          "gloss": "taking of omens from birds",
+          "part_of_speech": "noun",
+          "plural": "takings of omens from birds",
+          "verification_source": "https://en.wiktionary.org/wiki/inauguration"
+        }
+      ]
     },
     {
       "word": "influence",
@@ -1162,7 +1278,16 @@
       "confidence_score": 5,
       "verified": true,
       "verification_source": "https://en.wiktionary.org/wiki/patient",
-      "editorial_notes": ""
+      "editorial_notes": "",
+      "forms": [
+        {
+          "word": "patience",
+          "gloss": "suffering",
+          "part_of_speech": "noun",
+          "surprise_score": 4,
+          "verification_source": "https://en.wiktionary.org/wiki/patience"
+        }
+      ]
     },
     {
       "word": "pecuniary",
@@ -1258,7 +1383,16 @@
       "confidence_score": 5,
       "verified": true,
       "verification_source": "https://www.etymonline.com/word/preside",
-      "editorial_notes": ""
+      "editorial_notes": "",
+      "forms": [
+        {
+          "word": "president",
+          "gloss": "one who sits before",
+          "part_of_speech": "noun",
+          "plural": "ones who sit before",
+          "verification_source": "https://en.wiktionary.org/wiki/president"
+        }
+      ]
     },
     {
       "word": "prevaricate",
@@ -1530,7 +1664,15 @@
       "confidence_score": 5,
       "verified": true,
       "verification_source": "https://en.wiktionary.org/wiki/surgery",
-      "editorial_notes": ""
+      "editorial_notes": "",
+      "forms": [
+        {
+          "word": "surgeon",
+          "gloss": "hand-worker",
+          "part_of_speech": "noun",
+          "verification_source": "https://en.wiktionary.org/wiki/surgeon"
+        }
+      ]
     },
     {
       "word": "sycophant",
