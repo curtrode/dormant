@@ -72,6 +72,18 @@ Where most entries recover a forgotten image, contested entries reveal
 the limits of historical reconstruction — making uncertainty itself part
 of the literary experience.
 
+**Planned: contested words as conversation.** A contested entry still
+receives no gloss in running text, but its reveal may offer two things:
+
+- *Competing theories* in English, always labelled as theories and never
+  asserted (sycophant's fig-shower stories).
+- *Elsewhere*: equivalents in Romance and Germanic languages that kept
+  a secure image (boy → Spanish *muchacho* "the shorn one", *chico*
+  "a trifle"). These are marked as equivalents, not cognates or origins.
+
+Both require a verification source like any other entry. See the
+2026-09-18 entry in `research_notes.md` for the proposed schema.
+
 ## Preferred Image Families
 
 - Body (little mouse, nose hole)

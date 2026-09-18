@@ -104,11 +104,15 @@ historical knowledge.
 -   Should semantic archaeology (obsolete senses) remain a separate
     companion project?
 -   How should contested recoveries appear in the interface?
+    *(Proposed 2026-09-18: competing theories + Romance/Germanic
+    equivalents on hover — see Session Log.)*
+-   Should `frequency_score` be re-scored against real corpus frequency?
 
 ------------------------------------------------------------------------
 
 ## Candidate Research Domains
 
+-   **High-frequency everyday words** (priority — see 2026-09-18 log)
 -   Roman law
 -   Astronomy
 -   Medieval religion

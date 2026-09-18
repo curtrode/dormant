@@ -18,7 +18,11 @@ your own prose or pick a sample passage, and it renders a **translation** (roots
 recovered) above your **original** text. Hover a recovered word to see the
 source word and its etymon; the *estrangement* dial controls how many words are
 recovered — at maximum, even the contested words surface, marked but never
-glossed.
+glossed. Three sample passages are built in: *The household*, *The scholar* and
+*The sentence*.
+
+Coverage of ordinary prose is still thin; the next research pass targets
+high-frequency words (see `research_notes.md`).
 
 Runs from `file://` with no server — just open `index.html`.
 
