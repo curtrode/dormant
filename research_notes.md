@@ -252,3 +252,53 @@ entries: `theories: [{gloss, summary, source}]`,
 `elsewhere: [{language, word, gloss, verification_source}]`.
 Answers the open question "How should contested recoveries appear in
 the interface?" and applies to all four: girl, boy, bride, sycophant.
+
+**Proposal — parallel-language reading (2026-09-18).**
+Two languages describing the same event may recall very different
+images. "The boy ate his soup" / "El niño se comió su sopa" (etymologies
+from memory, unverified):
+
+- boy / niño — *both contested*: the image lost in the same place.
+- ate / comer — *same deep root, different shape*: Latin *comedere*
+  "eat up entirely" (com- + edere) keeps an intensifier; English does not.
+- soup / sopa — *shared image*: both from Late Latin *suppa*, bread
+  soaked in broth.
+
+The gaps between the languages are the reading: sometimes the images
+converge, sometimes diverge, sometimes both are lost.
+
+Corpus implications if adopted: entries gain `lang` and a shared
+`concept` id (boy ↔ niño ↔ garçon); cross-language links become curated
+data, labelled shared image / different image / same root, different
+shape / contested; common words need coverage in both languages, since
+the plain side of a pair is part of the effect (reinforces the
+high-frequency pass); verification roughly doubles (Spanish: DLE,
+Corominas, Wiktionary); word alignment of arbitrary text is unreliable,
+so use hand-aligned passage pairs, in keeping with the curated sample
+passages.
+
+Suggested next step: a small prototype (2–3 hand-aligned English/Spanish
+passage pairs, hand-written glosses, side-by-side hover) to test whether
+the effect lands before changing the schema. **Open decision (user): a
+second mode alongside the English piece, or the new direction the
+English lexicon feeds into?**
+
+**Proposal — hedged theories for contested words (2026-09-18).
+POLICY CHANGE PENDING USER DECISION.**
+Current rule (`editorial.md`): contested entries never receive a gloss.
+Proposed rule: contested entries never receive an *asserted* gloss;
+hedged glosses are allowed, always marked "perhaps" and shown as one of
+several. Example, boy (from memory, unverified): perhaps "the fettered
+one" (Anglo-Norman, from Latin *boia* "fetter" — a servant); perhaps a
+Germanic "young man"; perhaps a nursery word. niño: perhaps a nursery
+word (*ninnus*). The theories rhyme across languages: both may be
+nursery words, and boy's servant theory echoes *garçon* "servant boy"
+and *muchacho* "the shorn one" — words for boys often began as words for
+servants.
+
+Interface: unglossed at low estrangement; at maximum, cycle or stack the
+theories ("perhaps *fettered one* / perhaps *little one*"), visibly
+tentative. Evidence bar: only theories reported by established sources
+(OED, etymonline, Wiktionary, Corominas), each with its source — the
+validator should enforce sources on `theories` as it does on `forms`.
+Extends the `theories` field sketched above.
