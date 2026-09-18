@@ -190,3 +190,38 @@ Other domains worth running next, per the candidate list above: medieval
 religion (beyond what law/religion covered), navigation (beyond
 governor/arrive), measurement and mathematics (beyond tally/examine),
 and the still-open body/animals/plants batch.
+
+### 2026-09-18 — Coverage and grammar
+
+Added a third sample passage ("The sentence") built from batch-2 words,
+which neither existing sample used. Fixed gloss grammar in running text:
+a gloss's own article is dropped after a determiner ("the hospital" ->
+"the guest-house"), a/an agrees with the gloss ("an ill star"), and
+irregular verb heads inflect correctly (decided -> "cut off", presided ->
+"sat before").
+
+Introduced `forms` on entries: derived words sharing the parent's etymon
+(governor -> govern, government; preside -> president; companion ->
+company). 17 added, each checked against Wiktionary; see `editorial.md`.
+
+**Finding — coverage is the real problem.** User tested the final
+paragraph of Joyce's *The Dead* and a passage from a 2017 inaugural
+address: one recovery each (window; schools). The lexicon was curated
+for vividness, not frequency, so most entries rarely occur in ordinary
+prose. `frequency_score` is also inflated (comet, apocalypse, hierarchy
+all scored 5 alongside window and school) and should be re-scored.
+
+**Next: a high-frequency research pass** — start from common words and
+screen for strong etymologies, rather than the reverse. Seeds from the
+two test passages (unverified): world (*age of man*), neighbor (*near
+farmer*), journey (*a day's travel*), universe (*turned into one*), pane
+(*a piece of cloth*), crucial, family, serve, expense, office, history,
+rob; silver as a possible contested entry; dream (older sense *joy,
+music*) belongs to the companion lexicon.
+
+**Still open:** glosses that break in running text — adjective glosses
+in noun slots (capital -> "of the head", cynic -> "dog-like"), desire
+("from the stars" is not verb-headed), possessives on multi-word glosses
+("one who suffers's"), influence plural ("flowing ins"). Also tidy the
+singleton image families (decide/Cutting, eliminate/Household,
+school/Time, etc.).
