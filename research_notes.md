@@ -302,3 +302,38 @@ tentative. Evidence bar: only theories reported by established sources
 (OED, etymonline, Wiktionary, Corominas), each with its source — the
 validator should enforce sources on `theories` as it does on `forms`.
 Extends the `theories` field sketched above.
+
+**Proposal — stir-fry interface (2026-09-18).**
+Model: Jim Andrews' *Stir Fry Texts* (vispo.com, c. 1999–2000), notably
+"Blue Hyacinth" (with Pauline Masurel; *Electronic Literature
+Collection* vol. 1): several texts cut into aligned segments and layered;
+mousing over a segment swaps in the corresponding segment from another
+layer, so the reader "stirs" the texts into hybrids no author wrote.
+
+The twist for dormant: Andrews' layers are pre-selected, hand-aligned
+text arrays. The user wants to **paste any text, render it, then stir
+it.** Resolution: make layers **per word, not per sentence**. Every
+recovered word already occupies exactly one slot, so its layers align by
+construction. A stirrable word cycles through:
+
+1. the word (*window*)
+2. its etymon (*vindauga*) — already in the data
+3. the recovered image (*wind eye*) — already rendered
+4. hedged theories, for contested words (*boy* → perhaps *fettered one*…)
+5. equivalents in other languages + their images (*boy* → *muchacho* →
+   "the shorn one" → *garçon* → "servant boy") — the parallel-language
+   idea at word level; needs `elsewhere` extended to all entries, not a
+   sentence translator. Hybrid grammar is the point of the genre.
+
+Hard parts: whole-sentence machine translation of pasted text would
+break file:// / offline and align poorly — leave it out. Coverage
+becomes critical (only lexicon words can be stirred), so the
+high-frequency pass becomes a prerequisite. Grammar must update live
+(re-run the a/an and article logic when a neighbour is stirred). Hover
+currently drives the tooltip, and touch has no hover — stirring needs
+tap support and the tooltip may move elsewhere.
+
+Suggested prototype: stir each recovered word through original → etymon
+→ image on the existing piece, using existing data, to test the feel
+before new research. Add the other-language layer once `elsewhere` data
+exists.
