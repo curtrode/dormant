@@ -434,6 +434,21 @@ is the same noun used as a verb (focus → *hearth* / *hearthed*; score →
 Page: recognizes 'paid' and verb cues like *don't*; new irregular pasts
 (struck, went). New image families: Chance, Names, Trees.
 
+### 2026-09-18 — Estrangement dial removed
+
+User asked whether the dial was necessary. With 288 entries it had
+become nearly vestigial: settings 3–5 fired 275–278 of 278 glossed
+entries, so only 'faint' and 'low' did anything, and they only thinned
+an already sparse effect (~40 words per 1,000). In the Stir view it
+duplicated the reader's own hand, reduced the possible poems, and
+wiped the reader's stirring whenever it moved. Removed. Every lexicon
+word now renders and stirs; contested words appear in every view
+(marked in Translate, plain in Stir, stirrable only if they have an
+etymon). `surprise_score` stays as editorial data — a possible use:
+order "Stir all" so the strongest images turn first. The hedged-gloss
+rule in `editorial.md` now says theories surface only when the reader
+stirs the word or opens the reveal.
+
 ------------------------------------------------------------------------
 
 ## Start Here (as of 2026-09-18)
@@ -453,7 +468,7 @@ Candidate next tasks (user to choose):
    "Copy poem" keeps it; "Stir all" / "Settle". The old two-card view
    survives as *Translate* (click to stir there). Contested words stir
    only if they have an etymon; roots identical to the word are skipped.
-   Not yet: stir state survives the estrangement dial; a way to save or
+   Estrangement dial removed 2026-09-18 (see log). Not yet: a way to save or
    share poems beyond the clipboard. Observed: fully stirred to roots,
    the passage becomes a pidgin of Old Norse, Latin, Old English and
    Greek (*the húsbóndi sat at the vindauga*).

@@ -20,8 +20,7 @@ log and open research domains.
 `index.html` is the electronic-literature piece. Open it in a browser: paste
 your own prose or pick a sample passage, and it renders a **translation** (roots
 recovered) above your **original** text. Hover a recovered word to see the
-source word and its etymon; the *estrangement* dial controls how many words are
-recovered — at maximum, even the contested words surface, marked but never
+source word and its etymon. Contested words are marked but never
 glossed. In the default *Stir* view the text starts as plain
 English and changes in place as the mouse passes over it — each word sinks
 to its root and surfaces as its image (*window* → *vindauga* → *wind eye*),

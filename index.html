@@ -34,10 +34,6 @@
     border:1px solid var(--line);padding:5px 12px;border-radius:20px;transition:.15s;
   }
   button.chip:hover{border-color:var(--accent);color:var(--accent)}
-  .dial{display:flex;align-items:center;gap:10px}
-  .dial .lbl{color:var(--faint);font-size:13px;letter-spacing:.04em;text-transform:uppercase}
-  input[type=range]{width:150px;accent-color:var(--accent)}
-  .dial .val{font-size:13px;color:var(--faint);min-width:78px;font-style:italic}
 
   textarea{
     width:100%;min-height:96px;resize:vertical;font:inherit;font-size:16px;line-height:1.5;
@@ -119,11 +115,6 @@
       <button class="chip" data-sample="1">The scholar</button>
       <button class="chip" data-sample="2">The sentence</button>
     </div>
-    <div class="dial">
-      <span class="lbl">Estrangement</span>
-      <input id="dial" type="range" min="1" max="5" step="1" value="3">
-      <span class="val" id="dialVal"></span>
-    </div>
     <div class="samples">
       <span class="lbl">View</span>
       <button class="chip" data-view="stir">Stir</button>
@@ -154,8 +145,7 @@
   <p class="legend">
     <span class="g">recovered image</span> &mdash; hover for the word and its root &nbsp;&middot;&nbsp;
     <span class="c">origin contested</span> &mdash; scholars disagree; no image is invented<br>
-    Stirring turns each word: word &rarr; <span class="e">root</span> &rarr; <span class="g">image</span> &rarr; word<br>
-    Raise <em>estrangement</em> to recover subtler words; at maximum, even the contested words surface.
+    Stirring turns each word: word &rarr; <span class="e">root</span> &rarr; <span class="g">image</span> &rarr; word
   </p>
 
   <footer>
@@ -192,7 +182,6 @@
     + "By morning the sheriff was ready to exonerate everyone, and his nostalgia had become enthusiasm."
   ];
 
-  var INTENSITY_LABEL = {1:"faint",2:"low",3:"moderate",4:"high",5:"maximum"};
 
   // Candidate lemmas for a surface token, each tagged with the inflection
   // that produced it (lightweight morphology). "s" is ambiguous (plural noun
@@ -306,13 +295,6 @@
     return words.join(" ");
   }
 
-  // Should this entry fire at the given intensity (1..5)?
-  function fires(entry, intensity){
-    if(entry.recovery_type === "contested") return intensity >= 5;
-    var s = entry.surprise_score || 0;
-    return s >= (6 - intensity); // int5 -> s>=1 (all), int1 -> s>=5 (only the strongest)
-  }
-
   function matchCase(sample, target){
     if(!sample) return target;
     if(sample[0] === sample[0].toUpperCase() && sample[0] !== sample[0].toLowerCase()){
@@ -339,7 +321,7 @@
   var STIR = {}, VIEW = "stir";
   var LAYER_CLASS = {gloss:"gloss", word:"word", ety:"ety", contested:"contested"};
 
-  function render(text, intensity){
+  function render(text){
     var out = [], src = [], tokens = text.match(TOKEN) || [], n = 0;
     STIR = {};
     var prev = null, prevIdx = -1;                   // last plain word, if only whitespace follows it
@@ -351,7 +333,7 @@
       }
       var m = lookup(t), before = prev, e = m && asVerb(m.entry, m.infl, before);
       prev = null;
-      if(e && fires(e, intensity)){
+      if(e){
         var id = "m"+(n++), layers, art = before && /^an?$/i.test(before);
         var ety = e.etymon && e.etymon.toLowerCase() !== e.word.toLowerCase()   // nostalgia: root looks the same
                 ? {text:matchCase(t, e.etymon), kind:"ety"} : null;
@@ -384,17 +366,17 @@
 
   var input=document.getElementById("input"), outEl=document.getElementById("out"),
       srcEl=document.getElementById("src"), stat=document.getElementById("stat"),
-      dial=document.getElementById("dial"), dialVal=document.getElementById("dialVal"),
       tip=document.getElementById("tip");
 
   function run(){
     var text = input.value.trim();
     if(!text){ outEl.innerHTML=""; srcEl.innerHTML=""; stat.textContent=""; return; }
-    var r = render(text, +dial.value);
+    var r = render(text);
     outEl.innerHTML = r.out; srcEl.innerHTML = r.src;
-    var verb = VIEW === "stir" ? " can be stirred" : " recovered";
-    stat.textContent = r.count ? (r.count + (r.count===1?" word":" words") + verb)
-                               : "no words" + verb + " at this setting";
+    // Stir view counts only words with more than one layer (not boy, girl, bride).
+    var stirrable = Object.keys(STIR).filter(function(id){ return STIR[id].layers.length > 1; }).length;
+    var n = VIEW === "stir" ? stirrable : r.count, verb = VIEW === "stir" ? " can be stirred" : " recovered";
+    stat.textContent = n ? (n + (n===1?" word":" words") + verb) : "no words" + verb + " in this text";
     wire();
   }
 
@@ -506,12 +488,6 @@
   [].forEach.call(document.querySelectorAll("[data-view]"), function(b){
     b.addEventListener("click", function(){ setView(b.dataset.view); });
   });
-  dial.addEventListener("input", function(){
-    dialVal.textContent = INTENSITY_LABEL[dial.value];
-    if(input.value.trim()) run();
-  });
-
-  dialVal.textContent = INTENSITY_LABEL[dial.value];
   input.value = SAMPLES[0];
   setView("stir");
 })();

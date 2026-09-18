@@ -83,8 +83,8 @@ glosses for the competing theories, provided that each one:
   *fettered one* / perhaps *little one*);
 - is reported by an established source (OED, etymonline, Wiktionary,
   Corominas), and that source is recorded with the theory;
-- is kept out of running text at low estrangement; hedged glosses
-  surface only at the highest setting or in the reveal.
+- never appears in the text as first rendered; hedged glosses surface
+  only when the reader stirs the word, or in the reveal.
 
 A theory we cannot source is left out, however good the image. This is
 the one exception to "Disputed or speculative derivations" under
