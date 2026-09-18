@@ -28,7 +28,9 @@ eye*, mortgage → *death pledge*).
 - Transparent compounds (churchyard, handbook, weekday).
 - Folk etymologies.
 - Acronym stories.
-- Disputed or speculative derivations without scholarly support.
+- Disputed or speculative derivations without scholarly support
+  (contested words with sourced competing theories are handled under
+  Contested Archaeology).
 - Entries whose gloss adds little estrangement.
 
 When in doubt, omit the entry. A smaller collection of remarkable
@@ -57,8 +59,9 @@ their ultimate origin. Rather than excluding them, maintain a distinct
 
 The purpose is not to admit speculative claims, but to acknowledge that
 the best available scholarship has not reached agreement. Contested
-entries **do not** receive an invented gloss. Instead they may present
-the reader with the fact of uncertainty:
+entries **never receive an asserted gloss**. At most they may carry
+*hedged* glosses (see below); otherwise they present the reader with the
+fact of uncertainty:
 
 > origin contested
 
@@ -72,11 +75,27 @@ Where most entries recover a forgotten image, contested entries reveal
 the limits of historical reconstruction — making uncertainty itself part
 of the literary experience.
 
-**Planned: contested words as conversation.** A contested entry still
-receives no gloss in running text, but its reveal may offer two things:
+**Hedged glosses (decided 2026-09-18).** A contested entry may carry
+glosses for the competing theories, provided that each one:
 
-- *Competing theories* in English, always labelled as theories and never
-  asserted (sycophant's fig-shower stories).
+- is marked **"perhaps"** wherever it appears, and is never shown as the
+  only reading — always one of several, visibly tentative (boy → perhaps
+  *fettered one* / perhaps *little one*);
+- is reported by an established source (OED, etymonline, Wiktionary,
+  Corominas), and that source is recorded with the theory;
+- is kept out of running text at low estrangement; hedged glosses
+  surface only at the highest setting or in the reveal.
+
+A theory we cannot source is left out, however good the image. This is
+the one exception to "Disputed or speculative derivations" under
+Exclusion Criteria: the theories are admitted as theories, never as the
+word's origin.
+
+**Planned: contested words as conversation.** A contested entry's reveal
+may offer two things:
+
+- *Competing theories* in English, carrying the hedged glosses above
+  (sycophant's fig-shower stories).
 - *Elsewhere*: equivalents in Romance and Germanic languages that kept
   a secure image (boy → Spanish *muchacho* "the shorn one", *chico*
   "a trifle"). These are marked as equivalents, not cognates or origins.
@@ -144,6 +163,10 @@ Each entry should include:
   `word`, `gloss`, `part_of_speech` and `verification_source`, with
   optional `plural` and `surprise_score` overrides; everything else is
   inherited. Admit a form only if the parent's image survives in it.
+- `theories` (planned; contested entries only) — competing theories,
+  each with a hedged `gloss`, a `summary` and a `source`.
+- `elsewhere` (planned) — Romance and Germanic equivalents, each with
+  `language`, `word`, `gloss` and `verification_source`.
 
 This metadata separates philological evidence from editorial judgment
 and is intended for curation rather than reader-facing display.

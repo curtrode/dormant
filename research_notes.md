@@ -107,8 +107,9 @@ historical knowledge.
     *(Proposed 2026-09-18: competing theories + Romance/Germanic
     equivalents on hover — see Session Log.)*
 -   Should `frequency_score` be re-scored against real corpus frequency?
--   **Pending decision:** allow hedged ("perhaps") glosses for contested
-    words? (Changes `editorial.md`; see 2026-09-18 log.)
+-   ~~Allow hedged ("perhaps") glosses for contested words?~~
+    **Decided 2026-09-18: yes** — policy now in `editorial.md`
+    (Contested Archaeology).
 -   **Pending decision:** is parallel-language reading a second mode, or
     the new direction the English lexicon feeds into?
 
@@ -288,7 +289,7 @@ second mode alongside the English piece, or the new direction the
 English lexicon feeds into?**
 
 **Proposal — hedged theories for contested words (2026-09-18).
-POLICY CHANGE PENDING USER DECISION.**
+ADOPTED 2026-09-18** (user decision; rule written into `editorial.md`).
 Current rule (`editorial.md`): contested entries never receive a gloss.
 Proposed rule: contested entries never receive an *asserted* gloss;
 hedged glosses are allowed, always marked "perhaps" and shown as one of
@@ -357,9 +358,11 @@ Candidate next tasks (user to choose):
 2. **High-frequency research pass** — seeds in the 2026-09-18 log
    (world, neighbor, journey, universe, pane, …). Prerequisite for any
    interface that works on pasted prose. Use `Explore` agents.
-3. **Contested-words feature** — `theories` / `elsewhere` fields, once
-   the hedged-gloss policy is decided. Add the new fields to the
-   validator's allowed list.
+3. **Contested-words feature** — `theories` / `elsewhere` fields. The
+   hedged-gloss policy is now decided (yes; see `editorial.md`), so this
+   is unblocked. Add the new fields to the validator's allowed list and
+   require a `source` on every theory. Research sourced theories for
+   girl, boy, bride, sycophant first.
 
 Smaller open items: broken glosses in running text (capital, cynic,
 desire, influence, possessives); singleton image families; re-score
