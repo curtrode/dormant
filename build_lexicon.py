@@ -18,7 +18,7 @@ FIELDS = ("word", "gloss", "etymon", "language", "note", "part_of_speech",
 REQUIRED = ("word", "gloss", "etymon", "language", "note", "part_of_speech",
             "image_family", "recovery_type", "surprise_score", "frequency_score",
             "confidence_score", "verified", "verification_source", "editorial_notes")
-OPTIONAL = ("forms",)
+OPTIONAL = ("forms", "plural", "verb_gloss")
 RECOVERY_TYPES = ("literal", "conceptual", "semantic", "contested")
 PARTS_OF_SPEECH = ("noun", "verb", "adjective", "adverb")
 
@@ -70,6 +70,8 @@ def validate(data):
                 errors.append(f"{where}: contested entry must have surprise_score null")
             if e.get("forms"):
                 errors.append(f"{where}: contested entry cannot have forms")
+            if "plural" in e or "verb_gloss" in e:
+                errors.append(f"{where}: contested entry cannot have plural or verb_gloss")
         else:
             if not is_text(e.get("gloss")):
                 errors.append(f"{where}: gloss must be a non-empty string")
@@ -78,6 +80,12 @@ def validate(data):
 
         if e.get("part_of_speech") not in PARTS_OF_SPEECH:
             errors.append(f"{where}: part_of_speech {e.get('part_of_speech')!r} not in {PARTS_OF_SPEECH}")
+        if "plural" in e and (e.get("part_of_speech") != "noun" or not is_text(e["plural"])):
+            errors.append(f"{where}: plural must be a non-empty string on a noun")
+        # verb_gloss: a noun entry's gloss when the word is used as a verb
+        # (answer -> "counter-oath", but answered -> "swore against").
+        if "verb_gloss" in e and (e.get("part_of_speech") == "verb" or not is_text(e["verb_gloss"])):
+            errors.append(f"{where}: verb_gloss must be a non-empty string on a non-verb entry")
         for k in ("frequency_score", "confidence_score"):
             if not is_score(e.get(k)):
                 errors.append(f"{where}: {k} must be an integer 1-5")
@@ -112,7 +120,11 @@ def validate(data):
 def build(data):
     entries = []
     for e in data["entries"]:
-        entries.append({k: e.get(k) for k in FIELDS})
+        entry = {k: e.get(k) for k in FIELDS}
+        for k in ("plural", "verb_gloss"):            # entry-only: forms never inherit these
+            if e.get(k):
+                entry[k] = e[k]
+        entries.append(entry)
         # Derived forms (governor -> government) inherit the parent's etymon,
         # note, and family; they carry their own word, gloss, and part of speech.
         for f in e.get("forms", []):

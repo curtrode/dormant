@@ -353,16 +353,66 @@ Suggested prototype: stir each recovered word through original → etymon
 before new research. Add the other-language layer once `elsewhere` data
 exists.
 
+### 2026-09-18 — High-frequency pass (106 → 193 entries)
+
+Method reversed, as planned: counted words across twelve Project
+Gutenberg books (Austen, Dickens, Brontë, Shelley, Stoker, Melville,
+Swift, Machiavelli, Adam Smith, Carroll), dropped function words and
+existing entries, and screened the ~900 most frequent for strong
+images. 95 candidates went to five `Explore` agents (no cascading this
+time), each checked on etymonline + Wiktionary with sources.
+
+**Added 82 glossed entries + 5 contested** (soul, silver, book, calm,
+human). Strongest: world → *age of man*, friend → *loving one*, free →
+*dear*, answer → *counter-oath*, escape → *cape-slipping*, bless →
+*blood-mark*, sake → *lawsuit*, danger → *a lord's power*, glad →
+*shining*, sky → *cloud*, cloud → *rock mass*, matter → *timber*,
+explain → *flatten out*, reply → *folding-back*, opportunity → *coming
+toward port*. Coverage in the test books went from ~5 to ~25 stirrable
+words per 1,000 (*Pride and Prejudice* 6.4 → 25.2; *Wealth of Nations*
+9.2 → 39.8).
+
+The five contested entries carry their competing theories, with who
+reports them, in `editorial_notes` — seed data for the `theories`
+field. money is glossed *mint* (secure); the further "Moneta the
+Warner" step is hedged and noted as a future theory.
+
+**Held or rejected** (sources checked): secret (sifting only in PIE;
+*set apart* too flat), conversation (turning image not attested as a
+sense), countenance, temper (root uncertain), believe (sources analyse
+it differently; etymonline 'perhaps'), doubt and satisfy (no gloss
+survives both noun and verb/participle use), peculiar (adjective gloss
+breaks attributively), woman (*female person* adds nothing; *wife-person*
+anachronistic), rob (not from robe; siblings from *rauba* 'booty').
+Adjusted from drafts: neighbor *near dweller* (not farmer), soldier
+*paid man*, possess *sit in power over* (master only in PIE), crucial
+*cross-shaped* (crossroads is Bacon's metaphor), write *scratch*.
+
+**Engine changes.** Entries may now carry `plural` (friend → *loving
+ones*, mile → *ten thousand paces*) and `verb_gloss` for words English
+uses as noun and verb (answer → *counter-oath*, but answered → *swore
+against*; used after -ed/-ing or a verb cue like *to*, *I*, *would*).
+The page also reads -ied (replied → *folded back*) and a few irregular
+forms (wrote, written, sold). New image families: Roads, Gesture,
+Enclosures, Strife, Mind.
+
+**Still open from this pass:** gloss grammar in the old broken cases
+(desire → *from the stars* as a noun; character → *engraved mark*
+reads fine). `frequency_score` for the new entries comes from the
+Gutenberg counts; the old entries still need re-scoring.
+
 ------------------------------------------------------------------------
 
 ## Start Here (as of 2026-09-18)
 
-State: 106 verified entries + 17 derived forms; three sample passages;
-`build_lexicon.py` validates before building. Everything pushed.
+State: 193 verified entries (9 contested) + 19 derived forms; three sample
+passages; `build_lexicon.py` validates before building. Everything pushed.
 
 Candidate next tasks (user to choose):
 
-1. **Stir-fry prototype — built 2026-09-18, needs a reading.** Default
+1. **Stir-fry prototype — built 2026-09-18; PAUSED by user to return to
+   lexicon building.** Too few words stir in real prose (4–9 per 1,000 in
+   twelve Gutenberg novels) for new poems to emerge yet. Default
    *Stir* view: one text, plain English, stirred in place as the mouse
    passes over words (word → root → image → word; tap on touch). The
    user's aim: **the text itself is transformed, so that new poems
@@ -374,9 +424,10 @@ Candidate next tasks (user to choose):
    share poems beyond the clipboard. Observed: fully stirred to roots,
    the passage becomes a pidgin of Old Norse, Latin, Old English and
    Greek (*the húsbóndi sat at the vindauga*).
-2. **High-frequency research pass** — seeds in the 2026-09-18 log
-   (world, neighbor, journey, universe, pane, …). Prerequisite for any
-   interface that works on pasted prose. Use `Explore` agents.
+2. **High-frequency research pass — first round done 2026-09-18**
+   (+87 entries; see log). Next round: re-run the frequency screen on
+   modern prose (the Gutenberg corpus is 19th-century), and look at the
+   held words again.
 3. **Contested-words feature** — `theories` / `elsewhere` fields. The
    hedged-gloss policy is now decided (yes; see `editorial.md`), so this
    is unblocked. Add the new fields to the validator's allowed list and

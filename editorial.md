@@ -115,6 +115,8 @@ Both require a verification source like any other entry. See the
 - Medicine, trade, textile, measurement (added in the second research pass:
   clinic, budget, tally, symbol)
 - Geography, water, theater, knowledge (rival, trivial, person, encyclopedia)
+- Roads, gesture, enclosures, strife, mind (high-frequency pass: trodden
+  path, standing-around, enclosed yard, confusion, carefree)
 
 Organize discoveries by these forgotten images rather than
 alphabetically.
@@ -163,6 +165,10 @@ Each entry should include:
   `word`, `gloss`, `part_of_speech` and `verification_source`, with
   optional `plural` and `surprise_score` overrides; everything else is
   inherited. Admit a form only if the parent's image survives in it.
+- `plural` (optional, nouns) — the gloss's plural when the last word
+  cannot simply take -s (friend → *loving ones*).
+- `verb_gloss` (optional, non-verbs) — the gloss used when the word is
+  used as a verb (answer → *counter-oath*; answered → *swore against*).
 - `theories` (planned; contested entries only) — competing theories,
   each with a hedged `gloss`, a `summary` and a `source`.
 - `elsewhere` (planned) — Romance and Germanic equivalents, each with

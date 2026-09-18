@@ -2,6 +2,41 @@
 // Re-run `python3 build_lexicon.py` after changing canonical.json.
 window.LEXICON = [
   {
+    "word": "affair",
+    "gloss": "to-do",
+    "etymon": "afaire",
+    "language": "Old French",
+    "note": "à faire 'to do'.",
+    "part_of_speech": "noun",
+    "recovery_type": "literal",
+    "image_family": "Hands",
+    "surprise_score": 4,
+    "plural": "to-dos"
+  },
+  {
+    "word": "answer",
+    "gloss": "counter-oath",
+    "etymon": "andswaru",
+    "language": "Old English",
+    "note": "and- 'against' + swaru 'affirmation, oath' (swerian 'swear'): a sworn rebuttal.",
+    "part_of_speech": "noun",
+    "recovery_type": "literal",
+    "image_family": "Law",
+    "surprise_score": 5,
+    "verb_gloss": "swear against"
+  },
+  {
+    "word": "anxious",
+    "gloss": "choked",
+    "etymon": "anxius",
+    "language": "Latin",
+    "note": "angere 'to choke, squeeze'.",
+    "part_of_speech": "adjective",
+    "recovery_type": "literal",
+    "image_family": "Body",
+    "surprise_score": 4
+  },
+  {
     "word": "apocalypse",
     "gloss": "an uncovering",
     "etymon": "apokalypsis",
@@ -48,6 +83,17 @@ window.LEXICON = [
     "surprise_score": 5
   },
   {
+    "word": "attention",
+    "gloss": "stretching toward",
+    "etymon": "attentiō",
+    "language": "Latin",
+    "note": "ad 'toward' + tendere 'to stretch'.",
+    "part_of_speech": "noun",
+    "recovery_type": "literal",
+    "image_family": "Gesture",
+    "surprise_score": 4
+  },
+  {
     "word": "auspicious",
     "gloss": "watching birds",
     "etymon": "auspicium",
@@ -57,6 +103,39 @@ window.LEXICON = [
     "recovery_type": "conceptual",
     "image_family": "Religion",
     "surprise_score": 4
+  },
+  {
+    "word": "bank",
+    "gloss": "bench",
+    "etymon": "banca",
+    "language": "Italian",
+    "note": "the money-changer's bench or counter.",
+    "part_of_speech": "noun",
+    "recovery_type": "conceptual",
+    "image_family": "Trade",
+    "surprise_score": 4
+  },
+  {
+    "word": "bless",
+    "gloss": "blood-mark",
+    "etymon": "blētsian",
+    "language": "Old English",
+    "note": "*blōdisōn 'to mark or hallow with blood'.",
+    "part_of_speech": "verb",
+    "recovery_type": "conceptual",
+    "image_family": "Religion",
+    "surprise_score": 5
+  },
+  {
+    "word": "book",
+    "gloss": null,
+    "etymon": "bōc",
+    "language": "Old English",
+    "note": "Origin uncertain.",
+    "part_of_speech": "noun",
+    "recovery_type": "contested",
+    "image_family": "Contested",
+    "surprise_score": null
   },
   {
     "word": "boy",
@@ -137,6 +216,17 @@ window.LEXICON = [
     "surprise_score": 4
   },
   {
+    "word": "calm",
+    "gloss": null,
+    "etymon": "calme",
+    "language": "Middle French",
+    "note": "Origin disputed.",
+    "part_of_speech": "adjective",
+    "recovery_type": "contested",
+    "image_family": "Contested",
+    "surprise_score": null
+  },
+  {
     "word": "cancel",
     "gloss": "cross with lattice bars",
     "etymon": "cancellārius",
@@ -182,6 +272,17 @@ window.LEXICON = [
     "surprise_score": 4
   },
   {
+    "word": "cattle",
+    "gloss": "property",
+    "etymon": "capitāle",
+    "language": "Medieval Latin",
+    "note": "capitale 'property, stock', from caput 'head'.",
+    "part_of_speech": "noun",
+    "recovery_type": "conceptual",
+    "image_family": "Cattle",
+    "surprise_score": 3
+  },
+  {
     "word": "chancellor",
     "gloss": "keeper of the lattice",
     "etymon": "cancellārius",
@@ -204,6 +305,42 @@ window.LEXICON = [
     "surprise_score": 4
   },
   {
+    "word": "charm",
+    "gloss": "song",
+    "etymon": "carmen",
+    "language": "Latin",
+    "note": "carmen 'song, verse, incantation'.",
+    "part_of_speech": "noun",
+    "recovery_type": "literal",
+    "image_family": "Language",
+    "surprise_score": 4,
+    "verb_gloss": "sing to"
+  },
+  {
+    "word": "church",
+    "gloss": "the Lord's house",
+    "etymon": "kuriakón",
+    "language": "Greek",
+    "note": "kuriakon (doma) 'the Lord's (house)', from kurios 'lord'.",
+    "part_of_speech": "noun",
+    "recovery_type": "literal",
+    "image_family": "Religion",
+    "surprise_score": 3,
+    "plural": "the Lord's houses"
+  },
+  {
+    "word": "circumstance",
+    "gloss": "standing-around",
+    "etymon": "circumstantia",
+    "language": "Latin",
+    "note": "circum 'around' + stare 'to stand'.",
+    "part_of_speech": "noun",
+    "recovery_type": "literal",
+    "image_family": "Gesture",
+    "surprise_score": 3,
+    "plural": "standings-around"
+  },
+  {
     "word": "clinic",
     "gloss": "at the bedside",
     "etymon": "klinikē",
@@ -213,6 +350,29 @@ window.LEXICON = [
     "recovery_type": "literal",
     "image_family": "Medicine",
     "surprise_score": 4
+  },
+  {
+    "word": "clock",
+    "gloss": "bell",
+    "etymon": "clocca",
+    "language": "Medieval Latin",
+    "note": "clocca 'bell', probably Celtic.",
+    "part_of_speech": "noun",
+    "recovery_type": "literal",
+    "image_family": "Time",
+    "surprise_score": 4
+  },
+  {
+    "word": "cloud",
+    "gloss": "rock mass",
+    "etymon": "clūd",
+    "language": "Old English",
+    "note": "clūd 'mass of rock, hill', kin to clod; cumulus as heaped rock.",
+    "part_of_speech": "noun",
+    "recovery_type": "conceptual",
+    "image_family": "Geography",
+    "surprise_score": 5,
+    "plural": "rock masses"
   },
   {
     "word": "coin",
@@ -237,6 +397,18 @@ window.LEXICON = [
     "surprise_score": 4
   },
   {
+    "word": "comfort",
+    "gloss": "strengthening",
+    "etymon": "confortāre",
+    "language": "Late Latin",
+    "note": "com- (intensive) + fortis 'strong'.",
+    "part_of_speech": "noun",
+    "recovery_type": "literal",
+    "image_family": "Body",
+    "surprise_score": 3,
+    "verb_gloss": "strengthen"
+  },
+  {
     "word": "companion",
     "gloss": "one who shares bread",
     "etymon": "companiōnem",
@@ -259,6 +431,18 @@ window.LEXICON = [
     "surprise_score": 4,
     "base": "companion",
     "plural": "sharings of bread"
+  },
+  {
+    "word": "condition",
+    "gloss": "speaking-together",
+    "etymon": "condīciō",
+    "language": "Latin",
+    "note": "con- 'together' + dicere 'to say': an agreement.",
+    "part_of_speech": "noun",
+    "recovery_type": "literal",
+    "image_family": "Language",
+    "surprise_score": 3,
+    "plural": "speakings-together"
   },
   {
     "word": "congregation",
@@ -293,6 +477,40 @@ window.LEXICON = [
     "image_family": "Sky",
     "surprise_score": 5,
     "base": "consider"
+  },
+  {
+    "word": "country",
+    "gloss": "land lying opposite",
+    "etymon": "contrāta",
+    "language": "Medieval Latin",
+    "note": "(terra) contrata, from contra 'against, opposite': the land spread before one.",
+    "part_of_speech": "noun",
+    "recovery_type": "literal",
+    "image_family": "Geography",
+    "surprise_score": 4,
+    "plural": "lands lying opposite"
+  },
+  {
+    "word": "court",
+    "gloss": "enclosed yard",
+    "etymon": "cohors",
+    "language": "Latin",
+    "note": "com- 'together' + hortus 'garden, enclosure'.",
+    "part_of_speech": "noun",
+    "recovery_type": "literal",
+    "image_family": "Enclosures",
+    "surprise_score": 4
+  },
+  {
+    "word": "crucial",
+    "gloss": "cross-shaped",
+    "etymon": "crux",
+    "language": "Latin",
+    "note": "crux 'cross'; first a French medical term.",
+    "part_of_speech": "adjective",
+    "recovery_type": "literal",
+    "image_family": "Religion",
+    "surprise_score": 4
   },
   {
     "word": "currency",
@@ -338,6 +556,17 @@ window.LEXICON = [
     "recovery_type": "literal",
     "image_family": "Sky",
     "surprise_score": 4
+  },
+  {
+    "word": "danger",
+    "gloss": "a lord's power",
+    "etymon": "dangier",
+    "language": "Old French",
+    "note": "Vulgar Latin *dominiarium, from dominus 'lord'.",
+    "part_of_speech": "noun",
+    "recovery_type": "conceptual",
+    "image_family": "Law",
+    "surprise_score": 5
   },
   {
     "word": "decide",
@@ -398,6 +627,28 @@ window.LEXICON = [
     "surprise_score": 5
   },
   {
+    "word": "depend",
+    "gloss": "hang",
+    "etymon": "dēpendēre",
+    "language": "Latin",
+    "note": "de- 'from' + pendere 'to hang'.",
+    "part_of_speech": "verb",
+    "recovery_type": "literal",
+    "image_family": "Gesture",
+    "surprise_score": 3
+  },
+  {
+    "word": "derive",
+    "gloss": "channel off",
+    "etymon": "dērīvāre",
+    "language": "Latin",
+    "note": "de 'from' + rivus 'stream': draw off a stream.",
+    "part_of_speech": "verb",
+    "recovery_type": "literal",
+    "image_family": "Water",
+    "surprise_score": 4
+  },
+  {
     "word": "desire",
     "gloss": "from the stars",
     "etymon": "dēsīderāre",
@@ -407,6 +658,28 @@ window.LEXICON = [
     "recovery_type": "conceptual",
     "image_family": "Sky",
     "surprise_score": 5
+  },
+  {
+    "word": "destroy",
+    "gloss": "unbuild",
+    "etymon": "dēstruere",
+    "language": "Latin",
+    "note": "de- 'un-' + struere 'to pile, build'.",
+    "part_of_speech": "verb",
+    "recovery_type": "literal",
+    "image_family": "Hands",
+    "surprise_score": 4
+  },
+  {
+    "word": "dinner",
+    "gloss": "fast-breaking",
+    "etymon": "disner",
+    "language": "Old French",
+    "note": "Vulgar Latin *disiunare: dis- 'undo' + ieiunare 'to fast'.",
+    "part_of_speech": "noun",
+    "recovery_type": "literal",
+    "image_family": "Bread & household",
+    "surprise_score": 4
   },
   {
     "word": "diploma",
@@ -443,6 +716,17 @@ window.LEXICON = [
     "base": "disaster"
   },
   {
+    "word": "doctor",
+    "gloss": "teacher",
+    "etymon": "doctor",
+    "language": "Latin",
+    "note": "docere 'to teach'.",
+    "part_of_speech": "noun",
+    "recovery_type": "literal",
+    "image_family": "Knowledge",
+    "surprise_score": 3
+  },
+  {
     "word": "earwig",
     "gloss": "ear insect",
     "etymon": "ēarwicga",
@@ -476,6 +760,17 @@ window.LEXICON = [
     "surprise_score": 4
   },
   {
+    "word": "enemy",
+    "gloss": "unfriend",
+    "etymon": "inimīcus",
+    "language": "Latin",
+    "note": "in- 'not' + amicus 'friend'.",
+    "part_of_speech": "noun",
+    "recovery_type": "literal",
+    "image_family": "Kinship",
+    "surprise_score": 4
+  },
+  {
     "word": "enthusiasm",
     "gloss": "a god within",
     "etymon": "enthousiasmos",
@@ -497,6 +792,29 @@ window.LEXICON = [
     "image_family": "Religion",
     "surprise_score": 5,
     "base": "enthusiasm"
+  },
+  {
+    "word": "entire",
+    "gloss": "untouched",
+    "etymon": "integer",
+    "language": "Latin",
+    "note": "in- 'not' + tangere 'to touch'.",
+    "part_of_speech": "adjective",
+    "recovery_type": "literal",
+    "image_family": "Hands",
+    "surprise_score": 4
+  },
+  {
+    "word": "escape",
+    "gloss": "cape-slipping",
+    "etymon": "*excappāre",
+    "language": "Vulgar Latin",
+    "note": "ex- 'out of' + cappa 'cape': leave a pursuer holding only one's cape.",
+    "part_of_speech": "noun",
+    "recovery_type": "conceptual",
+    "image_family": "Textile",
+    "surprise_score": 5,
+    "verb_gloss": "slip the cape"
   },
   {
     "word": "examination",
@@ -533,6 +851,52 @@ window.LEXICON = [
     "surprise_score": 4
   },
   {
+    "word": "expense",
+    "gloss": "weighing-out",
+    "etymon": "expēnsa",
+    "language": "Late Latin",
+    "note": "ex 'out' + pendere 'to weigh, pay': metal weighed out.",
+    "part_of_speech": "noun",
+    "recovery_type": "conceptual",
+    "image_family": "Measurement",
+    "surprise_score": 4,
+    "plural": "weighings-out"
+  },
+  {
+    "word": "explain",
+    "gloss": "flatten out",
+    "etymon": "explānāre",
+    "language": "Latin",
+    "note": "ex- 'out' + planus 'flat'.",
+    "part_of_speech": "verb",
+    "recovery_type": "literal",
+    "image_family": "Hands",
+    "surprise_score": 5
+  },
+  {
+    "word": "family",
+    "gloss": "household servants",
+    "etymon": "familia",
+    "language": "Latin",
+    "note": "familia: everyone under one master, slaves included; famulus 'servant'.",
+    "part_of_speech": "noun",
+    "recovery_type": "conceptual",
+    "image_family": "Bread & household",
+    "surprise_score": 4,
+    "plural": "households of servants"
+  },
+  {
+    "word": "farmer",
+    "gloss": "rent-holder",
+    "etymon": "firmārius",
+    "language": "Medieval Latin",
+    "note": "firma 'fixed payment': one who holds land or taxes for a fixed rent.",
+    "part_of_speech": "noun",
+    "recovery_type": "conceptual",
+    "image_family": "Trade",
+    "surprise_score": 4
+  },
+  {
     "word": "fee",
     "gloss": "cattle",
     "etymon": "feoh",
@@ -544,6 +908,41 @@ window.LEXICON = [
     "surprise_score": 5
   },
   {
+    "word": "fellow",
+    "gloss": "fee-layer",
+    "etymon": "félagi",
+    "language": "Old Norse",
+    "note": "fé 'livestock, money' + lag 'a laying': one who lays down property in a partnership.",
+    "part_of_speech": "noun",
+    "recovery_type": "conceptual",
+    "image_family": "Cattle",
+    "surprise_score": 5
+  },
+  {
+    "word": "free",
+    "gloss": "dear",
+    "etymon": "frēo",
+    "language": "Old English",
+    "note": "Proto-Germanic *frijaz 'beloved': the free were the beloved kin, as against the bonded.",
+    "part_of_speech": "adjective",
+    "recovery_type": "conceptual",
+    "image_family": "Kinship",
+    "surprise_score": 5,
+    "verb_gloss": "make dear"
+  },
+  {
+    "word": "friend",
+    "gloss": "loving one",
+    "etymon": "frēond",
+    "language": "Old English",
+    "note": "present participle of frēon 'to love' (like fiend, 'hating one').",
+    "part_of_speech": "noun",
+    "recovery_type": "literal",
+    "image_family": "Kinship",
+    "surprise_score": 5,
+    "plural": "loving ones"
+  },
+  {
     "word": "girl",
     "gloss": null,
     "etymon": null,
@@ -553,6 +952,17 @@ window.LEXICON = [
     "recovery_type": "contested",
     "image_family": "Contested",
     "surprise_score": null
+  },
+  {
+    "word": "glad",
+    "gloss": "shining",
+    "etymon": "glæd",
+    "language": "Old English",
+    "note": "glæd 'bright, shining'.",
+    "part_of_speech": "adjective",
+    "recovery_type": "literal",
+    "image_family": "Sky",
+    "surprise_score": 5
   },
   {
     "word": "gospel",
@@ -612,6 +1022,17 @@ window.LEXICON = [
     "surprise_score": 5
   },
   {
+    "word": "handsome",
+    "gloss": "easy to handle",
+    "etymon": "handsom",
+    "language": "Middle English",
+    "note": "hand + -some; 'good-looking' from the 1580s.",
+    "part_of_speech": "adjective",
+    "recovery_type": "literal",
+    "image_family": "Hands",
+    "surprise_score": 4
+  },
+  {
     "word": "heathen",
     "gloss": "a dweller on the heath",
     "etymon": "hæðen",
@@ -634,6 +1055,18 @@ window.LEXICON = [
     "surprise_score": 3
   },
   {
+    "word": "history",
+    "gloss": "inquiry",
+    "etymon": "historíā",
+    "language": "Greek",
+    "note": "historein 'to inquire', from histōr 'knowing one, witness'.",
+    "part_of_speech": "noun",
+    "recovery_type": "literal",
+    "image_family": "Knowledge",
+    "surprise_score": 3,
+    "plural": "inquiries"
+  },
+  {
     "word": "holiday",
     "gloss": "holy day",
     "etymon": "hāligdæġ",
@@ -645,6 +1078,17 @@ window.LEXICON = [
     "surprise_score": 2
   },
   {
+    "word": "horror",
+    "gloss": "bristling",
+    "etymon": "horror",
+    "language": "Latin",
+    "note": "horrere 'to bristle, shudder'.",
+    "part_of_speech": "noun",
+    "recovery_type": "literal",
+    "image_family": "Body",
+    "surprise_score": 4
+  },
+  {
     "word": "hospital",
     "gloss": "a guest-house",
     "etymon": "hospitāle",
@@ -654,6 +1098,17 @@ window.LEXICON = [
     "recovery_type": "literal",
     "image_family": "Medicine",
     "surprise_score": 4
+  },
+  {
+    "word": "human",
+    "gloss": null,
+    "etymon": "hūmānus",
+    "language": "Latin",
+    "note": "Origin disputed.",
+    "part_of_speech": "adjective",
+    "recovery_type": "contested",
+    "image_family": "Contested",
+    "surprise_score": null
   },
   {
     "word": "humor",
@@ -676,6 +1131,17 @@ window.LEXICON = [
     "recovery_type": "literal",
     "image_family": "Bread & household",
     "surprise_score": 3
+  },
+  {
+    "word": "idea",
+    "gloss": "look",
+    "etymon": "idéa",
+    "language": "Greek",
+    "note": "idein 'to see': the look of a thing, its form.",
+    "part_of_speech": "noun",
+    "recovery_type": "literal",
+    "image_family": "Knowledge",
+    "surprise_score": 4
   },
   {
     "word": "idiot",
@@ -713,6 +1179,17 @@ window.LEXICON = [
     "plural": "takings of omens from birds"
   },
   {
+    "word": "individual",
+    "gloss": "undivided",
+    "etymon": "indīviduus",
+    "language": "Latin",
+    "note": "in- 'not' + dividuus 'divisible'.",
+    "part_of_speech": "adjective",
+    "recovery_type": "literal",
+    "image_family": "Measurement",
+    "surprise_score": 4
+  },
+  {
     "word": "influence",
     "gloss": "a flowing in",
     "etymon": "influentia",
@@ -735,6 +1212,41 @@ window.LEXICON = [
     "surprise_score": 5
   },
   {
+    "word": "interest",
+    "gloss": "being-between",
+    "etymon": "interesse",
+    "language": "Latin",
+    "note": "inter 'between' + esse 'to be'.",
+    "part_of_speech": "noun",
+    "recovery_type": "literal",
+    "image_family": "Gesture",
+    "surprise_score": 4
+  },
+  {
+    "word": "journey",
+    "gloss": "day's travel",
+    "etymon": "journée",
+    "language": "Old French",
+    "note": "diurnum 'a day': a day's travel or work.",
+    "part_of_speech": "noun",
+    "recovery_type": "literal",
+    "image_family": "Roads",
+    "surprise_score": 4,
+    "plural": "days' travels"
+  },
+  {
+    "word": "judge",
+    "gloss": "law-sayer",
+    "etymon": "iūdex",
+    "language": "Latin",
+    "note": "ius 'law' + dicere 'to say'.",
+    "part_of_speech": "noun",
+    "recovery_type": "literal",
+    "image_family": "Law",
+    "surprise_score": 4,
+    "verb_gloss": "say the law on"
+  },
+  {
     "word": "lady",
     "gloss": "loaf kneader",
     "etymon": "hlæfdige",
@@ -744,6 +1256,18 @@ window.LEXICON = [
     "recovery_type": "literal",
     "image_family": "Bread & household",
     "surprise_score": 5
+  },
+  {
+    "word": "law",
+    "gloss": "laying-down",
+    "etymon": "lagu",
+    "language": "Old Norse",
+    "note": "lag 'layer, a laying': things laid down.",
+    "part_of_speech": "noun",
+    "recovery_type": "literal",
+    "image_family": "Law",
+    "surprise_score": 4,
+    "plural": "layings-down"
   },
   {
     "word": "lord",
@@ -801,6 +1325,17 @@ window.LEXICON = [
     "surprise_score": 4
   },
   {
+    "word": "matter",
+    "gloss": "timber",
+    "etymon": "māteria",
+    "language": "Latin",
+    "note": "materia 'timber, building stuff'.",
+    "part_of_speech": "noun",
+    "recovery_type": "literal",
+    "image_family": "Agriculture",
+    "surprise_score": 5
+  },
+  {
     "word": "melancholy",
     "gloss": "black bile",
     "etymon": "melankholia",
@@ -823,6 +1358,18 @@ window.LEXICON = [
     "surprise_score": 4
   },
   {
+    "word": "mile",
+    "gloss": "thousand paces",
+    "etymon": "mīlia",
+    "language": "Latin",
+    "note": "mille passus 'a thousand paces'.",
+    "part_of_speech": "noun",
+    "recovery_type": "literal",
+    "image_family": "Measurement",
+    "surprise_score": 4,
+    "plural": "thousand paces"
+  },
+  {
     "word": "minister",
     "gloss": "the lesser one",
     "etymon": "minister",
@@ -832,6 +1379,28 @@ window.LEXICON = [
     "recovery_type": "literal",
     "image_family": "Law",
     "surprise_score": 3
+  },
+  {
+    "word": "money",
+    "gloss": "mint",
+    "etymon": "monēta",
+    "language": "Latin",
+    "note": "Juno Moneta's temple on the Capitoline housed the Roman mint.",
+    "part_of_speech": "noun",
+    "recovery_type": "conceptual",
+    "image_family": "Religion",
+    "surprise_score": 3
+  },
+  {
+    "word": "month",
+    "gloss": "moon",
+    "etymon": "mōnaþ",
+    "language": "Old English",
+    "note": "kin to mōna 'moon': one new moon to the next.",
+    "part_of_speech": "noun",
+    "recovery_type": "literal",
+    "image_family": "Sky",
+    "surprise_score": 4
   },
   {
     "word": "mortgage",
@@ -867,6 +1436,40 @@ window.LEXICON = [
     "surprise_score": 4
   },
   {
+    "word": "nature",
+    "gloss": "birth",
+    "etymon": "nātūra",
+    "language": "Latin",
+    "note": "nasci 'to be born'.",
+    "part_of_speech": "noun",
+    "recovery_type": "literal",
+    "image_family": "Kinship",
+    "surprise_score": 4
+  },
+  {
+    "word": "neighbor",
+    "gloss": "near dweller",
+    "etymon": "nēahġebūr",
+    "language": "Old English",
+    "note": "nēah 'near' + ġebūr 'dweller'.",
+    "part_of_speech": "noun",
+    "recovery_type": "literal",
+    "image_family": "Bread & household",
+    "surprise_score": 4
+  },
+  {
+    "word": "neighbour",
+    "gloss": "near dweller",
+    "etymon": "nēahġebūr",
+    "language": "Old English",
+    "note": "nēah 'near' + ġebūr 'dweller'.",
+    "part_of_speech": "noun",
+    "recovery_type": "literal",
+    "image_family": "Bread & household",
+    "surprise_score": 4,
+    "base": "neighbor"
+  },
+  {
     "word": "nightmare",
     "gloss": "night demon",
     "etymon": "night + mare",
@@ -900,6 +1503,29 @@ window.LEXICON = [
     "surprise_score": 2
   },
   {
+    "word": "office",
+    "gloss": "work-doing",
+    "etymon": "officium",
+    "language": "Latin",
+    "note": "opus 'work' + facere 'to do'.",
+    "part_of_speech": "noun",
+    "recovery_type": "literal",
+    "image_family": "Hands",
+    "surprise_score": 3
+  },
+  {
+    "word": "opportunity",
+    "gloss": "coming toward port",
+    "etymon": "opportūnitās",
+    "language": "Latin",
+    "note": "ob 'toward' + portus 'harbor'.",
+    "part_of_speech": "noun",
+    "recovery_type": "literal",
+    "image_family": "Navigation",
+    "surprise_score": 5,
+    "plural": "comings toward port"
+  },
+  {
     "word": "orchard",
     "gloss": "wort yard",
     "etymon": "ortġeard",
@@ -931,6 +1557,29 @@ window.LEXICON = [
     "recovery_type": "conceptual",
     "image_family": "Geography",
     "surprise_score": 3
+  },
+  {
+    "word": "pain",
+    "gloss": "penalty",
+    "etymon": "poena",
+    "language": "Latin",
+    "note": "from Greek poinē 'blood-money, fine'.",
+    "part_of_speech": "noun",
+    "recovery_type": "conceptual",
+    "image_family": "Law",
+    "surprise_score": 4
+  },
+  {
+    "word": "pane",
+    "gloss": "piece of cloth",
+    "etymon": "pannus",
+    "language": "Latin",
+    "note": "pannus 'piece of cloth', via Old French pan.",
+    "part_of_speech": "noun",
+    "recovery_type": "literal",
+    "image_family": "Textile",
+    "surprise_score": 5,
+    "plural": "pieces of cloth"
   },
   {
     "word": "panic",
@@ -1000,6 +1649,29 @@ window.LEXICON = [
     "surprise_score": 4
   },
   {
+    "word": "perfect",
+    "gloss": "thoroughly made",
+    "etymon": "perfectus",
+    "language": "Latin",
+    "note": "per- 'thoroughly' + facere 'to make'.",
+    "part_of_speech": "adjective",
+    "recovery_type": "literal",
+    "image_family": "Hands",
+    "surprise_score": 4
+  },
+  {
+    "word": "period",
+    "gloss": "going-round",
+    "etymon": "períodos",
+    "language": "Greek",
+    "note": "peri 'around' + hodos 'way'.",
+    "part_of_speech": "noun",
+    "recovery_type": "literal",
+    "image_family": "Roads",
+    "surprise_score": 4,
+    "plural": "goings-round"
+  },
+  {
     "word": "person",
     "gloss": "a theatrical mask",
     "etymon": "persōna",
@@ -1009,6 +1681,17 @@ window.LEXICON = [
     "recovery_type": "literal",
     "image_family": "Theater",
     "surprise_score": 5
+  },
+  {
+    "word": "possess",
+    "gloss": "sit in power over",
+    "etymon": "possidēre",
+    "language": "Latin",
+    "note": "potis 'able, powerful' + sedere 'to sit'.",
+    "part_of_speech": "verb",
+    "recovery_type": "literal",
+    "image_family": "Gesture",
+    "surprise_score": 4
   },
   {
     "word": "precarious",
@@ -1057,6 +1740,65 @@ window.LEXICON = [
     "surprise_score": 5
   },
   {
+    "word": "prince",
+    "gloss": "first-taker",
+    "etymon": "prīnceps",
+    "language": "Latin",
+    "note": "primus 'first' + capere 'to take': the one who takes first place.",
+    "part_of_speech": "noun",
+    "recovery_type": "literal",
+    "image_family": "Law",
+    "surprise_score": 5
+  },
+  {
+    "word": "private",
+    "gloss": "set apart",
+    "etymon": "prīvātus",
+    "language": "Latin",
+    "note": "privare 'to bereave, set apart'.",
+    "part_of_speech": "adjective",
+    "recovery_type": "literal",
+    "image_family": "Law",
+    "surprise_score": 3
+  },
+  {
+    "word": "promise",
+    "gloss": "sending-forth",
+    "etymon": "prōmissum",
+    "language": "Latin",
+    "note": "pro 'forth' + mittere 'to send'.",
+    "part_of_speech": "noun",
+    "recovery_type": "literal",
+    "image_family": "Language",
+    "surprise_score": 4,
+    "plural": "sendings-forth",
+    "verb_gloss": "send forth"
+  },
+  {
+    "word": "provide",
+    "gloss": "see ahead",
+    "etymon": "prōvidēre",
+    "language": "Latin",
+    "note": "pro 'ahead' + videre 'to see'.",
+    "part_of_speech": "verb",
+    "recovery_type": "literal",
+    "image_family": "Knowledge",
+    "surprise_score": 4
+  },
+  {
+    "word": "purchase",
+    "gloss": "chasing-after",
+    "etymon": "porchacier",
+    "language": "Old French",
+    "note": "pur- 'forth' + chacier 'to chase, hunt'.",
+    "part_of_speech": "noun",
+    "recovery_type": "literal",
+    "image_family": "Trade",
+    "surprise_score": 5,
+    "plural": "chasings-after",
+    "verb_gloss": "chase after"
+  },
+  {
     "word": "pyromaniac",
     "gloss": "fire madness",
     "etymon": "pyromania",
@@ -1079,6 +1821,32 @@ window.LEXICON = [
     "surprise_score": 5
   },
   {
+    "word": "reply",
+    "gloss": "folding-back",
+    "etymon": "replicāre",
+    "language": "Latin",
+    "note": "re- 'back' + plicare 'to fold'.",
+    "part_of_speech": "noun",
+    "recovery_type": "literal",
+    "image_family": "Textile",
+    "surprise_score": 5,
+    "plural": "foldings-back",
+    "verb_gloss": "fold back"
+  },
+  {
+    "word": "respect",
+    "gloss": "looking-back",
+    "etymon": "respectus",
+    "language": "Latin",
+    "note": "re- 'back' + specere 'to look'.",
+    "part_of_speech": "noun",
+    "recovery_type": "literal",
+    "image_family": "Gesture",
+    "surprise_score": 4,
+    "plural": "lookings-back",
+    "verb_gloss": "look back at"
+  },
+  {
     "word": "rival",
     "gloss": "one who shares a stream",
     "etymon": "rīvālis",
@@ -1088,6 +1856,28 @@ window.LEXICON = [
     "recovery_type": "literal",
     "image_family": "Water",
     "surprise_score": 4
+  },
+  {
+    "word": "road",
+    "gloss": "riding",
+    "etymon": "rād",
+    "language": "Old English",
+    "note": "rād 'riding, journey on horseback'; doublet of raid.",
+    "part_of_speech": "noun",
+    "recovery_type": "literal",
+    "image_family": "Horses",
+    "surprise_score": 4
+  },
+  {
+    "word": "sake",
+    "gloss": "lawsuit",
+    "etymon": "sacu",
+    "language": "Old English",
+    "note": "sacu 'cause, lawsuit, dispute'.",
+    "part_of_speech": "noun",
+    "recovery_type": "literal",
+    "image_family": "Law",
+    "surprise_score": 5
   },
   {
     "word": "salad",
@@ -1167,6 +1957,17 @@ window.LEXICON = [
     "surprise_score": 3
   },
   {
+    "word": "scene",
+    "gloss": "tent",
+    "etymon": "skēnḗ",
+    "language": "Greek",
+    "note": "skēnē 'tent, booth', then the stage building.",
+    "part_of_speech": "noun",
+    "recovery_type": "literal",
+    "image_family": "Theater",
+    "surprise_score": 4
+  },
+  {
     "word": "school",
     "gloss": "leisure",
     "etymon": "skholē",
@@ -1175,6 +1976,29 @@ window.LEXICON = [
     "part_of_speech": "noun",
     "recovery_type": "literal",
     "image_family": "Time",
+    "surprise_score": 4
+  },
+  {
+    "word": "secure",
+    "gloss": "carefree",
+    "etymon": "sēcūrus",
+    "language": "Latin",
+    "note": "se- 'without' + cura 'care', via Old French seür.",
+    "part_of_speech": "adjective",
+    "recovery_type": "literal",
+    "image_family": "Mind",
+    "surprise_score": 5,
+    "base": "sure"
+  },
+  {
+    "word": "sell",
+    "gloss": "give",
+    "etymon": "sellan",
+    "language": "Old English",
+    "note": "sellan 'to give, deliver'.",
+    "part_of_speech": "verb",
+    "recovery_type": "literal",
+    "image_family": "Trade",
     "surprise_score": 4
   },
   {
@@ -1189,6 +2013,51 @@ window.LEXICON = [
     "surprise_score": 3
   },
   {
+    "word": "silver",
+    "gloss": null,
+    "etymon": "seolfor",
+    "language": "Old English",
+    "note": "Origin uncertain; likely a wandering word.",
+    "part_of_speech": "noun",
+    "recovery_type": "contested",
+    "image_family": "Contested",
+    "surprise_score": null
+  },
+  {
+    "word": "sky",
+    "gloss": "cloud",
+    "etymon": "ský",
+    "language": "Old Norse",
+    "note": "ský 'cloud'.",
+    "part_of_speech": "noun",
+    "recovery_type": "literal",
+    "image_family": "Sky",
+    "surprise_score": 4
+  },
+  {
+    "word": "soldier",
+    "gloss": "paid man",
+    "etymon": "soldārius",
+    "language": "Medieval Latin",
+    "note": "solidus, a gold coin > soldum 'pay': one having pay.",
+    "part_of_speech": "noun",
+    "recovery_type": "conceptual",
+    "image_family": "Trade",
+    "surprise_score": 3,
+    "plural": "paid men"
+  },
+  {
+    "word": "soul",
+    "gloss": null,
+    "etymon": "sāwol",
+    "language": "Old English",
+    "note": "Origin uncertain.",
+    "part_of_speech": "noun",
+    "recovery_type": "contested",
+    "image_family": "Contested",
+    "surprise_score": null
+  },
+  {
     "word": "spinster",
     "gloss": "woman who spins",
     "etymon": "spinnestre",
@@ -1198,6 +2067,17 @@ window.LEXICON = [
     "recovery_type": "literal",
     "image_family": "Textile",
     "surprise_score": 5
+  },
+  {
+    "word": "spirit",
+    "gloss": "breath",
+    "etymon": "spīritus",
+    "language": "Latin",
+    "note": "spirare 'to breathe'.",
+    "part_of_speech": "noun",
+    "recovery_type": "literal",
+    "image_family": "Sky",
+    "surprise_score": 3
   },
   {
     "word": "stirrup",
@@ -1211,6 +2091,41 @@ window.LEXICON = [
     "surprise_score": 4
   },
   {
+    "word": "street",
+    "gloss": "paved way",
+    "etymon": "strāta",
+    "language": "Latin",
+    "note": "via strata 'paved road', from sternere 'to spread, pave'.",
+    "part_of_speech": "noun",
+    "recovery_type": "literal",
+    "image_family": "Roads",
+    "surprise_score": 3
+  },
+  {
+    "word": "subject",
+    "gloss": "one thrown under",
+    "etymon": "subiectus",
+    "language": "Latin",
+    "note": "sub 'under' + iacere 'to throw'.",
+    "part_of_speech": "noun",
+    "recovery_type": "literal",
+    "image_family": "Gesture",
+    "surprise_score": 4,
+    "plural": "ones thrown under",
+    "verb_gloss": "throw under"
+  },
+  {
+    "word": "sum",
+    "gloss": "highest",
+    "etymon": "summa",
+    "language": "Latin",
+    "note": "summus 'highest': the Roman total written at the top of the column.",
+    "part_of_speech": "noun",
+    "recovery_type": "conceptual",
+    "image_family": "Measurement",
+    "surprise_score": 5
+  },
+  {
     "word": "supercilious",
     "gloss": "with raised eyebrow",
     "etymon": "superciliōsus",
@@ -1219,6 +2134,17 @@ window.LEXICON = [
     "part_of_speech": "adjective",
     "recovery_type": "literal",
     "image_family": "Body",
+    "surprise_score": 5
+  },
+  {
+    "word": "sure",
+    "gloss": "carefree",
+    "etymon": "sēcūrus",
+    "language": "Latin",
+    "note": "se- 'without' + cura 'care', via Old French seür.",
+    "part_of_speech": "adjective",
+    "recovery_type": "literal",
+    "image_family": "Mind",
     "surprise_score": 5
   },
   {
@@ -1311,6 +2237,30 @@ window.LEXICON = [
     "surprise_score": 4
   },
   {
+    "word": "town",
+    "gloss": "enclosure",
+    "etymon": "tūn",
+    "language": "Old English",
+    "note": "tūn 'enclosure, yard, homestead', from Celtic *dūnom 'hill-fort'.",
+    "part_of_speech": "noun",
+    "recovery_type": "literal",
+    "image_family": "Enclosures",
+    "surprise_score": 4
+  },
+  {
+    "word": "trade",
+    "gloss": "trodden path",
+    "etymon": "trade",
+    "language": "Middle Low German",
+    "note": "'track, course', kin to tread; the Hanseatic merchants' beaten way.",
+    "part_of_speech": "noun",
+    "recovery_type": "literal",
+    "image_family": "Roads",
+    "surprise_score": 4,
+    "plural": "trodden paths",
+    "verb_gloss": "tread"
+  },
+  {
     "word": "tragedy",
     "gloss": "goat song",
     "etymon": "tragōidia",
@@ -1355,6 +2305,17 @@ window.LEXICON = [
     "surprise_score": 5
   },
   {
+    "word": "universe",
+    "gloss": "turned-into-one",
+    "etymon": "ūniversum",
+    "language": "Latin",
+    "note": "unus 'one' + versus 'turned'.",
+    "part_of_speech": "noun",
+    "recovery_type": "literal",
+    "image_family": "Sky",
+    "surprise_score": 5
+  },
+  {
     "word": "verdict",
     "gloss": "a truly said thing",
     "etymon": "vēredictum",
@@ -1366,6 +2327,28 @@ window.LEXICON = [
     "surprise_score": 3
   },
   {
+    "word": "walk",
+    "gloss": "roll",
+    "etymon": "wealcan",
+    "language": "Old English",
+    "note": "wealcan 'to toss, roll, move round'.",
+    "part_of_speech": "verb",
+    "recovery_type": "literal",
+    "image_family": "Body",
+    "surprise_score": 4
+  },
+  {
+    "word": "war",
+    "gloss": "confusion",
+    "etymon": "werra",
+    "language": "Frankish",
+    "note": "'confusion, quarrel'; kin to German verwirren 'to confuse'.",
+    "part_of_speech": "noun",
+    "recovery_type": "literal",
+    "image_family": "Strife",
+    "surprise_score": 4
+  },
+  {
     "word": "window",
     "gloss": "wind eye",
     "etymon": "vindauga",
@@ -1375,5 +2358,38 @@ window.LEXICON = [
     "recovery_type": "literal",
     "image_family": "Sky",
     "surprise_score": 5
+  },
+  {
+    "word": "world",
+    "gloss": "age of man",
+    "etymon": "weorold",
+    "language": "Old English",
+    "note": "wer 'man' + ald 'age': the lifetime of humankind.",
+    "part_of_speech": "noun",
+    "recovery_type": "literal",
+    "image_family": "Time",
+    "surprise_score": 5
+  },
+  {
+    "word": "wretch",
+    "gloss": "exile",
+    "etymon": "wreċċa",
+    "language": "Old English",
+    "note": "wreccan 'to drive out'.",
+    "part_of_speech": "noun",
+    "recovery_type": "literal",
+    "image_family": "Strife",
+    "surprise_score": 4
+  },
+  {
+    "word": "write",
+    "gloss": "scratch",
+    "etymon": "wrītan",
+    "language": "Old English",
+    "note": "'to score, outline, draw'; Proto-Germanic 'tear, scratch'.",
+    "part_of_speech": "verb",
+    "recovery_type": "literal",
+    "image_family": "Hands",
+    "surprise_score": 4
   }
 ];
