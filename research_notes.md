@@ -107,6 +107,10 @@ historical knowledge.
     *(Proposed 2026-09-18: competing theories + Romance/Germanic
     equivalents on hover — see Session Log.)*
 -   Should `frequency_score` be re-scored against real corpus frequency?
+-   **Pending decision:** allow hedged ("perhaps") glosses for contested
+    words? (Changes `editorial.md`; see 2026-09-18 log.)
+-   **Pending decision:** is parallel-language reading a second mode, or
+    the new direction the English lexicon feeds into?
 
 ------------------------------------------------------------------------
 
@@ -337,3 +341,26 @@ Suggested prototype: stir each recovered word through original → etymon
 → image on the existing piece, using existing data, to test the feel
 before new research. Add the other-language layer once `elsewhere` data
 exists.
+
+------------------------------------------------------------------------
+
+## Start Here (as of 2026-09-18)
+
+State: 106 verified entries + 17 derived forms; three sample passages;
+`build_lexicon.py` validates before building. Everything pushed.
+
+Candidate next tasks (user to choose):
+
+1. **Stir-fry prototype** — per-word stirring (original → etymon →
+   image) on the existing piece, existing data. Cheapest test of the
+   new interface direction.
+2. **High-frequency research pass** — seeds in the 2026-09-18 log
+   (world, neighbor, journey, universe, pane, …). Prerequisite for any
+   interface that works on pasted prose. Use `Explore` agents.
+3. **Contested-words feature** — `theories` / `elsewhere` fields, once
+   the hedged-gloss policy is decided. Add the new fields to the
+   validator's allowed list.
+
+Smaller open items: broken glosses in running text (capital, cynic,
+desire, influence, possessives); singleton image families; re-score
+`frequency_score`.

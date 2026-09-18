@@ -22,7 +22,10 @@ glossed. Three sample passages are built in: *The household*, *The scholar* and
 *The sentence*.
 
 Coverage of ordinary prose is still thin; the next research pass targets
-high-frequency words (see `research_notes.md`).
+high-frequency words. Directions under consideration: a *stir-fry* interface
+(after Jim Andrews) for stirring pasted text word by word, parallel-language
+reading, and hedged theories for contested words. See **Start Here** at the end
+of `research_notes.md`.
 
 Runs from `file://` with no server — just open `index.html`.
 
