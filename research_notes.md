@@ -362,15 +362,18 @@ State: 106 verified entries + 17 derived forms; three sample passages;
 
 Candidate next tasks (user to choose):
 
-1. **Stir-fry prototype — built 2026-09-18, needs a reading.** Click a
-   recovered word to cycle image → word → root (etymon); "Stir all" /
-   "Settle" in the controls; a/an updates live. Contested words stir
-   only if they have an etymon (sycophant); roots identical to the word
-   are skipped (nostalgia). Not yet: hover-stirring à la Andrews,
-   tooltip on touch, stir state survives the estrangement dial.
-   Observed: fully stirred to roots, the passage reads as a pidgin of
-   Old Norse, Latin, Old English and Greek (*the húsbóndi sat at the
-   vindauga*) — the parallel-language direction is already latent.
+1. **Stir-fry prototype — built 2026-09-18, needs a reading.** Default
+   *Stir* view: one text, plain English, stirred in place as the mouse
+   passes over words (word → root → image → word; tap on touch). The
+   user's aim: **the text itself is transformed, so that new poems
+   emerge** — the mixed state the reader leaves behind is the poem.
+   "Copy poem" keeps it; "Stir all" / "Settle". The old two-card view
+   survives as *Translate* (click to stir there). Contested words stir
+   only if they have an etymon; roots identical to the word are skipped.
+   Not yet: stir state survives the estrangement dial; a way to save or
+   share poems beyond the clipboard. Observed: fully stirred to roots,
+   the passage becomes a pidgin of Old Norse, Latin, Old English and
+   Greek (*the húsbóndi sat at the vindauga*).
 2. **High-frequency research pass** — seeds in the 2026-09-18 log
    (world, neighbor, journey, universe, pane, …). Prerequisite for any
    interface that works on pasted prose. Use `Explore` agents.

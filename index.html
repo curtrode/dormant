@@ -71,6 +71,12 @@
   .w[data-stir]:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
   .w.stirred{animation:stir .35s ease-out}
   @keyframes stir{from{opacity:.15;filter:blur(1.5px)}to{opacity:1;filter:none}}
+  /* Stir view: one text, plain until the reader stirs it. */
+  .stirview .w.word, .stirview .w.contested{color:inherit;background:none;box-shadow:none;border:0;font-style:normal}
+  .stirview .w[data-stir]{cursor:default}
+  .stirview #srcCard, .stirview .for-translate, .for-stir{display:none}
+  .stirview .for-stir{display:inline}
+  .chip.on{border-color:var(--accent);color:var(--accent)}
   .lit .w.hot{background:#efe0b8}
   .highlight{background:#efe0b8 !important}
 
@@ -100,8 +106,11 @@
     <p class="sub">reading English as if it were a foreign language, translated too literally</p>
   </header>
   <p class="lead">Every word below hides an older image. This piece recovers it &mdash; replacing a word
-     with the literal meaning of its roots. The translation appears on top; your text, beneath.
-     Hover a recovered word to see what it was; click it to stir it back through its word and its root.</p>
+     with the literal meaning of its roots.
+     <span class="for-stir">Move across the text to stir it: words sink to their roots, then surface as
+     the images they once held. Whatever the stirring leaves behind is a new poem.</span>
+     <span class="for-translate">The translation appears on top; your text, beneath. Hover a recovered
+     word to see what it was; click it to stir it.</span></p>
 
   <div class="controls">
     <div class="samples">
@@ -116,23 +125,28 @@
       <span class="val" id="dialVal"></span>
     </div>
     <div class="samples">
-      <span class="lbl">Stir</span>
+      <span class="lbl">View</span>
+      <button class="chip" data-view="stir">Stir</button>
+      <button class="chip" data-view="translate">Translate</button>
+    </div>
+    <div class="samples">
       <button class="chip" id="stirAll">Stir all</button>
       <button class="chip" id="settle">Settle</button>
+      <button class="chip" id="keep">Copy poem</button>
     </div>
   </div>
 
   <textarea id="input" spellcheck="false" placeholder="Paste any English prose here, or pick a passage above&hellip;"></textarea>
   <div class="row">
-    <button class="go" id="go">Translate</button>
+    <button class="go" id="go">Render</button>
     <span class="stat" id="stat"></span>
   </div>
 
   <div class="card">
-    <p class="tag">Translation</p>
+    <p class="tag" id="outTag">Translation</p>
     <div class="prose lit" id="out"></div>
   </div>
-  <div class="card">
+  <div class="card" id="srcCard">
     <p class="tag">Original</p>
     <div class="prose original" id="src"></div>
   </div>
@@ -140,7 +154,7 @@
   <p class="legend">
     <span class="g">recovered image</span> &mdash; hover for the word and its root &nbsp;&middot;&nbsp;
     <span class="c">origin contested</span> &mdash; scholars disagree; no image is invented<br>
-    Click to stir: <span class="g">image</span> &rarr; word &rarr; <span class="e">root</span> &rarr; <span class="g">image</span><br>
+    Stirring turns each word: word &rarr; <span class="e">root</span> &rarr; <span class="g">image</span> &rarr; word<br>
     Raise <em>estrangement</em> to recover subtler words; at maximum, even the contested words surface.
   </p>
 
@@ -293,9 +307,11 @@
 
   var TOKEN = /[A-Za-z]+(?:'[A-Za-z]+)?|[^A-Za-z]+/g;
 
-  // Stirring: each recovered word holds its layers (image, word, root) and
-  // cycles through them on click. Keyed by match id; rebuilt on every render.
-  var STIR = {};
+  // Stirring: each recovered word holds its layers in stir order (word, root,
+  // image) and cycles through them. The Stir view starts every word at its
+  // word; the Translate view starts at the image. Keyed by match id; rebuilt
+  // on every render.
+  var STIR = {}, VIEW = "stir";
   var LAYER_CLASS = {gloss:"gloss", word:"word", ety:"ety", contested:"contested"};
 
   function render(text, intensity){
@@ -319,18 +335,19 @@
         } else {
           var g = inflectGloss(e, m.infl);
           if(before && DETERMINERS[before.toLowerCase()]) g = g.replace(/^(a|an|the) /, "");
-          layers = [{text:matchCase(t, g), kind:"gloss"}, {text:t, kind:"word"}].concat(ety ? [ety] : []);
+          layers = [{text:t, kind:"word"}].concat(ety ? [ety] : [], [{text:matchCase(t, g), kind:"gloss"}]);
         }
-        STIR[id] = {layers:layers, at:0};
+        var start = (VIEW === "translate" && layers[layers.length-1].kind === "gloss") ? layers.length-1 : 0;
+        STIR[id] = {layers:layers, at:start, start:start};
         if(art) out[prevIdx] = '<span class="art" data-art="'+id+'">'
-                             + matchCase(before, takesAn(layers[0].text) ? "an" : "a") + '</span>';
+                             + matchCase(before, takesAn(layers[start].text) ? "an" : "a") + '</span>';
         var stir = layers.length > 1 ? ' data-stir tabindex="0" role="button"' : '';
-        out.push('<span class="w '+LAYER_CLASS[layers[0].kind]+'" data-id="'+id+'"'+stir
+        out.push('<span class="w '+LAYER_CLASS[layers[start].kind]+'" data-id="'+id+'"'+stir
                + (e.recovery_type === "contested" ? ' data-kind="contested"' : '')
                + ' data-word="'+esc(e.word)+'"'
                + ' data-gloss="'+esc(e.gloss||"")+'" data-ety="'+esc(e.etymon||"")+'"'
                + ' data-lang="'+esc(e.language||"")+'" data-rt="'+esc(e.recovery_type||"")+'"'
-               + ' data-base="'+esc(e.base||"")+'">'+esc(layers[0].text)+'</span>');
+               + ' data-base="'+esc(e.base||"")+'">'+esc(layers[start].text)+'</span>');
         src.push('<span class="w src" data-id="'+id+'">'+esc(t)+'</span>');
       } else {
         prev = t; prevIdx = out.length;
@@ -350,8 +367,9 @@
     if(!text){ outEl.innerHTML=""; srcEl.innerHTML=""; stat.textContent=""; return; }
     var r = render(text, +dial.value);
     outEl.innerHTML = r.out; srcEl.innerHTML = r.src;
-    stat.textContent = r.count ? (r.count + (r.count===1?" word":" words") + " recovered")
-                               : "no words recovered at this setting";
+    var verb = VIEW === "stir" ? " can be stirred" : " recovered";
+    stat.textContent = r.count ? (r.count + (r.count===1?" word":" words") + verb)
+                               : "no words" + verb + " at this setting";
     wire();
   }
 
@@ -359,12 +377,14 @@
     var s = STIR[el.dataset.id], L = s.layers[at];
     s.at = at;
     el.textContent = L.text;
-    el.className = "w " + LAYER_CLASS[L.kind] + (el.matches(":hover") ? " highlight" : "");
+    el.className = "w " + LAYER_CLASS[L.kind] + (VIEW === "translate" && el.matches(":hover") ? " highlight" : "");
     void el.offsetWidth; el.classList.add("stirred");  // restart the fade
     var art = outEl.querySelector('[data-art="'+el.dataset.id+'"]');
     if(art) art.textContent = matchCase(art.textContent, takesAn(L.text) ? "an" : "a");
   }
-  function stir(el){ var s = STIR[el.dataset.id]; setLayer(el, (s.at + 1) % s.layers.length); }
+  function stir(el){ var s = STIR[el.dataset.id]; s.last = Date.now(); setLayer(el, (s.at + 1) % s.layers.length); }
+  var lastPointer = "mouse";
+  document.addEventListener("pointerdown", function(ev){ lastPointer = ev.pointerType; }, true);
   function eachStirrable(fn){ [].forEach.call(outEl.querySelectorAll("[data-stir]"), fn); }
 
   // Link hover between the two cards + tooltip.
@@ -377,6 +397,7 @@
       var els = pairs[id];
       els.forEach(function(el){
         el.addEventListener("mouseenter", function(ev){
+          if(VIEW === "stir") return;
           els.forEach(function(x){ x.classList.add("highlight"); });
           showTip(el, ev);
         });
@@ -386,7 +407,18 @@
           hideTip();
         });
         if(el.hasAttribute("data-stir")){
-          el.addEventListener("click", function(){ stir(el); });
+          // Stir view: passing the mouse over a word stirs it (Andrews' Stir
+          // Fry Texts). A short rest stops a word that changes width under the
+          // pointer from churning. Touch and pen stir by tapping.
+          el.addEventListener("pointerenter", function(ev){
+            if(VIEW !== "stir" || ev.pointerType !== "mouse") return;
+            if(Date.now() - (STIR[el.dataset.id].last || 0) < 500) return;
+            stir(el);
+          });
+          el.addEventListener("click", function(){
+            if(VIEW === "stir" && lastPointer === "mouse") return;
+            stir(el);
+          });
           el.addEventListener("keydown", function(ev){
             if(ev.key === "Enter" || ev.key === " "){ ev.preventDefault(); stir(el); }
           });
@@ -423,7 +455,31 @@
   document.getElementById("go").addEventListener("click", run);
   document.getElementById("stirAll").addEventListener("click", function(){ eachStirrable(stir); });
   document.getElementById("settle").addEventListener("click", function(){
-    eachStirrable(function(el){ if(STIR[el.dataset.id].at) setLayer(el, 0); });
+    eachStirrable(function(el){ var s = STIR[el.dataset.id]; if(s.at !== s.start) setLayer(el, s.start); });
+  });
+  var keep = document.getElementById("keep");
+  keep.addEventListener("click", function(){
+    var poem = outEl.textContent;
+    function done(){ keep.textContent = "Copied"; setTimeout(function(){ keep.textContent = "Copy poem"; }, 1400); }
+    function select(){                                // no clipboard access (e.g. some file:// pages)
+      var r = document.createRange(); r.selectNodeContents(outEl);
+      var sel = getSelection(); sel.removeAllRanges(); sel.addRange(r);
+    }
+    if(navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(poem).then(done, select);
+    else select();
+  });
+
+  var wrap = document.querySelector(".wrap"), outTag = document.getElementById("outTag");
+  function setView(v){
+    VIEW = v;
+    wrap.classList.toggle("stirview", v === "stir");
+    outTag.textContent = v === "stir" ? "Text" : "Translation";
+    [].forEach.call(document.querySelectorAll("[data-view]"), function(b){ b.classList.toggle("on", b.dataset.view === v); });
+    hideTip();
+    run();
+  }
+  [].forEach.call(document.querySelectorAll("[data-view]"), function(b){
+    b.addEventListener("click", function(){ setView(b.dataset.view); });
   });
   dial.addEventListener("input", function(){
     dialVal.textContent = INTENSITY_LABEL[dial.value];
@@ -432,7 +488,7 @@
 
   dialVal.textContent = INTENSITY_LABEL[dial.value];
   input.value = SAMPLES[0];
-  run();
+  setView("stir");
 })();
 </script>
 </body>

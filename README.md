@@ -18,8 +18,10 @@ your own prose or pick a sample passage, and it renders a **translation** (roots
 recovered) above your **original** text. Hover a recovered word to see the
 source word and its etymon; the *estrangement* dial controls how many words are
 recovered — at maximum, even the contested words surface, marked but never
-glossed. Click a recovered word to *stir* it back through its
-present-day word and its root (*wind eye* → *window* → *vindauga*). Three sample passages are built in: *The household*, *The scholar* and
+glossed. In the default *Stir* view the text starts as plain
+English and changes in place as the mouse passes over it — each word sinks
+to its root and surfaces as its image (*window* → *vindauga* → *wind eye*),
+so the reader stirs a new poem out of the prose. Three sample passages are built in: *The household*, *The scholar* and
 *The sentence*.
 
 Coverage of ordinary prose is still thin; the next research pass targets
