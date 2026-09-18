@@ -362,9 +362,15 @@ State: 106 verified entries + 17 derived forms; three sample passages;
 
 Candidate next tasks (user to choose):
 
-1. **Stir-fry prototype** — per-word stirring (original → etymon →
-   image) on the existing piece, existing data. Cheapest test of the
-   new interface direction.
+1. **Stir-fry prototype — built 2026-09-18, needs a reading.** Click a
+   recovered word to cycle image → word → root (etymon); "Stir all" /
+   "Settle" in the controls; a/an updates live. Contested words stir
+   only if they have an etymon (sycophant); roots identical to the word
+   are skipped (nostalgia). Not yet: hover-stirring à la Andrews,
+   tooltip on touch, stir state survives the estrangement dial.
+   Observed: fully stirred to roots, the passage reads as a pidgin of
+   Old Norse, Latin, Old English and Greek (*the húsbóndi sat at the
+   vindauga*) — the parallel-language direction is already latent.
 2. **High-frequency research pass** — seeds in the 2026-09-18 log
    (world, neighbor, journey, universe, pane, …). Prerequisite for any
    interface that works on pasted prose. Use `Explore` agents.

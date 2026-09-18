@@ -8,7 +8,7 @@
   :root{
     --ink:#1c1a17; --faint:#6b655c; --line:#d9d2c5; --paper:#f4efe6;
     --card:#fbf8f2; --gloss:#7a3b2e; --gloss-bg:#f0e3d6; --contested:#3a5a6b;
-    --accent:#a8532f;
+    --accent:#a8532f; --ety:#56602f;
   }
   *{box-sizing:border-box}
   html,body{margin:0}
@@ -65,6 +65,12 @@
   .gloss{color:var(--gloss);background:var(--gloss-bg);padding:0 3px;cursor:help;
          box-shadow:inset 0 -1px 0 rgba(122,59,46,.35)}
   .contested{color:var(--contested);border-bottom:1px dotted var(--contested);cursor:help;font-style:italic}
+  .w.word{box-shadow:inset 0 -1px 0 var(--line)}
+  .w.ety{color:var(--ety);font-style:italic;box-shadow:inset 0 -1px 0 rgba(86,96,47,.4)}
+  .w[data-stir]{cursor:pointer}
+  .w[data-stir]:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
+  .w.stirred{animation:stir .35s ease-out}
+  @keyframes stir{from{opacity:.15;filter:blur(1.5px)}to{opacity:1;filter:none}}
   .lit .w.hot{background:#efe0b8}
   .highlight{background:#efe0b8 !important}
 
@@ -82,6 +88,7 @@
   .legend{color:var(--faint);font-size:13px;text-align:center;margin-top:26px;line-height:1.7}
   .legend .g{color:var(--gloss);background:var(--gloss-bg);padding:0 4px;border-radius:3px}
   .legend .c{color:var(--contested);border-bottom:1px dotted var(--contested);font-style:italic}
+  .legend .e{color:var(--ety);font-style:italic}
   footer{text-align:center;color:var(--faint);font-size:12.5px;margin-top:44px;line-height:1.7}
   a{color:var(--accent)}
 </style>
@@ -94,7 +101,7 @@
   </header>
   <p class="lead">Every word below hides an older image. This piece recovers it &mdash; replacing a word
      with the literal meaning of its roots. The translation appears on top; your text, beneath.
-     Hover a recovered word to see what it was.</p>
+     Hover a recovered word to see what it was; click it to stir it back through its word and its root.</p>
 
   <div class="controls">
     <div class="samples">
@@ -107,6 +114,11 @@
       <span class="lbl">Estrangement</span>
       <input id="dial" type="range" min="1" max="5" step="1" value="3">
       <span class="val" id="dialVal"></span>
+    </div>
+    <div class="samples">
+      <span class="lbl">Stir</span>
+      <button class="chip" id="stirAll">Stir all</button>
+      <button class="chip" id="settle">Settle</button>
     </div>
   </div>
 
@@ -128,6 +140,7 @@
   <p class="legend">
     <span class="g">recovered image</span> &mdash; hover for the word and its root &nbsp;&middot;&nbsp;
     <span class="c">origin contested</span> &mdash; scholars disagree; no image is invented<br>
+    Click to stir: <span class="g">image</span> &rarr; word &rarr; <span class="e">root</span> &rarr; <span class="g">image</span><br>
     Raise <em>estrangement</em> to recover subtler words; at maximum, even the contested words surface.
   </p>
 
@@ -280,8 +293,14 @@
 
   var TOKEN = /[A-Za-z]+(?:'[A-Za-z]+)?|[^A-Za-z]+/g;
 
+  // Stirring: each recovered word holds its layers (image, word, root) and
+  // cycles through them on click. Keyed by match id; rebuilt on every render.
+  var STIR = {};
+  var LAYER_CLASS = {gloss:"gloss", word:"word", ety:"ety", contested:"contested"};
+
   function render(text, intensity){
     var out = [], src = [], tokens = text.match(TOKEN) || [], n = 0;
+    STIR = {};
     var prev = null, prevIdx = -1;                   // last plain word, if only whitespace follows it
     for(var i=0;i<tokens.length;i++){
       var t = tokens[i];
@@ -292,19 +311,26 @@
       var m = lookup(t), e = m && m.entry, before = prev;
       prev = null;
       if(e && fires(e, intensity)){
-        var id = "m"+(n++);
+        var id = "m"+(n++), layers, art = before && /^an?$/i.test(before);
+        var ety = e.etymon && e.etymon.toLowerCase() !== e.word.toLowerCase()   // nostalgia: root looks the same
+                ? {text:matchCase(t, e.etymon), kind:"ety"} : null;
         if(e.recovery_type === "contested"){
-          out.push('<span class="w contested" data-id="'+id+'" data-kind="contested">'+esc(t)+'</span>');
+          layers = [{text:t, kind:"contested"}].concat(ety ? [ety] : []);
         } else {
           var g = inflectGloss(e, m.infl);
           if(before && DETERMINERS[before.toLowerCase()]) g = g.replace(/^(a|an|the) /, "");
-          if(before && /^an?$/i.test(before)) out[prevIdx] = matchCase(before, takesAn(g) ? "an" : "a");
-          g = matchCase(t, g);
-          out.push('<span class="w gloss" data-id="'+id+'" data-word="'+esc(e.word)+'"'
-                 + ' data-gloss="'+esc(e.gloss)+'" data-ety="'+esc(e.etymon||"")+'"'
-                 + ' data-lang="'+esc(e.language||"")+'" data-rt="'+esc(e.recovery_type||"")+'"'
-                 + ' data-base="'+esc(e.base||"")+'">'+esc(g)+'</span>');
+          layers = [{text:matchCase(t, g), kind:"gloss"}, {text:t, kind:"word"}].concat(ety ? [ety] : []);
         }
+        STIR[id] = {layers:layers, at:0};
+        if(art) out[prevIdx] = '<span class="art" data-art="'+id+'">'
+                             + matchCase(before, takesAn(layers[0].text) ? "an" : "a") + '</span>';
+        var stir = layers.length > 1 ? ' data-stir tabindex="0" role="button"' : '';
+        out.push('<span class="w '+LAYER_CLASS[layers[0].kind]+'" data-id="'+id+'"'+stir
+               + (e.recovery_type === "contested" ? ' data-kind="contested"' : '')
+               + ' data-word="'+esc(e.word)+'"'
+               + ' data-gloss="'+esc(e.gloss||"")+'" data-ety="'+esc(e.etymon||"")+'"'
+               + ' data-lang="'+esc(e.language||"")+'" data-rt="'+esc(e.recovery_type||"")+'"'
+               + ' data-base="'+esc(e.base||"")+'">'+esc(layers[0].text)+'</span>');
         src.push('<span class="w src" data-id="'+id+'">'+esc(t)+'</span>');
       } else {
         prev = t; prevIdx = out.length;
@@ -329,6 +355,18 @@
     wire();
   }
 
+  function setLayer(el, at){
+    var s = STIR[el.dataset.id], L = s.layers[at];
+    s.at = at;
+    el.textContent = L.text;
+    el.className = "w " + LAYER_CLASS[L.kind] + (el.matches(":hover") ? " highlight" : "");
+    void el.offsetWidth; el.classList.add("stirred");  // restart the fade
+    var art = outEl.querySelector('[data-art="'+el.dataset.id+'"]');
+    if(art) art.textContent = matchCase(art.textContent, takesAn(L.text) ? "an" : "a");
+  }
+  function stir(el){ var s = STIR[el.dataset.id]; setLayer(el, (s.at + 1) % s.layers.length); }
+  function eachStirrable(fn){ [].forEach.call(outEl.querySelectorAll("[data-stir]"), fn); }
+
   // Link hover between the two cards + tooltip.
   function wire(){
     var pairs = {};
@@ -347,6 +385,12 @@
           els.forEach(function(x){ x.classList.remove("highlight"); });
           hideTip();
         });
+        if(el.hasAttribute("data-stir")){
+          el.addEventListener("click", function(){ stir(el); });
+          el.addEventListener("keydown", function(ev){
+            if(ev.key === "Enter" || ev.key === " "){ ev.preventDefault(); stir(el); }
+          });
+        }
       });
     });
   }
@@ -377,6 +421,10 @@
     b.addEventListener("click", function(){ input.value = SAMPLES[+b.dataset.sample]; run(); });
   });
   document.getElementById("go").addEventListener("click", run);
+  document.getElementById("stirAll").addEventListener("click", function(){ eachStirrable(stir); });
+  document.getElementById("settle").addEventListener("click", function(){
+    eachStirrable(function(el){ if(STIR[el.dataset.id].at) setLayer(el, 0); });
+  });
   dial.addEventListener("input", function(){
     dialVal.textContent = INTENSITY_LABEL[dial.value];
     if(input.value.trim()) run();
