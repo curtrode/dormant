@@ -30,7 +30,9 @@ Runs from `file://` with no server — just open `index.html`.
 
 - `index.html` — the electronic-literature piece
 - `lexicon.js` — generated lexicon data (run `python3 build_lexicon.py` to rebuild from `canonical.json`)
-- `build_lexicon.py` — bakes `canonical.json` into `lexicon.js`
+- `build_lexicon.py` — validates `canonical.json` (required fields, score ranges,
+  contested entries unglossed, unique words, sources on every entry and form),
+  then bakes it into `lexicon.js`; `--check` validates only
 - `canonical.json` — accepted, verified entries (production lexicon)
 - `candidates.json` — research queue
 - `editorial.md` — editorial policy, criteria, and methodology
