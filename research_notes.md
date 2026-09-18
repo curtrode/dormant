@@ -110,8 +110,9 @@ historical knowledge.
 -   ~~Allow hedged ("perhaps") glosses for contested words?~~
     **Decided 2026-09-18: yes** — policy now in `editorial.md`
     (Contested Archaeology).
--   **Pending decision:** is parallel-language reading a second mode, or
-    the new direction the English lexicon feeds into?
+-   Is parallel-language reading a second mode, or the new direction the
+    English lexicon feeds into? **Leaning (2026-09-18): the direction
+    the lexicon feeds into.** Not final — confirm after the prototype.
 
 ------------------------------------------------------------------------
 
@@ -286,7 +287,16 @@ Suggested next step: a small prototype (2–3 hand-aligned English/Spanish
 passage pairs, hand-written glosses, side-by-side hover) to test whether
 the effect lands before changing the schema. **Open decision (user): a
 second mode alongside the English piece, or the new direction the
-English lexicon feeds into?**
+English lexicon feeds into?** User leaning (2026-09-18): *the direction
+the lexicon feeds into* — to be confirmed by the prototype.
+
+Consequence of the leaning for schema work: `elsewhere` (equivalents
+nested inside an English entry) is a stopgap. If other languages become
+first-class, a Spanish word needs its own verified entry, linked to
+English by a shared `concept` id. Design `elsewhere` so each item can
+later be promoted to a full entry (keep `language`, `word`, `gloss`,
+`verification_source`; add a `concept` id early) rather than building
+two incompatible structures.
 
 **Proposal — hedged theories for contested words (2026-09-18).
 ADOPTED 2026-09-18** (user decision; rule written into `editorial.md`).
@@ -363,6 +373,11 @@ Candidate next tasks (user to choose):
    is unblocked. Add the new fields to the validator's allowed list and
    require a `source` on every theory. Research sourced theories for
    girl, boy, bride, sycophant first.
+
+Direction: leaning toward parallel-language reading as where the
+lexicon leads (not final). Tasks 1 and 3 both point that way — the
+stir-fry's other-language layer and `elsewhere` data. Plan `concept`
+ids into any new schema.
 
 Smaller open items: broken glosses in running text (capital, cynic,
 desire, influence, possessives); singleton image families; re-score
