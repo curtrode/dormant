@@ -117,6 +117,8 @@ Both require a verification source like any other entry. See the
 - Geography, water, theater, knowledge (rival, trivial, person, encyclopedia)
 - Roads, gesture, enclosures, strife, mind (high-frequency pass: trodden
   path, standing-around, enclosed yard, confusion, carefree)
+- Chance, names, trees (modern-prose pass: fall of the dice, Fawkes
+  effigy, bark-store)
 
 Organize discoveries by these forgotten images rather than
 alphabetically.
@@ -168,7 +170,9 @@ Each entry should include:
 - `plural` (optional, nouns) — the gloss's plural when the last word
   cannot simply take -s (friend → *loving ones*).
 - `verb_gloss` (optional, non-verbs) — the gloss used when the word is
-  used as a verb (answer → *counter-oath*; answered → *swore against*).
+  used as a verb (answer → *counter-oath*; answered → *swore against*). Where
+  no verb image is attested, use the noun gloss itself as a verb (focus →
+  *hearth*, focused → *hearthed*); this adds no etymological claim.
 - `theories` (planned; contested entries only) — competing theories,
   each with a hedged `gloss`, a `summary` and a `source`.
 - `elsewhere` (planned) — Romance and Germanic equivalents, each with

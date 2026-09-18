@@ -401,11 +401,44 @@ Enclosures, Strife, Mind.
 reads fine). `frequency_score` for the new entries comes from the
 Gutenberg counts; the old entries still need re-scoring.
 
+### 2026-09-18 — Modern-prose pass (193 → 288 entries)
+
+The first pass used 19th-century novels, so this one screened the
+6,000 most frequent words in `wordfreq` (Speer et al.: subtitles, news,
+Wikipedia, web, social media) that were not yet in the lexicon. 96
+candidates, five `Explore` agents, etymonline + Wiktionary for each.
+
+**Added 94 glossed entries + 1 contested** (religion: Cicero's
+*relegere* 're-read' against the later *religare* 'bind back'). Words
+the novel corpus could not have surfaced: video → *I-see*, guy →
+*Fawkes effigy*, phone → *far voice*, data → *given things*, kid →
+*young goat*, worry → *strangle*, nice → *not-knowing*, sad → *sated*,
+smart → *stinging*, weird → *fateful*, bus → *for-all*, gas → *chaos*,
+map → *world-cloth*, dollar → *valley coin*, cancer → *crab*, library →
+*bark-store*, test → *assay pot*, average → *cargo damage*, check →
+*king*. Modern coverage (wordfreq-weighted, all entries firing): 21.0 →
+40.3 recoverable words per 1,000.
+
+**Held:** place (the verb 'placed' leaves *broad street*
+ungrammatical), island (the water image is only Proto-Germanic), fan
+(fanatic 'temple-mad' only 'probably'). **Adjusted from drafts:**
+economy *household management* (not 'law'), credit *thing entrusted*
+(not 'believed'), phone *far voice* (a clipping of telephone), photo
+*light-writing*, travel *toil* (the tripalium torture story is
+disputed), theory *looking-at*, weird *fateful*, education *rearing*
+('draw out' is a popular misreading).
+
+**Policy used:** where a noun gloss has no attested verb, the verb gloss
+is the same noun used as a verb (focus → *hearth* / *hearthed*; score →
+*notch*; check → *king*). This makes no new etymological claim.
+Page: recognizes 'paid' and verb cues like *don't*; new irregular pasts
+(struck, went). New image families: Chance, Names, Trees.
+
 ------------------------------------------------------------------------
 
 ## Start Here (as of 2026-09-18)
 
-State: 193 verified entries (9 contested) + 19 derived forms; three sample
+State: 288 verified entries (10 contested) + 19 derived forms; three sample
 passages; `build_lexicon.py` validates before building. Everything pushed.
 
 Candidate next tasks (user to choose):
@@ -424,10 +457,10 @@ Candidate next tasks (user to choose):
    share poems beyond the clipboard. Observed: fully stirred to roots,
    the passage becomes a pidgin of Old Norse, Latin, Old English and
    Greek (*the húsbóndi sat at the vindauga*).
-2. **High-frequency research pass — first round done 2026-09-18**
-   (+87 entries; see log). Next round: re-run the frequency screen on
-   modern prose (the Gutenberg corpus is 19th-century), and look at the
-   held words again.
+2. **High-frequency research — two rounds done 2026-09-18** (novels,
+   then modern prose via `wordfreq`; see log). Coverage of modern
+   English ~40 words per 1,000. Held words listed in the log. Next
+   round could go deeper down the wordfreq list (ranks 1,500–6,000).
 3. **Contested-words feature** — `theories` / `elsewhere` fields. The
    hedged-gloss policy is now decided (yes; see `editorial.md`), so this
    is unblocked. Add the new fields to the validator's allowed list and

@@ -198,7 +198,7 @@
   // that produced it (lightweight morphology). "s" is ambiguous (plural noun
   // or 3rd-person verb) and resolved later by part of speech.
   // Irregular verb forms the suffix rules cannot reach.
-  var IRREG_FORMS = {wrote:"write", written:"write", sold:"sell"};
+  var IRREG_FORMS = {wrote:"write", written:"write", sold:"sell", paid:"pay"};
 
   function lemmas(w){
     w = w.toLowerCase();
@@ -222,7 +222,8 @@
   // Words that signal a verb follows ("they answer", "to answer", "did not answer").
   var VERB_CUES = {i:1, you:1, we:1, they:1, he:1, she:1, it:1, to:1, will:1, would:1, shall:1,
                    should:1, can:1, could:1, may:1, might:1, must:1, did:1, do:1, does:1, not:1,
-                   never:1, also:1};
+                   never:1, also:1, "don't":1, "doesn't":1, "didn't":1, "won't":1, "can't":1,
+                   "wouldn't":1, "i'll":1, "we'll":1, "you'll":1};
   // A noun entry with a verb_gloss switches to it when the word is used as a
   // verb: always after -ed/-ing, and after a verb cue for the bare or -s form.
   function asVerb(entry, infl, before){
@@ -247,7 +248,7 @@
   var IRREG_PLURAL = {mouse:"mice", man:"men"};
   var IRREG_PAST   = {make:"made", come:"came", take:"took", cut:"cut", put:"put", sit:"sat",
                       swear:"swore", slip:"slipped", unbuild:"unbuilt", send:"sent", see:"saw",
-                      say:"said", sing:"sang", give:"gave", tread:"trod", hang:"hung", throw:"threw"};
+                      say:"said", sing:"sang", give:"gave", strike:"struck", go:"went", tread:"trod", hang:"hung", throw:"threw"};
   var IRREG_GERUND = {cut:"cutting", put:"putting", sit:"sitting", slip:"slipping"};
   var NO_INFLECT_VERB = {from:1};                    // gloss not headed by a verb (desire -> from the stars)
   var NO_INFLECT   = {money:1, news:1, pain:1, white:1, hand:1, salt:1}; // mass/adjectival heads

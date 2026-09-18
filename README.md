@@ -5,12 +5,14 @@ replaces a common English word with the literal meaning of its etymological
 roots (window → *wind eye*, mortgage → *death pledge*), making ordinary prose
 briefly strange without becoming unintelligible.
 
-193 verified entries as of 2026-09-18 (plus 19 derived forms such as
+288 verified entries as of 2026-09-18 (plus 19 derived forms such as
 government, president and company), spanning Old English/Norse household
 and kinship terms, Latin/Greek abstractions, law & religion, medicine,
-trade & textiles, and measurement. A high-frequency pass (world → *age of
-man*, friend → *loving one*, answer → *counter-oath*) raised coverage of
-ordinary prose to about 25 recovered words per 1,000. See `research_notes.md` for the session
+trade & textiles, and measurement. Two high-frequency passes — one on
+19th-century novels (world → *age of man*, answer → *counter-oath*), one
+on modern English (video → *I-see*, worry → *strangle*, phone → *far
+voice*) — raised coverage of modern prose to about 40 recovered words
+per 1,000. See `research_notes.md` for the session
 log and open research domains.
 
 ## The piece
