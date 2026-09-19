@@ -17,7 +17,7 @@ log and open research domains.
 
 ## The piece
 
-`index.html` is the electronic-literature piece. Open it in a browser: paste
+`docs/index.html` is the electronic-literature piece. Open it in a browser: paste
 your own prose or pick a sample passage, and it renders a **translation** (roots
 recovered) above your **original** text. Hover a recovered word to see the
 source word and its etymon. Contested words are marked but never
@@ -34,15 +34,17 @@ reading, and hedged theories for contested words (now approved: sourced
 theories, always marked "perhaps"). See **Start Here** at the end
 of `research_notes.md`.
 
-Runs from `file://` with no server — just open `index.html`.
+Runs from `file://` with no server — just open `docs/index.html`. The same
+folder is what GitHub Pages publishes (Settings → Pages → main / docs), so the
+piece is also live on the web; nothing else in the repository is served.
 
 ## Files
 
-- `index.html` — the electronic-literature piece
-- `lexicon.js` — generated lexicon data (run `python3 build_lexicon.py` to rebuild from `canonical.json`)
+- `docs/index.html` — the electronic-literature piece, and what Pages serves
+- `docs/lexicon.js` — generated lexicon data (run `python3 build_lexicon.py` from the repository root to rebuild from `canonical.json`)
 - `build_lexicon.py` — validates `canonical.json` (required fields, score ranges,
   contested entries unglossed, unique words, sources on every entry and form),
-  then bakes it into `lexicon.js`; `--check` validates only
+  then bakes it into `docs/lexicon.js`; `--check` validates only
 - `canonical.json` — accepted, verified entries (production lexicon)
 - `candidates.json` — research queue
 - `editorial.md` — editorial policy, criteria, and methodology
