@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>dormant: a bleed study</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --wall:#dcd8ce; --ink:#2a2622; --faint:#6c655a; --ghost:#8a3a2c;
+    --panel:#e6e2d8; --rule:#c3bdb0; --focus:#8a3a2c;
+    --ghost-o:.62; --contested-o:.34;
+    color-scheme: light;
+    box-sizing:border-box;
+    padding-top:env(safe-area-inset-top,0px);
+    padding-bottom:env(safe-area-inset-bottom,0px);
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --wall:#22211d; --ink:#e7e2d6; --faint:#9b9486; --ghost:#d27d63;
+      --panel:#2b2925; --rule:#45423b; --focus:#d27d63;
+      --ghost-o:.58; --contested-o:.32; color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"]{
+    --wall:#22211d; --ink:#e7e2d6; --faint:#9b9486; --ghost:#d27d63;
+    --panel:#2b2925; --rule:#45423b; --focus:#d27d63;
+    --ghost-o:.58; --contested-o:.32; color-scheme: dark;
+  }
+  html{scroll-padding-top:env(safe-area-inset-top,0px)}
+  *,*::before,*::after{box-sizing:border-box}
+  html,body{margin:0}
+  body{
+    background:var(--wall); color:var(--ink);
+    font-family:"Iowan Old Style","Palatino Linotype",Palatino,"Book Antiqua",Georgia,serif;
+    -webkit-font-smoothing:antialiased; min-height:100vh; position:relative;
+  }
+  /* limewash grain on the wall */
+  body::before{
+    content:""; position:absolute; inset:0; pointer-events:none; opacity:.28; mix-blend-mode:multiply;
+    background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='240' height='240'><filter id='g'><feTurbulence type='fractalNoise' baseFrequency='.75' numOctaves='3' seed='7'/><feColorMatrix values='0 0 0 0 .45  0 0 0 0 .42  0 0 0 0 .38  0 0 0 .9 0'/></filter><rect width='100%' height='100%' filter='url(%23g)'/></svg>");
+  }
+  @media (prefers-color-scheme: dark){ :root:not([data-theme="light"]) body::before{mix-blend-mode:screen;opacity:.09} }
+  :root[data-theme="dark"] body::before{mix-blend-mode:screen;opacity:.09}
+
+  main{position:relative;max-width:40rem;margin:0 auto;padding:clamp(40px,8vh,88px) 22px 72px}
+  header{margin-bottom:clamp(28px,5vh,48px)}
+  h1{margin:0;font-weight:400;font-size:15px;color:var(--faint);letter-spacing:.02em}
+  .lede{margin:6px 0 0;font-size:15px;line-height:1.55;color:var(--faint);max-width:34rem}
+
+  .poem{
+    font-size:clamp(17px, 1.1vw + 12px, 21px);
+    line-height:3.05; margin:0; padding:0;
+  }
+  .poem .line{display:block}
+
+  .lex{position:relative;display:inline-block;line-height:1.2;border-radius:2px}
+  .ghost{
+    position:absolute; left:50%; bottom:100%; transform:translate(calc(-50% + var(--dx,0px)), calc(.1em - var(--lift,0em)));
+    white-space:nowrap; pointer-events:none;
+    font-family:"Big Shoulders Display","Arial Narrow","Roboto Condensed",sans-serif;
+    font-weight:600; font-size:.74em; letter-spacing:.035em; line-height:1;
+    color:var(--ghost); opacity:0; filter:blur(7px);
+    transition:opacity 2.6s ease, filter 2.6s ease;
+    -webkit-mask-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='180' height='70'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' seed='11'/><feColorMatrix values='0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  2.2 0 0 0 -.55'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+            mask-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='180' height='70'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' seed='11'/><feColorMatrix values='0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  2.2 0 0 0 -.55'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+  }
+  .ghost.contested{font-weight:500;letter-spacing:.12em}
+  .lex.risen .ghost{opacity:var(--ghost-o);filter:blur(.35px)}
+  .lex.risen .ghost.contested{opacity:var(--contested-o);filter:blur(.9px)}
+  .fading .lex .ghost{transition:opacity 1.4s ease, filter 1.4s ease}
+
+  .lex.stirrable{cursor:pointer;text-decoration:underline dotted;text-decoration-color:var(--rule);text-underline-offset:.28em}
+  .lex.stirrable:hover{text-decoration-color:var(--ghost)}
+  .lex.active{text-decoration:underline solid;text-decoration-color:var(--ghost)}
+  .lex:focus-visible, button:focus-visible{outline:2px solid var(--focus);outline-offset:3px}
+
+  .controls{margin-top:clamp(28px,5vh,44px);display:flex;flex-wrap:wrap;gap:12px 16px;align-items:center}
+  button{
+    font:inherit;font-size:15px;cursor:pointer;color:var(--ink);background:transparent;
+    border:1px solid var(--ink);border-radius:999px;padding:9px 20px;
+  }
+  button.quiet{border-color:var(--rule);color:var(--faint)}
+  button[disabled]{opacity:.45;cursor:default}
+  .status{font-size:14px;color:var(--faint);font-style:italic;min-height:1.4em}
+
+  .reveal{
+    margin-top:26px;padding:18px 20px 20px;background:var(--panel);border-left:3px solid var(--ghost);
+    max-width:34rem;display:none
+  }
+  .reveal.on{display:block}
+  .reveal .w{font-size:20px;margin:0}
+  .reveal .g{
+    font-family:"Big Shoulders Display","Arial Narrow",sans-serif;font-weight:600;
+    color:var(--ghost);font-size:24px;letter-spacing:.03em;margin:2px 0 10px;line-height:1.15
+  }
+  .reveal p{margin:6px 0 0;font-size:15.5px;line-height:1.6}
+  .reveal .from{color:var(--faint)}
+
+  @media (prefers-reduced-motion: reduce){
+    .ghost, .fading .lex .ghost{transition:opacity .5s linear, filter .5s linear}
+  }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>dormant: a bleed study</h1>
+    <p class="lede">A finished poem, written with at least one dormant word in every line. When you're ready, let the wall show what's underneath.</p>
+  </header>
+
+  <div class="poem" id="poem" aria-live="off"></div>
+
+  <div class="controls">
+    <button id="primary" type="button">Let it bleed</button>
+    <button id="reset" type="button" class="quiet" hidden>Start over</button>
+    <span class="status" id="status" aria-live="polite"></span>
+  </div>
+
+  <section class="reveal" id="reveal" aria-live="polite"></section>
+</main>
+
+<script>
+const LEX = {"window":{"gloss":"wind eye","etymon":"vindauga","language":"Old Norse","note":"vindr 'wind' + auga 'eye'.","type":"literal"},
+"consider":{"gloss":"observe the stars","etymon":"considerāre","language":"Latin","note":"com + sidus 'star'; an astrological, augural metaphor.","type":"conceptual"},
+"comet":{"gloss":"long-haired star","etymon":"komētēs","language":"Greek","note":"komē 'hair'; named for its trailing tail.","type":"literal"},
+"orchard":{"gloss":"wort yard","etymon":"ortġeard","language":"Old English","note":"An enclosed place of plants.","type":"literal"},
+"mortgage":{"gloss":"death pledge","etymon":"mort gage","language":"Old French","note":"mort 'dead' + gage 'pledge'.","type":"literal"},
+"month":{"gloss":"moon","etymon":"mōnaþ","language":"Old English","note":"Kin to mōna 'moon': one new moon to the next.","type":"literal"},
+"neighbor":{"gloss":"near dweller","etymon":"nēahġebūr","language":"Old English","note":"nēah 'near' + ġebūr 'dweller'.","type":"literal"},
+"chance":{"gloss":"fall of the dice","etymon":"cheance","language":"Old French","note":"Vulgar Latin *cadentia, from cadere 'to fall'.","type":"conceptual"},
+"nostalgia":{"gloss":"homecoming pain","etymon":"nostalgia","language":"Modern Latin","note":"Greek nostos 'homecoming' + algos 'pain'.","type":"literal"},
+"disaster":{"gloss":"ill star","etymon":"disastro","language":"Italian","note":"Attributed to an unfavorable star.","type":"conceptual"},
+"companion":{"gloss":"one who shares bread","etymon":"companiōnem","language":"Latin","note":"com + panis 'bread'.","type":"literal"},
+"clock":{"gloss":"bell","etymon":"clocca","language":"Medieval Latin","note":"clocca 'bell', probably Celtic.","type":"literal"},
+"answer":{"gloss":"counter-oath","verb_gloss":"swear against","etymon":"andswaru","language":"Old English","note":"and- 'against' + swaru 'affirmation, oath': a sworn rebuttal.","type":"literal"},
+"pay":{"gloss":"pacify","etymon":"pācāre","language":"Latin","note":"pax 'peace': to pacify a creditor.","type":"literal"},
+"sky":{"gloss":"cloud","etymon":"ský","language":"Old Norse","note":"ský 'cloud'.","type":"literal"},
+"calm":{"gloss":null,"etymon":"calme","language":"Middle French","note":"Origin disputed.","type":"contested"},
+"explain":{"gloss":"flatten out","etymon":"explānāre","language":"Latin","note":"ex- 'out' + planus 'flat'.","type":"literal"},
+"daisy":{"gloss":"day's eye","etymon":"dæges ēage","language":"Old English","note":"The flower opens by day.","type":"literal"},
+"world":{"gloss":"age of man","etymon":"weorold","language":"Old English","note":"wer 'man' + ald 'age': the lifetime of humankind.","type":"literal"},
+"precarious":{"gloss":"obtained by prayer","etymon":"precārius","language":"Latin","note":"prex 'prayer'; held only at another's pleasure.","type":"conceptual"},
+"glad":{"gloss":"shining","etymon":"glæd","language":"Old English","note":"glæd 'bright, shining'.","type":"literal"}};
+
+/* {word} marks a lexicon word; {word:verb} uses the verb gloss */
+const POEM = [
+  "The {window} holds what's left of afternoon.",
+  "You {consider} the {comet}, low above the {orchard},",
+  "and I think of the {mortgage} we signed in the {month} of rain.",
+  "A {neighbor} calls it luck. I call it {chance}.",
+  "{Nostalgia} is the {disaster} I keep choosing:",
+  "the {companion} across the table, breaking bread,",
+  "the {clock} that says nothing I can {answer:verb}.",
+  "What we {pay} for light, the {sky} keeps anyway.",
+  "The {calm} after, which no one can {explain}.",
+  "Still, each morning the {daisy} opens its one eye,",
+  "and the {world} goes on, {precarious}, and {glad}."
+];
+
+const poemEl = document.getElementById('poem');
+const primary = document.getElementById('primary');
+const resetBtn = document.getElementById('reset');
+const statusEl = document.getElementById('status');
+const reveal = document.getElementById('reveal');
+const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+const tokens = [];
+
+function esc(s){return s.replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
+
+POEM.forEach(line=>{
+  const html = esc(line).replace(/\{([^}:]+)(?::(verb))?\}/g,(m,word,verb)=>{
+    const key = word.toLowerCase(), e = LEX[key];
+    if(!e) return word;
+    const contested = e.type==='contested';
+    const ghost = contested ? 'origin contested' : (verb && e.verb_gloss ? e.verb_gloss : e.gloss);
+    return `<span class="lex" data-key="${key}" data-verb="${verb?1:0}"><span class="ghost${contested?' contested':''}" aria-hidden="true">${esc(ghost)}</span>${word}</span>`;
+  });
+  const div = document.createElement('span');
+  div.className='line'; div.innerHTML = html;
+  poemEl.appendChild(div);
+});
+poemEl.querySelectorAll('.lex').forEach(t=>tokens.push(t));
+
+let state = 'surface', timers = [];
+function layoutGhosts(){
+  const box = poemEl.getBoundingClientRect(), pad = 2;
+  const ghosts = tokens.map(t=>t.querySelector('.ghost'));
+  ghosts.forEach(g=>{g.style.setProperty('--dx','0px');g.style.setProperty('--lift','0em')});
+  const info = ghosts.map(g=>{
+    const r = g.getBoundingClientRect(); let dx = 0;
+    if(r.left < box.left - 8) dx = (box.left - 8) - r.left;
+    if(r.right + dx > box.right + 8) dx = (box.right + 8) - r.right;
+    g.style.setProperty('--dx', dx+'px');
+    return {g, left:r.left+dx, right:r.right+dx, row:Math.round(g.parentElement.getBoundingClientRect().top)};
+  });
+  const rows = {};
+  info.forEach(o=>(rows[o.row] ||= []).push(o));
+  Object.values(rows).forEach(list=>{
+    list.sort((a,b)=>a.left-b.left);
+    const tierEnd=[-Infinity,-Infinity];
+    list.forEach(o=>{
+      let tier = o.left >= tierEnd[0]+pad*4 ? 0 : (o.left >= tierEnd[1]+pad*4 ? 1 : 0);
+      tierEnd[tier] = Math.max(tierEnd[tier], o.right);
+      if(tier) o.g.style.setProperty('--lift','.82em');
+    });
+  });
+}
+(document.fonts ? document.fonts.ready : Promise.resolve()).then(layoutGhosts);
+let rz; addEventListener('resize',()=>{clearTimeout(rz);rz=setTimeout(layoutGhosts,120)});
+
+const wait = ms => new Promise(r=>timers.push(setTimeout(r,ms)));
+function clearTimers(){timers.forEach(clearTimeout);timers=[]}
+
+async function bleed(){
+  state='bleeding'; poemEl.classList.remove('fading');
+  primary.disabled=true; resetBtn.hidden=true; statusEl.textContent='';
+  await wait(reduce?400:1800);
+  let i=0;
+  while(i<tokens.length){
+    const n = 2 + Math.floor(Math.random()*2);          // two or three at a time
+    const batch = tokens.slice(i,i+n); i+=n;
+    batch.forEach((t,k)=>timers.push(setTimeout(()=>{
+      t.classList.add('risen'); t.querySelector('.ghost').removeAttribute('aria-hidden');
+    }, reduce?0:k*220)));
+    await wait(reduce?180:1150);
+  }
+  await wait(reduce?300:1600);
+  state='risen';
+  tokens.forEach(t=>{t.classList.add('stirrable');t.tabIndex=0;t.setAttribute('role','button')});
+  primary.textContent='Fade the ghosts'; primary.disabled=false; resetBtn.hidden=false;
+  statusEl.textContent='Touch any word with a ghost to look closer.';
+}
+
+function fade(){
+  state='faded'; poemEl.classList.add('fading');
+  tokens.forEach(t=>{t.classList.remove('risen','active');t.querySelector('.ghost').setAttribute('aria-hidden','true')});
+  closeReveal();
+  primary.textContent='Bleed again'; statusEl.textContent='';
+}
+
+function startOver(){
+  clearTimers(); fade(); state='surface';
+  tokens.forEach(t=>{t.classList.remove('stirrable');t.removeAttribute('tabindex');t.removeAttribute('role')});
+  primary.textContent='Let it bleed'; primary.disabled=false; resetBtn.hidden=true;
+}
+
+function closeReveal(){reveal.classList.remove('on');reveal.innerHTML='';tokens.forEach(t=>t.classList.remove('active'))}
+
+function stir(t){
+  if(state!=='risen') return;
+  const e = LEX[t.dataset.key], verb = t.dataset.verb==='1';
+  tokens.forEach(x=>x.classList.toggle('active', x===t));
+  const surface = t.lastChild.textContent;
+  let body;
+  if(e.type==='contested'){
+    body = `<p class="g">origin contested</p>
+      <p>Scholars disagree about what <i>${esc(surface.toLowerCase())}</i> first meant. Its trail runs back to Middle French <i>${esc(e.etymon)}</i> and goes cold there.</p>`;
+  } else {
+    const shown = verb && e.verb_gloss ? e.verb_gloss : e.gloss;
+    const other = verb && e.verb_gloss ? `<p class="from">As a noun, the ghost is <i>${esc(e.gloss)}</i>.</p>` : '';
+    body = `<p class="g">${esc(shown)}</p>
+      <p class="from">From ${esc(e.language)} <i>${esc(e.etymon)}</i>.</p>
+      <p>${esc(e.note)}</p>${other}`;
+  }
+  reveal.innerHTML = `<p class="w">${esc(surface)}</p>${body}`;
+  reveal.classList.add('on');
+}
+
+tokens.forEach(t=>{
+  t.addEventListener('click',()=>stir(t));
+  t.addEventListener('keydown',ev=>{if(ev.key==='Enter'||ev.key===' '){ev.preventDefault();stir(t)}});
+});
+primary.addEventListener('click',()=>{
+  if(state==='surface'||state==='faded') bleed(); else if(state==='risen') fade();
+});
+resetBtn.addEventListener('click',startOver);
+</script>
+</body>
+</html>
