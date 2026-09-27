@@ -449,9 +449,36 @@ order "Stir all" so the strongest images turn first. The hedged-gloss
 rule in `editorial.md` now says theories surface only when the reader
 stirs the word or opens the reveal.
 
+### 2026-09-26 — Homonym collection begun
+
+A separate chat session (handoff in `homonyms/homonyms_handoff.md`)
+proposed a standalone **homonym collection**. The idea is that one
+spelling can hold unrelated pasts (mint → *Juno's warning-temple* / *the
+herb*), and the piece presents both instead of choosing one. It comes
+with a drafted **Homonymous Archaeology** clause for `editorial.md`, not
+yet added. This session regenerated the 1,560-word candidate list
+(`find_homonym_candidates.py`, from droher/etymology-db, Zipf ≥ 3.0).
+It then cut the list with `filter_homonym_candidates.py`, which reads
+each word's Wiktionary page. A word stays when it has two or more
+numbered etymologies with current senses that descend from different
+roots. 1,560 → 374 (`dormant_homonym_shortlist.csv`). Every known
+homonym survives (bank, mint, grave, school, sound, date, host, quarry,
+policy, fair, temple, bark, fan, guy). Pupil, minute, kind and salary
+drop out, correctly, as one root each. Cleave is still missing: it
+never made the candidate list. Noise remains for the hand cull (*on*,
+*son*, *mother*, *media*, *house*).
+
+User is marking keep / maybe / reject on a review page
+(https://claude.ai/artifact/ShrW4a4jZmLZUWAjBn2kVZ; marks are kept in
+the page's `marks` database). Also discussed: slang is admissible under
+the existing criteria. It usually fails on secure etymology, but *kid*
+and *guy* are already in; *pal*, *chum*, *boss*, *booze*, *jeans* and
+*buck* are candidates. Sense-flip slang (*sick*, *wicked*) is out,
+because it has no buried image.
+
 ------------------------------------------------------------------------
 
-## Start Here (as of 2026-09-18, end of session)
+## Start Here (as of 2026-09-26, end of session)
 
 State: 288 verified entries (278 glossed, 10 contested) + 19 derived
 forms = 307 words; ~40 recovered words per 1,000 in modern English.
@@ -459,9 +486,11 @@ forms = 307 words; ~40 recovered words per 1,000 in modern English.
 root → image), with *Translate* as the second view; no estrangement
 dial. `build_lexicon.py` validates before building. Everything pushed.
 
-This session: hedged glosses approved; stir-fry built, paused, and now
-viable; two high-frequency passes (106 → 288); dial removed. See the
-2026-09-18 log entries above.
+Last session (2026-09-26): homonym collection begun in `homonyms/`.
+374-word Wiktionary shortlist, now under hand review; nothing added to
+`canonical.json`. See the 2026-09-26 log entry above and
+`homonyms/homonyms_handoff.md`. (2026-09-18: hedged glosses approved,
+stir-fry built, two high-frequency passes 106 → 288, dial removed.)
 
 Candidate next tasks (user to choose):
 
@@ -479,6 +508,14 @@ Candidate next tasks (user to choose):
 3. **More coverage** — deeper down the `wordfreq` list (ranks
    1,500–6,000); revisit held words (place, island, fan, believe,
    doubt, satisfy, peculiar …, reasons in the logs).
+4. **Homonyms.** Once the user has marked the shortlist, read the marks
+   (review page linked in the 2026-09-26 log). Draft and verify both
+   histories and their images for the keeps and maybes. Before any
+   entry lands, the user decides: the `build_lexicon.py` change so one
+   spelling can hold several entries; adding the Homonymous Archaeology
+   clause; how the ghosts render (light direction picks one, or both
+   tangled); whether polysemy renders differently; ratifying the Zipf
+   3.0 cutoff.
 
 **Pending decision (user):** the zero-derivation verb gloss — a noun
 gloss used as a verb where no verb image is attested (focused →
