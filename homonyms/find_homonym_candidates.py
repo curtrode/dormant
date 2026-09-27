@@ -1,4 +1,4 @@
-import pandas as pd, unicodedata, re, difflib, json
+import pandas as pd, unicodedata, re, difflib, json, os
 from wordfreq import zipf_frequency
 D={'inherited_from','borrowed_from','derived_from','learned_borrowing_from','has_root',
    'semi_learned_borrowing_from','orthographic_borrowing_from'}
@@ -22,7 +22,7 @@ def distinct(ts):
         if not any(difflib.SequenceMatcher(None,n,r[1]).ratio()>=0.8 for r in reps): reps.append((raw,n))
     return [r[0] for r in reps]
 dormant=set()
-for e in json.load(open('dormant/canonical.json'))['entries']:
+for e in json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)),'..','canonical.json')))['entries']:
     dormant.add(e['word'].lower()); dormant.update(f['word'].lower() for f in e.get('forms',[]))
 rows=[]
 for w,g in d.groupby('term'):
@@ -41,7 +41,7 @@ for w,g in d.groupby('term'):
                  'distinct_etyma':' | '.join(f'{f}: '+' / '.join(v) for f,v in sorted(split.items())),
                  'in_dormant':w in dormant})
 out=pd.DataFrame(rows).sort_values(['tier','zipf'],ascending=[True,False])
-out.to_csv('candidates_raw.csv',index=False)
+out.to_csv(os.path.join(os.path.dirname(os.path.abspath(__file__)),'dormant_homonym_candidates.csv'),index=False)
 print(len(out)); print(out.split_in.value_counts().head(8))
 test=['bank','mint','grave','school','sound','date','host','quarry','policy','fair','temple','bark','cleave','kind','salary','pupil']
 print(out[out.word.isin(test)][['tier','word','distinct_etyma']].to_string()); print(out.tier.value_counts())

@@ -1,0 +1,1561 @@
+tier,word,zipf,split_in,distinct_etyma,in_dormant
+A,and,7.41,"Old Norse, Proto-Germanic",Old Norse: andi / anda | Proto-Germanic: *andi / *anadô,False
+A,is,7.07,Proto-Germanic,Proto-Germanic: *isti / *wesaną,False
+A,on,6.91,"Old Norse, PIE, Proto-Germanic",Old Norse: upp á / ón | PIE: *h₂en- / *ḗnu | Proto-Germanic: *ana / *ēnu,False
+A,this,6.82,PIE,PIE: *tód / *só,False
+A,was,6.82,PIE,PIE: *h₂wes- / *bʰuH- / *h₁es-,False
+A,be,6.79,"PIE, Proto-Germanic",PIE: *bʰuH- / *h₁es- / *h₂wes- | Proto-Germanic: *beuną / *wesaną,False
+A,are,6.74,Proto-Germanic,Proto-Germanic: *arun / / / *wesaną / *aizō,False
+A,his,6.51,Proto-Germanic,Proto-Germanic: *hes / *hiz,False
+A,just,6.43,"Latin, PIE",Latin: iūstus / iuxta | PIE: *h₂yew- / *-tós,False
+A,like,6.41,"Old Norse, Proto-Germanic",Old Norse: líkr / líka | Proto-Germanic: *līkāną / *galīkaz / *galīkê,False
+A,more,6.36,"PIE, Proto-Germanic",PIE: *mē- / *merk- | Proto-Germanic: *maizô / *murhǭ,False
+A,do,6.35,"PIE, Proto-Germanic",PIE: *dʰeh₁- / *dʰédʰeh₁ti | Proto-Germanic: *dōną / *dedǭ,False
+A,first,6.11,"PIE, Proto-Germanic",PIE: *preh₂- / *per- / *pres- | Proto-Germanic: *furistaz / *fur,False
+A,see,6.1,"Old English vs French, PIE",Old English vs French: sēon / sie | PIE: *sekʷ- / *sed-,False
+A,over,6.08,Proto-Germanic,Proto-Germanic: *uber / *ōferaz,False
+A,want,6.04,Proto-Germanic,Proto-Germanic: *wanatōną / *wanduz,False
+A,go,6.03,PIE,PIE: *ǵʰeh₁- / *wendʰ-,False
+A,well,6.03,Proto-Germanic,Proto-Germanic: *wela / *wallijǭ / *wallijaną,False
+A,need,5.97,"PIE, Proto-Germanic",PIE: *neh₂w- / *new- | Proto-Germanic: *naudiz / *neudaz,False
+A,right,5.96,"PIE, Proto-Germanic",PIE: *h₃reǵ- / *h₃reǵtós | Proto-Germanic: *rehtaz / *rihtijaną,False
+A,through,5.87,"PIE, Proto-Germanic",PIE: *terh₂- / *tr̥h₂kʷe / *terh₃u- | Proto-Germanic: *þurhw / *þrūhs,False
+A,long,5.81,"PIE, Proto-Germanic",PIE: *dlongʰos / *lengʷʰ- | Proto-Germanic: *langaz / *langōną,False
+A,use,5.81,Latin,Latin: ūsus / *usare / uti,False
+A,same,5.8,"PIE, Proto-Germanic",PIE: *sem- / *somHós | Proto-Germanic: *samaz / *samanai,False
+A,every,5.79,PIE,PIE: *perkʷ- / *h₂ey- / *kʷ- / *leyg-,False
+A,school,5.71,"PIE, Proto-Germanic",PIE: *(s)kʷel- / *seǵʰ- | Proto-Germanic: *skulō / *skōla,True
+A,each,5.69,PIE,PIE: *h₂ey- / *kʷ- / *leyg-,False
+A,big,5.67,Proto-Germanic,Proto-Germanic: *bugja- / *bewwuz,False
+A,ever,5.66,PIE,PIE: *perkʷ- / *h₂ey-,False
+A,free,5.63,"PIE, Proto-Germanic",PIE: *preyH- / *priHós | Proto-Germanic: *frijaz / *frijōną,True
+A,real,5.6,"Latin, PIE",Latin: reālis / rēs | PIE: *reh₁ís / *h₃reǵ-,False
+A,set,5.59,"PIE, Proto-Germanic",PIE: *sed- / *sodéyeti | Proto-Germanic: *satjaną / *setą,False
+A,god,5.57,PIE,PIE: *ǵʰew- / *ǵʰutós,False
+A,case,5.55,"Latin, PIE",Latin: cāsus / capsa | PIE: *ḱh₂d- / *-tus / *keh₂p-,True
+A,full,5.54,"PIE, Proto-Germanic",PIE: *pleh₁- / *pl̥h₁nós / *plūno- | Proto-Germanic: *fullaz / *fullį̄ / *fullawīhōną,False
+A,read,5.54,PIE,PIE: *h₂er- / *Hreh₁dʰ-,False
+A,yet,5.54,"PIE, Proto-Germanic",PIE: *h₂yew- / *do / *ǵʰewd- | Proto-Germanic: *juta / *ta / *geutaną,False
+A,mean,5.53,"Old English vs French, Proto-Germanic",Old English vs French: mǣnan / meien | Proto-Germanic: *mainijaną / *gamainiz,False
+A,tell,5.53,"Arabic, Proto-Germanic",Arabic: تَلّ / ت ل ل‎ | Proto-Germanic: *taljaną / *talą,False
+A,water,5.52,"PIE, Proto-Germanic",PIE: *wed- / *wódr̥ | Proto-Germanic: *watōr / *watrōną,False
+A,head,5.51,PIE,PIE: *keh₂p- / *káput-,False
+A,though,5.5,"PIE, Proto-Germanic",PIE: *to- / *-kʷe | Proto-Germanic: *þauh / *-hw,False
+A,service,5.49,"Latin, Old English vs French",Latin: servitium / *sorbea / sorbus | Old English vs French: syrfe / servise,False
+A,thank,5.48,"PIE, Proto-Germanic",PIE: *teng- / *tong- | Proto-Germanic: *þankaz / *þankōną,False
+A,law,5.46,"Old Norse, PIE",Old Norse: lǫg / lag | PIE: *legʰ- / *ḱley-,True
+A,course,5.44,PIE,PIE: *ḱers- / *-tus,False
+A,book,5.43,Proto-Germanic,Proto-Germanic: *bōks / *bakaną,True
+A,young,5.43,PIE,PIE: *h₂ey- / *h₂yuh₁n̥ḱós,False
+A,control,5.4,Latin,Latin: contrarotulum / contra / rotulus / rotula,True
+A,death,5.4,PIE,PIE: *dʰew- (die) / *-tus / *dʰówtus,False
+A,guy,5.4,Proto-Germanic,Proto-Germanic: *Wido / *widuz / *wītaną,True
+A,room,5.39,PIE,PIE: *rowə- / *rewh₁-,False
+A,win,5.39,Proto-Germanic,Proto-Germanic: *winnaną / *wunjō,False
+A,hit,5.37,"PIE, Proto-Germanic",PIE: *kh₂eyd- / *ḱe- | Proto-Germanic: *hittijaną / *hit,False
+A,community,5.34,PIE,PIE: *mey- (change) / *-teh₂ts / *ḱóm,False
+A,leave,5.34,"PIE, Proto-Germanic",PIE: *leyp- / *lewbʰ- | Proto-Germanic: *laibijaną / *laubō,False
+A,either,5.33,PIE,PIE: *h₂ey- / *kʷ- / *-teros,False
+A,light,5.33,"PIE, Proto-Germanic",PIE: *lewk- / *lewktom | Proto-Germanic: *leuhtą / *liuhtijaną,False
+A,low,5.33,"Old Norse, PIE, Proto-Germanic",Old Norse: lágr / logi | PIE: *legʰ- / *kelh₁- / *lewk- / *ḱley- | Proto-Germanic: *lēgaz / *hlōaną / *lugô / *hlaiwaz,False
+A,million,5.33,PIE,PIE: *sem- / *ǵʰes-,True
+A,stay,5.33,"Frankish, Old English vs French, PIE, Proto-Germanic",Frankish: *stad / *staku | Old English vs French: stæġ / estayer | PIE: *steh₂- / *stéh₂tis / *(s)teg- / *stek- | Proto-Germanic: *stadiz / *stakô / *stagą / *staigilaz,False
+A,deal,5.32,Proto-Germanic,Proto-Germanic: *dailiz / *dailijaną / *þiljǭ,False
+A,soon,5.32,Proto-Germanic,Proto-Germanic: *sēna / *suniz,False
+A,turn,5.32,"Latin, Old English vs French",Latin: tornāre / turnus | Old English vs French: turnian / torner,False
+A,whether,5.32,PIE,PIE: *kʷ- / *-teros,False
+A,easy,5.29,"Old English vs French, PIE",Old English vs French: īeþe / eiser | PIE: *(H)yeh₁- / *h₂éwtus / *h₂ew-,False
+A,list,5.28,Proto-Germanic,Proto-Germanic: *līstǭ / *listiz / *lustijaną / *lustuz,False
+A,ready,5.28,PIE,PIE: *h₂er- / *rēydʰ-,False
+A,son,5.28,PIE,PIE: *suHnús / *sewH-,False
+A,meet,5.27,"PIE, Proto-Germanic",PIE: *meh₂d- (meet) / *med- | Proto-Germanic: *mōtijaną / *gamētijaz,False
+A,march,5.26,"Frankish, PIE",Frankish: *markōn / *marku | PIE: *merǵ- / *móri,False
+A,word,5.26,"PIE, Proto-Germanic",PIE: *werh₁- / *dʰeh₁- / *werdʰh₁om | Proto-Germanic: *wurdą / *werþaną,False
+A,cost,5.24,PIE,PIE: *steh₂- / *ǵews- / *ǵéwstus,False
+A,mother,5.24,Proto-Germanic,Proto-Germanic: *mōdēr / *muþraz,False
+A,hear,5.23,PIE,PIE: *h₂eḱ- / *h₂ew- (perceive) / *h₂ḱh₂owsyéti,False
+A,rest,5.23,PIE,PIE: *ros- / *steh₂-,False
+A,project,5.22,PIE,PIE: *pro- / *(H)yeh₁-,False
+A,lead,5.2,"PIE, Proto-Germanic",PIE: *plewd- / *leyt- | Proto-Germanic: *laidijaną / *līþaną,False
+A,hold,5.19,Proto-Germanic,Proto-Germanic: *haldaną / *hulþaz,False
+A,sense,5.19,PIE,PIE: *sent- (feel) / *-tus,False
+A,event,5.18,PIE,PIE: *gʷem- / *-tus,False
+A,present,5.18,Latin,"Latin: -,  / prae- / praesentō",False
+A,answer,5.17,PIE,PIE: *h₂en- / *swer-,True
+A,average,5.16,"Arabic, Old English vs French",Arabic: عَوَارِيَّة / ع و ر | Old English vs French: eafor / avarie,True
+A,provide,5.15,PIE,PIE: *pro- / *weyd-,True
+A,sound,5.15,"Latin, PIE, Proto-Germanic",Latin: sonus / sonō | PIE: *sunt- / *swenh₂- / *swem- | Proto-Germanic: *gasundaz / *sundą,False
+A,rate,5.14,PIE,PIE: *h₂er- / *krad-,False
+A,round,5.14,Old English vs French,Old English vs French: rūnian / ront,False
+A,fall,5.13,PIE,PIE: *peh₃lH- / *(s)pōl-,False
+A,league,5.13,Latin,Latin: ligō / leuca,False
+A,match,5.13,"Latin, Old English vs French",Latin: micca / myxa | Old English vs French: mæċċa / mesche,False
+A,trust,5.13,PIE,PIE: *drowsdom / *deru-,False
+A,economic,5.1,PIE,PIE: *weyḱ- / *nem-,False
+A,article,5.09,"Latin, PIE",Latin: articulus / artus | PIE: *h₂er- / *h₂értus,True
+A,race,5.08,"Old Norse, Proto-Germanic",Old Norse: rás / hárr | Proto-Germanic: *rēsō / *raitō,False
+A,simple,5.08,PIE,PIE: *sem- / *meh₁- / *pel- (fold),False
+A,die,5.07,"Old English vs French, PIE",Old English vs French: dīeġan / de | PIE: *dʰew- / *deh₃-,False
+A,offer,5.05,Latin,Latin: offerō / ob,False
+A,risk,5.05,"Greek, Latin",Greek: ῥιζικόν / ῥίζα | Latin: *resicum / resecō,False
+A,ball,5.04,PIE,PIE: *bʰoln- / *bʰel- / *gʷelH-,False
+A,box,5.04,"Greek, Latin",Greek: πυξίς / βῶξ | Latin: buxus / pyxis / bōx,False
+A,standard,5.03,Frankish,Frankish: *standahard / *oʀd,False
+A,effect,5.02,Old English vs French,Old English vs French: fremming / effect,False
+A,allow,5.01,Latin,Latin: allaudāre / allocō,False
+A,credit,5.0,PIE,PIE: *ḱerd- / *dʰeh₁-,True
+A,message,5.0,"Latin, PIE",Latin: missaticum / mittere | PIE: *mey- (change) / *meytH-,False
+A,drop,4.99,PIE,PIE: *dʰrewb- / *-yéti,False
+A,fair,4.99,Old English vs French,Old English vs French: fæġer / foire,False
+A,kid,4.99,PIE,PIE: *gʰaydn- / *gidʰ-,True
+A,sale,4.99,"PIE, Proto-Germanic",PIE: *selh₁- / *sel- | Proto-Germanic: *salō / *salą,False
+A,justice,4.97,PIE,PIE: *h₂yew- / *-tós,False
+A,knowledge,4.96,PIE,PIE: *ǵneh₃- / *leyg-,False
+A,fear,4.95,Proto-Germanic,Proto-Germanic: *fērō / *fōriz,False
+A,judge,4.95,"Latin, PIE",Latin: iūdex / iūdicō | PIE: *h₂yew- / *deyḱ-,True
+A,battle,4.94,"Latin, PIE",Latin: battālia / battuō | PIE: *bʰedʰ- / *bʰew-,False
+A,approach,4.93,"Latin, PIE",Latin: appropiāre / ad- | PIE: *per- / *-kʷe / *pro-,False
+A,effort,4.92,Latin,Latin: *exfortiō / ex,False
+A,protect,4.92,PIE,PIE: *pro- / *(s)teg- (cover),False
+A,address,4.91,Latin,Latin: ad / *dīrectiō / dīrectus,False
+A,dream,4.91,"PIE, Proto-Germanic",PIE: *dʰrewgʰ- / *dʰrowgʰ-mos | Proto-Germanic: *draumaz / *draumijaną,False
+A,doubt,4.9,PIE,PIE: *gʰeh₁bʰ- / *dwóh₁,False
+A,award,4.88,Latin,Latin: ex / wardare,False
+A,economy,4.87,PIE,PIE: *weyḱ- / *nem-,True
+A,mass,4.87,"Latin, PIE",Latin: massa / mittere | PIE: *maǵ- / *mey- (change),False
+A,coffee,4.86,Arabic,Arabic: قَهْوَة / ق ه ي,False
+A,exchange,4.85,Latin,Latin: *excambiāre / ex / cambiō,False
+A,fat,4.85,PIE,PIE: *peyH- / *pod-,False
+A,fell,4.85,"PIE, Proto-Germanic",PIE: *peh₃lH- / *pel- (skin) / *pelso / *pol- | Proto-Germanic: *fallijaną / *fellą / *faluz,False
+A,lie,4.84,Proto-Germanic,Proto-Germanic: *ligjaną / *leuganą / *lugiz,False
+A,fresh,4.83,"PIE, Proto-Germanic",PIE: *preysk- / *preg- | Proto-Germanic: *friskaz / *frekaz,False
+A,gain,4.81,"Old Norse, Proto-Germanic",Old Norse: gagn / gegn | Proto-Germanic: *gagną / *ga- / *waiþiz,False
+A,ring,4.81,"PIE, Proto-Germanic",PIE: *(s)ker- (turn) / *(s)krengʰ- | Proto-Germanic: *hringaz / *hringijaną,False
+A,waste,4.81,"Frankish, PIE",Frankish: *wōstī / *wōstijan | PIE: *h₁weh₂- / *wāsto-,False
+A,window,4.8,PIE,PIE: *h₂weh₁- / *h₃ekʷ-,True
+A,bet,4.79,Old English vs French,Old English vs French: bætan / abeter,False
+A,spirit,4.79,PIE,PIE: *(s)peys- / *-tus,True
+A,produce,4.78,PIE,PIE: *pro- / *dewk-,False
+A,concept,4.77,PIE,PIE: *keh₂p- / *-tus,False
+A,neither,4.77,PIE,PIE: *kʷ- / *-teros,False
+A,prove,4.77,"Old English vs French, PIE",Old English vs French: prōfian / prover | PIE: *bʰuH- / *pro-bʰuH-s,False
+A,rare,4.77,"Old English vs French, PIE",Old English vs French: hrēr / rare | PIE: *er(e)- / *ḱroHs-,False
+A,boss,4.76,Proto-Germanic,Proto-Germanic: *baswô / *bautaną,False
+A,fellow,4.76,PIE,PIE: *peḱ- / *legʰ-,True
+A,stick,4.76,"PIE, Proto-Germanic",PIE: *(s)teyg- / *(s)tig- | Proto-Germanic: *stikkô / *stikōną,False
+A,file,4.75,"Latin, PIE",Latin: fīlum / fīlāre | PIE: *peyḱ- / *puH-,False
+A,strategy,4.74,PIE,PIE: *sterh₃- / *h₂eǵ-,False
+A,bay,4.73,Latin,Latin: bāca / baia / badō / badius,False
+A,democratic,4.73,PIE,PIE: *deh₂- / *kret-,False
+A,honest,4.73,Old English vs French,Old English vs French: sōþfæst / honeste,False
+A,mountain,4.73,"Latin, PIE",Latin: *montānea / montānus | PIE: *men- / *monti,False
+A,port,4.73,"Latin, PIE",Latin: portus / porta | PIE: *per- (fare) / *pértus,False
+A,taste,4.73,Latin,Latin: *tastāre / taxo,False
+A,harry,4.72,PIE,PIE: *ker- / *koryos,False
+A,mail,4.72,PIE,PIE: *molko- / *smh₁-tleh₂ / *meh₂d-,False
+A,pair,4.72,Latin,Latin: paria / peiōrō,False
+A,shape,4.72,Proto-Germanic,Proto-Germanic: *ga- / *skapjaną,False
+A,bear,4.71,"PIE, Proto-Germanic",PIE: *bʰerH- / *ǵʰwer- / *bʰéreti | Proto-Germanic: *berô / *beraną,False
+A,mix,4.71,Old English vs French,"Old English vs French: ,  / mixte",False
+A,vice,4.71,Latin,Latin: vitium / vice,False
+A,afraid,4.7,"PIE, Proto-Germanic",PIE: *preyH- / *prāy- | Proto-Germanic: *friþuz / *frijōną,False
+A,dick,4.7,PIE,PIE: *h₃reǵ- / *kret-,False
+A,appeal,4.67,PIE,PIE: *pelh₂- / *pel- / *h₂éd,False
+A,pool,4.67,PIE,PIE: *bōlos / *peh₂w-,False
+A,scientific,4.67,PIE,PIE: *skey- / *dʰeh₁-,False
+A,advance,4.65,Latin,Latin: *abantiāre / ab,False
+A,escape,4.64,Latin,Latin: *excappāre / ex- / cappa,True
+A,fill,4.64,"PIE, Proto-Germanic",PIE: *pleh₁- / *pl̥h₁nós | Proto-Germanic: *fullijaną / *fullį̄,False
+A,lay,4.64,"Old English vs French, PIE, Proto-Germanic",Old English vs French: leċġan / lai | PIE: *legʰ- / *lókus / *leyg- | Proto-Germanic: *lagjaną / *laguz / *laikaz,False
+A,sam,4.64,Proto-Germanic,Proto-Germanic: *samnōną / *samanai / *sēmi-,False
+A,thousand,4.64,PIE,PIE: *tewh₂- / *tuHsont-,False
+A,truck,4.64,"Latin, PIE",Latin: trochus / trocāre | PIE: *derew- / *der-,False
+A,incredible,4.63,PIE,PIE: *ḱerd- / *dʰeh₁-,False
+A,wave,4.62,"PIE, Proto-Germanic",PIE: *webʰ- / *weǵʰ- | Proto-Germanic: *wabōną / *wēgaz,False
+A,fail,4.61,PIE,PIE: *bʰāl- / *sgʷʰh₂el-,False
+A,row,4.6,"PIE, Proto-Germanic",PIE: *reyk- / *h₁reh₁- | Proto-Germanic: *raiwō / *rōaną,False
+A,blow,4.59,"PIE, Proto-Germanic",PIE: *bʰleh₁- / *bʰlēw- | Proto-Germanic: *blēaną / *blēwaz,False
+A,bond,4.59,"PIE, Proto-Germanic",PIE: *bʰendʰ- / *bʰuH- | Proto-Germanic: *bandaz / *būwandz,False
+A,prize,4.59,Latin,Latin: prendere / pretium,False
+A,pleasure,4.57,PIE,PIE: *pleh₂- / *k-,False
+A,counter,4.56,Latin,Latin: computātōrium / computō / contra,False
+A,identify,4.56,Latin,Latin: identicus / faciō,False
+A,pregnant,4.56,Latin,Latin: praegnāns / premere,False
+A,promote,4.56,PIE,PIE: *pro- / *mew-,False
+A,arrest,4.55,Latin,Latin: *arrestō / ad-,False
+A,calm,4.54,Latin,Latin: cauma / caleō,True
+A,hide,4.54,"PIE, Proto-Germanic",PIE: *(s)kewH- / *ḱey- | Proto-Germanic: *hūdijaną / *hūdiz / *hīwaz,False
+A,burn,4.53,"PIE, Proto-Germanic",PIE: *bʰrewh₁- / *bʰrenw- | Proto-Germanic: *brinnaną / *brunnô,False
+A,breath,4.52,PIE,PIE: *bʰreh₁- / *gʰwer-,False
+A,immediate,4.52,Latin,Latin: immediātus / in,False
+A,lock,4.51,PIE,PIE: *lewg- / *lugnó-,False
+A,swear,4.51,Proto-Germanic,Proto-Germanic: *swarjaną / *swarō / *swēraz,False
+A,wise,4.51,"PIE, Proto-Germanic",PIE: *weyd- / *weydstos | Proto-Germanic: *wīsaz / *wīsō / *wīsaną,False
+A,engineer,4.5,PIE,PIE: *n̥- / *ǵenh₁- / *-tōr,False
+A,ford,4.5,PIE,PIE: *per- (fare) / *-tus / *pértus,False
+A,contemporary,4.49,Latin,Latin: contemporārius / con-,False
+A,monster,4.49,PIE,PIE: *men- (think) / *-trom,False
+A,consistent,4.48,PIE,PIE: *ḱóm / *stísteh₂ti,False
+A,earn,4.48,PIE,PIE: *seh₁- / *h₃er-,False
+A,meal,4.48,"PIE, Proto-Germanic",PIE: *meh₁- / *melh₂- / *mey- | Proto-Germanic: *mēlą / *mailą,False
+A,rape,4.48,"Latin, Old Norse",Latin: rapere / rapa | Old Norse: hreppr / hrapa,False
+A,rush,4.48,"Old English vs French, PIE, Proto-Germanic",Old English vs French: rysċ / rehusser | PIE: *resg- / *ḱers- / *(o)rewə- | Proto-Germanic: *hurskijaną / *rūskōną,False
+A,bound,4.46,Latin,Latin: bodina / bombitāre / bombus,False
+A,soldier,4.46,Latin,Latin: soldarius / solidus / campus,True
+A,protest,4.45,PIE,PIE: *pro- / *steh₂-,False
+A,mood,4.44,PIE,PIE: *moh₁- / *med-,False
+A,thread,4.44,PIE,PIE: *terh₁- / *-tus,False
+A,custom,4.43,PIE,PIE: *dʰeh₁- / *ḱóm / *swe-dʰh₁-sk-,False
+A,ear,4.43,"PIE, Proto-Germanic",PIE: *h₂ṓws / *h₂eḱ- / *h₂erh₃- | Proto-Germanic: *ausô / *ahaz / *arjaną,False
+A,plain,4.43,"Latin, PIE",Latin: plānus / plangere | PIE: *pleh₂- / *pl̥h₁nós,False
+A,rear,4.43,"PIE, Proto-Germanic",PIE: *h₁rey- / *ḱroHs- | Proto-Germanic: *raizijaną / *hrōzijaną,False
+A,economics,4.42,PIE,PIE: *weyḱ- / *nem-,False
+A,min,4.42,"PIE, Proto-Germanic",PIE: *mey- / *men- | Proto-Germanic: *minniz / *gaminþiją,False
+A,odd,4.42,PIE,PIE: *wes- / *dʰeh₁-,False
+A,participate,4.42,PIE,PIE: *per- (sell) / *keh₂p-,False
+A,soil,4.42,"Frankish, Proto-Germanic",Frankish: *sauljan / *sōlja | Proto-Germanic: *sulą / *sulwōną / *saulijō,False
+A,telephone,4.41,PIE,PIE: *kʷel- / *bʰeh₂-,False
+A,tho,4.41,Proto-Germanic,Proto-Germanic: *þai / *sa,False
+A,bid,4.4,"PIE, Proto-Germanic",PIE: *gʷʰedʰ- / *bʰewdʰ- | Proto-Germanic: *bidjaną / *beudaną,False
+A,butter,4.4,PIE,PIE: *gʷṓws / *tewh₂-,False
+A,rugby,4.4,PIE,PIE: *ker- / *bʰerǵʰ-,False
+A,discover,4.39,Latin,Latin: discoperīre / dis-,False
+A,mortgage,4.39,PIE,PIE: *mer- / *wedʰ-,True
+A,physics,4.39,Greek,Greek: φυσική / φύσις / φύω,False
+A,visible,4.39,Latin,Latin: visibilis / videre,False
+A,hence,4.38,Proto-Germanic,Proto-Germanic: *hiz / *-anē,False
+A,mill,4.38,Latin,Latin: molīna / molō / millesimum,False
+A,pace,4.38,"Latin, PIE",Latin: passus / pāce | PIE: *peth₂- / *-tus,False
+A,pen,4.38,PIE,PIE: *bend- / *peth₂-,True
+A,cop,4.37,PIE,PIE: *keh₂p- / *gew-,False
+A,funeral,4.37,Latin,Latin: fūnerālia / fūnus,False
+A,introduce,4.37,PIE,PIE: *dewk- / *h₁énteros,False
+A,regret,4.37,"Frankish, PIE",Frankish: *grātan / *greutan | PIE: *ǵʰreh₁d- / *gʰrewd-,False
+A,engage,4.36,Proto-Germanic,Proto-Germanic: *an- / *wadjōną,False
+A,logic,4.36,"Greek, Latin",Greek: λογῐκός / λογική | Latin: logicus / logica,False
+A,exit,4.35,PIE,PIE: *h₁ey- / *-tus,False
+A,poll,4.35,PIE,PIE: *bolno- / *bew-,False
+A,tear,4.35,"PIE, Proto-Germanic",PIE: *der- / *dáḱru- | Proto-Germanic: *teraną / *tahrą,False
+A,deny,4.34,PIE,PIE: *h₁eǵ- / *ne,False
+A,prominent,4.33,PIE,PIE: *pro- / *men-,False
+A,blast,4.32,"PIE, Proto-Germanic",PIE: *bʰleh₁- / *-tus | Proto-Germanic: *blēstaz / *blēstijaną,False
+A,courage,4.32,"Latin, Old English vs French",Latin: *corāticum / cor | Old English vs French: ellen / corage,False
+A,arsenal,4.31,Arabic,Arabic: د و ر‎ / ص ن ع / دَار الصِّنَاعَة,False
+A,grave,4.31,"Old English vs French, PIE",Old English vs French: græf / grave | PIE: *gʰrebʰ- / *gʷreh₂-,False
+A,mask,4.31,Old English vs French,Old English vs French: max / masque,False
+A,piano,4.31,PIE,PIE: *pleh₂- / *bʰerǵʰ-,False
+A,symbol,4.31,PIE,PIE: *sem- / *gʷelH-,True
+A,treaty,4.31,"Latin, PIE",Latin: tractāre / tractātum | PIE: *dʰregʰ- / *tregʰ-,False
+A,bow,4.3,"PIE, Proto-Germanic",PIE: *bʰewgʰ- / *bʰūgʰ- / *bʰeh₂ǵʰus | Proto-Germanic: *bugô / *beuganą / *bōguz,False
+A,sole,4.29,"Latin, PIE, Proto-Germanic",Latin: sōlus / *sola | PIE: *swé / *swol- / *sey- / *sūl- | Proto-Germanic: *sailą / *sulą,False
+A,bass,4.28,PIE,PIE: *gʷem- / *bʰórsos,False
+A,butt,4.28,"Old English vs French, PIE, Proto-Germanic",Old English vs French: byt / buter | PIE: *bʰudʰnós / *bʰudʰmḗn / *dʰewbʰ- / *bʰewd- | Proto-Germanic: *buttaz / *bautaną,False
+A,collaboration,4.28,Latin,Latin: collaboratus / con-,False
+A,slip,4.28,"PIE, Proto-Germanic",PIE: *slewb- / *sel- | Proto-Germanic: *sleupaną / *slippijaną / *slībaną,False
+A,tap,4.28,"Old English vs French, Proto-Germanic",Old English vs French: tæppa / tapper | Proto-Germanic: *tappô / *dab-,False
+A,pit,4.27,Proto-Germanic,Proto-Germanic: *pittan / *piþō,False
+A,bold,4.26,"PIE, Proto-Germanic",PIE: *bʰew- / *bʰel- | Proto-Germanic: *budlą / *balþaz / *balþōną,False
+A,encounter,4.26,Latin,Latin: incontrā / in,False
+A,pursue,4.26,PIE,PIE: *sekʷ- / *pro-,False
+A,spectrum,4.26,PIE,PIE: *speḱ- / *-trom,False
+A,artificial,4.24,PIE,PIE: *h₂er- / *dʰeh₁-,False
+A,habit,4.24,"Latin, PIE",Latin: habitus / habitāre | PIE: *gʰeh₁bʰ- / *-tus,False
+A,municipal,4.24,PIE,PIE: *mey- (change) / *keh₂p-,False
+A,steven,4.24,"PIE, Proto-Germanic",PIE: *stómn̥ / *stebʰ- | Proto-Germanic: *stebnō / *stabnijaz,False
+A,complain,4.23,Latin,Latin: complangere / com-,False
+A,palm,4.23,PIE,PIE: *pleh₂- / *pl̥h₂meh₂ / *palam-,False
+A,pole,4.23,"Old English vs French, PIE",Old English vs French: pāl / pole | PIE: *peh₂ǵ- / *kʷel-,False
+A,suggestion,4.23,Latin,Latin: suggestiō / sub-,False
+A,fluid,4.22,"Latin, PIE",Latin: fluidus / fluō | PIE: *bʰel- (blow) / *bʰleh₁-,False
+A,legitimate,4.22,Latin,Latin: lēgitimatus / lēgitimō / lēx,False
+A,duck,4.21,"PIE, Proto-Germanic",PIE: *dʰewb- / *dwōg- | Proto-Germanic: *dūkaną / *dōkaz,False
+A,franklin,4.21,Frankish,Frankish: *frankō / *-ling,False
+A,transaction,4.21,PIE,PIE: *terh₂- / *h₂eǵ-,False
+A,bug,4.2,Proto-Germanic,Proto-Germanic: *bugja- / *buddô,False
+A,depend,4.2,Latin,Latin: dependeō / dē-,True
+A,patch,4.2,Old English vs French,Old English vs French: *plæċċ / pieche,False
+A,boot,4.19,"PIE, Proto-Germanic",PIE: *bʰewt- / *bʰed- | Proto-Germanic: *buttaz / *bōtō,False
+A,lit,4.19,"Old Norse, PIE, Proto-Germanic",Old Norse: litr / lita | PIE: *lewd- / *wel- | Proto-Germanic: *lūtilaz / *wlitiz,False
+A,trace,4.19,Latin,Latin: *tractiō / trahere,False
+A,acknowledge,4.18,Old English vs French,Old English vs French: oncnāwan / a-,False
+A,costume,4.18,PIE,PIE: *dʰeh₁- / *-tus / *ḱóm / *swe-dʰh₁-sk-,False
+A,lap,4.18,"PIE, Proto-Germanic",PIE: *leb- / *werb- / *leh₂b- | Proto-Germanic: *lappô / *lapōną,False
+A,satisfaction,4.16,PIE,PIE: *seh₂- / *dʰeh₁-,False
+A,harbor,4.15,PIE,PIE: *ker- / *bʰergʰ-,False
+A,mathematics,4.15,PIE,PIE: *men- (think) / *dʰeh₁-,False
+A,soup,4.15,Proto-Germanic,Proto-Germanic: *supô / *sūpaną / *swaipaną,False
+A,strain,4.15,"PIE, Proto-Germanic",PIE: *strew- / *streyg- | Proto-Germanic: *streuną / *striunijaną,False
+A,justify,4.14,"Latin, PIE",Latin: justificare / justus | PIE: *h₂yew- / *-tós / *dʰeh₁-,False
+A,provision,4.14,PIE,PIE: *per- / *weyd-,False
+A,haven,4.13,"PIE, Proto-Germanic",PIE: *keh₂p- / *kh₂pnós | Proto-Germanic: *habnō / *habą,False
+A,helicopter,4.13,PIE,PIE: *welH- / *peth₂-,False
+A,mere,4.13,"PIE, Proto-Germanic",PIE: *mer- (sea) / *móri / *mey- / *mēros | Proto-Germanic: *mari / *mairiją / *mērijaz,False
+A,precise,4.13,PIE,PIE: *preh₂- / *kh₂eyd-,False
+A,surgeon,4.13,PIE,PIE: *ǵʰes- / *werǵ-,True
+A,ace,4.11,PIE,PIE: *h₁éǵʰs / *h₂eḱ-,False
+A,est,4.11,PIE,PIE: *h₃neh₂- / *ān-,False
+A,grip,4.11,Proto-Germanic,Proto-Germanic: *gripjaną / *grōpiz,False
+A,thy,4.11,PIE,PIE: *téynos / *túh₂,False
+A,witch,4.11,PIE,PIE: *weyk- / *wik-néh₂-,False
+A,pine,4.1,"Latin, PIE",Latin: pīnus / poena | PIE: *peyH- / *kʷey-,False
+A,pose,4.1,Latin,Latin: pauso / pono,False
+A,bee,4.09,"PIE, Proto-Germanic",PIE: *bʰey- / *bʰeh₂- / *bʰewgʰ- | Proto-Germanic: *bijō / *bōniz / *baugaz,False
+A,fold,4.08,Proto-Germanic,Proto-Germanic: *falþaną / *faludaz / *fuldǭ,False
+A,pale,4.08,"Latin, PIE",Latin: pallidus / pālus | PIE: *pelH- / *peh₂ǵ-,False
+A,adjust,4.07,Latin,Latin: ad / *adiuxtāre / iuxta,False
+A,monkey,4.07,Arabic,Arabic: مَيْمُون / ي م ن,False
+A,nest,4.07,PIE,PIE: *sed- / *nisdós,False
+A,elder,4.06,Proto-Germanic,Proto-Germanic: *alþizô / *elernaz / *aliþro,False
+A,pulse,4.06,"Latin, PIE",Latin: pulsus / pulsāre | PIE: *pel- (beat) / -tus,False
+A,smartphone,4.06,PIE,PIE: *(s)merd- / *bʰeh₂-,False
+A,accomplish,4.05,Latin,Latin: ad / *complīre,False
+A,withdraw,4.05,PIE,PIE: *-teros / *dʰregʰ-,False
+A,bolt,4.04,"PIE, Proto-Germanic",PIE: *bʰeld- / *bʰūs- | Proto-Germanic: *bultaz / *buzdô,False
+A,comply,4.04,PIE,PIE: *pleh₁- / *ḱóm,False
+A,thee,4.04,"PIE, Proto-Germanic",PIE: *te / *tenk- | Proto-Germanic: *þiz / *þinhaną,False
+A,fork,4.03,PIE,PIE: *ǵʰerk(ʷ)- / *perg-,False
+A,verdict,4.03,PIE,PIE: *weh₁- / *deyḱ-,True
+A,carol,4.02,PIE,PIE: *ǵʰer- / *h₂ewlos,False
+A,flexibility,4.02,Latin,Latin: flexibilitās / flectō,False
+A,possess,4.02,PIE,PIE: *sed- / *pótis,True
+A,tire,4.02,Old English vs French,Old English vs French: tȳrian / tirer,False
+A,precision,4.01,PIE,PIE: *preh₂- / *kh₂eyd-,False
+A,thumb,4.01,PIE,PIE: *tewh₂- / *tūm-,False
+A,wrist,4.01,Proto-Germanic,Proto-Germanic: *wristuz / *wrīþaną,False
+A,admiral,4.0,Arabic,Arabic: أَمِير اَلبَحْر / ء م ر,False
+A,arrange,4.0,PIE,PIE: *(s)ker- (turn) / *(s)krengʰ-,False
+A,banana,4.0,Arabic,Arabic: بَنَان / ب و ن,False
+A,drone,4.0,"PIE, Proto-Germanic",PIE: *dʰrēn- / *dʰer- | Proto-Germanic: *drēniz / *drunjaną,False
+A,affiliate,3.99,Latin,Latin: adfiliare / ad,False
+A,cluster,3.99,Proto-Germanic,Proto-Germanic: *klus- / *-þrą,False
+A,freight,3.99,"PIE, Proto-Germanic",PIE: *pro- / *h₂eyḱ- | Proto-Germanic: *fra- / *aihtiz,False
+A,propose,3.99,PIE,PIE: *pro- / *tḱey-,False
+A,jaw,3.98,Proto-Germanic,Proto-Germanic: *kawǭ / *kewwaną,False
+A,prophet,3.98,PIE,PIE: *pro- / *bʰeh₂- (speak),False
+A,satisfy,3.98,PIE,PIE: *seh₂- / *dʰeh₁-,False
+A,curry,3.96,Latin,Latin: cocere / coquere / *conredare / com-,False
+A,dame,3.96,"Latin, PIE",Latin: domina / domus | PIE: *demh₂- / *dem-,False
+A,waist,3.96,PIE,PIE: *h₂weg- / *-tus,False
+A,herald,3.95,PIE,PIE: *ker- / *h₂welh₁-,False
+A,wilderness,3.95,PIE,PIE: *wel- / *gʷʰel- / *dʰwes-,False
+A,gum,3.94,"Latin, PIE",Latin: gumma / cummi | PIE: *ǵʰh₂u-mo- / *ǵʰeh₂w-,False
+A,oppose,3.94,Latin,Latin: ob / pono,False
+A,profound,3.94,PIE,PIE: *per- / *ǵʰewd-,False
+A,robust,3.94,PIE,PIE: *h₁rewdʰ- / *-tós,False
+A,halt,3.93,"PIE, Proto-Germanic",PIE: *kol-d- / *kel- | Proto-Germanic: *haltōną / *haltaz,False
+A,mentor,3.93,PIE,PIE: *men- (think) / *monéyeti,False
+A,regiment,3.93,Latin,Latin: regimentum / regō,False
+A,altitude,3.92,PIE,PIE: *h₂el- (grow) / *-tus,False
+A,gratitude,3.92,"Latin, PIE",Latin: grātitūdō / grātus | PIE: *gʷerH- / *-tus,False
+A,lend,3.92,"PIE, Proto-Germanic",PIE: *leykʷ- / *lendʰ- (loin) | Proto-Germanic: *laihnijaną / *laihną / *landijō,False
+A,wax,3.92,"PIE, Proto-Germanic",PIE: *woḱ-so- / *h₂weg- | Proto-Germanic: *wahsą / *wahsijaną,False
+A,stare,3.91,"PIE, Proto-Germanic",PIE: *ster- / *stor- | Proto-Germanic: *starjaną / *starô,False
+A,turtle,3.91,"Latin, Old English vs French",Latin: tortuca / turtur | Old English vs French: turtle / tortüe,False
+A,ghana,3.9,Arabic,Arabic: غِناء / غ ن ي,False
+A,holocaust,3.89,PIE,PIE: *solh₂- / *keh₂w-,False
+A,clutch,3.88,"PIE, Proto-Germanic",PIE: *glew- / *glēk- | Proto-Germanic: *klukjaną / *klu- / *klēk-,False
+A,credibility,3.88,PIE,PIE: *ḱerd- / *dʰeh₁-,False
+A,economist,3.87,PIE,PIE: *weyḱ- / *nem-,False
+A,swallow,3.87,Proto-Germanic,Proto-Germanic: *swelganą / *swalwǭ,False
+A,woo,3.87,PIE,PIE: *wonk- / *wā-,False
+A,antique,3.86,PIE,PIE: *h₂en- / *h₃ekʷ-,False
+A,legion,3.86,PIE,PIE: *h₃enh₂- / *leǵ-,False
+A,lime,3.86,Proto-Germanic,Proto-Germanic: *līmaz / *lindijō,False
+A,disclose,3.84,Latin,Latin: disclaudere / dis-,False
+A,grill,3.84,Proto-Germanic,Proto-Germanic: *graljaną / *grellaz,False
+A,synthesis,3.84,PIE,PIE: *sem- / *dʰeh₁-,False
+A,boil,3.83,Old English vs French,Old English vs French: bȳl / boillir,False
+A,convey,3.83,Latin,Latin: *convio / via,False
+A,economically,3.83,PIE,PIE: *weyḱ- / *nem-,False
+A,justification,3.83,Latin,Latin: iustificationem / iustus,False
+A,reef,3.83,"PIE, Proto-Germanic",PIE: *h₁rebʰ- / *kreup- | Proto-Germanic: *ribją / *hreubaz,False
+A,sage,3.83,Latin,Latin: *sapius / sapere / salvia,False
+A,coordinate,3.82,Latin,Latin: coordinātus / co-,False
+A,hatch,3.82,"Old English vs French, Proto-Germanic",Old English vs French: hæċ / hacher | Proto-Germanic: *hakjaną / *hakkōną,False
+A,predecessor,3.82,Latin,Latin: praedēcessor / prae- / dēcēdō,False
+A,accord,3.81,"Latin, PIE",Latin: *accordo / ad | PIE: *ḱerd- /  ~ ,False
+A,hawk,3.81,PIE,PIE: *keh₂p- / *kopuǵos,False
+A,lid,3.81,PIE,PIE: *ḱley- / *ḱlitós,False
+A,peel,3.8,"Latin, Old English vs French",Latin: pilo / pālus / pāla | Old English vs French: pilian / peler,False
+A,projection,3.79,PIE,PIE: *pro- / *(H)yeh₁-,False
+A,raven,3.79,"Old English vs French, PIE",Old English vs French: hræfn / raviner | PIE: *ḱrep- / *ḱer-,False
+A,foremost,3.78,PIE,PIE: *pr- / *-mHo-,False
+A,credible,3.77,PIE,PIE: *ḱerd- / *dʰeh₁-,False
+A,mold,3.77,"PIE, Proto-Germanic",PIE: *mewk- / *ml̥Hdʰṓ | Proto-Germanic: *muglōną / *muldō,False
+A,peach,3.77,Latin,Latin: *pessica / mālum / impedicō,False
+A,scar,3.77,"Greek, Latin, Old Norse",Greek: ἐσχάρα / σκάρος | Latin: eschara / scarus | Old Norse: skarð / sker,False
+A,foil,3.76,Latin,Latin: folia / fullō,False
+A,forthcoming,3.75,PIE,PIE: *per- / *gʷem-,False
+A,gore,3.75,Proto-Germanic,Proto-Germanic: *gurą / *gaizaz / *gaizô,False
+A,tray,3.75,"PIE, Proto-Germanic",PIE: *drewo- / *dregʰ- | Proto-Germanic: *trawją / *tregô,False
+A,genus,3.73,Latin,Latin: genus / gignere,False
+A,paramount,3.73,"Latin, PIE",Latin: per / ad montem | PIE: *per- / *men- / *h₂éd,False
+A,paranoid,3.73,PIE,PIE: *(s)neh₁- / *weyd-,False
+A,saddle,3.73,PIE,PIE: *sed- / *-dʰlom / *sod-dʰlo-,False
+A,lust,3.72,PIE,PIE: *lewH- / *-tus,False
+A,slogan,3.72,PIE,PIE: *ǵeh₂r- / *slowgʰos,False
+A,tow,3.72,"PIE, Proto-Germanic",PIE: *dewk- / *dewh₂- | Proto-Germanic: *tugōną / *tawwą,False
+A,verb,3.72,PIE,PIE: *werh₁- / *dʰeh₁- / *werdʰo-,False
+A,convoy,3.71,Latin,Latin: convio / com-,False
+A,prophecy,3.71,PIE,PIE: *bʰeh₂- / *pro-,False
+A,vogue,3.71,Proto-Germanic,Proto-Germanic: *wagōną / *wēgaz / *weganą,False
+A,creed,3.7,PIE,PIE: *ḱerd- / *dʰeh₁- / *ḱréddʰh₁eti,False
+A,sol,3.69,"Latin, PIE",Latin: solve / solidum / sōl | PIE: *solh₂- / *sóh₂wl̥,False
+A,jewel,3.68,Latin,Latin: gaudium / iocus,False
+A,navigate,3.68,PIE,PIE: *h₂eǵ- / *néh₂us,False
+A,strand,3.68,"PIE, Proto-Germanic",PIE: *(s)trAnt- / *ster- / *strēy- | Proto-Germanic: *strandō / *strinô,False
+A,advent,3.67,PIE,PIE: *gʷem- / *-tus,False
+A,mole,3.67,"Latin, PIE, Proto-Germanic",Latin: mōles / mola | PIE: *mel- / *mey- / *molg- | Proto-Germanic: *mailą / *mulaz,False
+A,rash,3.67,"Latin, PIE",Latin: *rāsicāre / rāsus / exrādīcāre / *raso | PIE: *ret- / *Hreth₂- / *reh₁d- / *wréh₂ds,False
+A,assassin,3.66,Arabic,Arabic: ء س س / ح ش ش / أَسَاسِيّ / حَشَّاشِين,False
+A,collateral,3.66,Latin,Latin: collaterālis / col-,False
+A,earnest,3.66,"PIE, Proto-Germanic",PIE: *h₃er- / *er- | Proto-Germanic: *ernustuz / *arniz,False
+A,hare,3.66,Proto-Germanic,Proto-Germanic: *hasô / *hairaz,False
+A,tilt,3.66,Proto-Germanic,Proto-Germanic: *taltaz / *teldą,False
+A,anthropology,3.65,Greek,Greek: ἄνθρωπος / -λογία,False
+A,basil,3.65,"Arabic, Latin",Arabic: بِطانَة / ب ط ن | Latin: basilicum / basanium,False
+A,corporal,3.65,Latin,Latin: corporālis / corpus / caput,False
+A,duel,3.65,Latin,Latin: duellum / duo,False
+A,helm,3.65,"PIE, Proto-Germanic",PIE: *ḱel- (cover) / *ḱelmos | Proto-Germanic: *helmô / *helmaz,False
+A,manifesto,3.65,PIE,PIE: *(s)meh₂- / *gʷʰen-,False
+A,nexus,3.65,PIE,PIE: *gned- / *gnod- / *-tós,False
+A,symptom,3.64,PIE,PIE: *sem- / *peth₂-,False
+A,vinegar,3.64,Latin,Latin: vīnum / acer,False
+A,dow,3.63,Old English vs French,Old English vs French: dugan / douer,False
+A,edible,3.63,Latin,Latin: edibilis / edō,False
+A,endorse,3.63,Latin,Latin: indorso / dossum / indorsare,False
+A,fax,3.63,PIE,PIE: *peḱ- (pluck) / *poḱsom / *dʰeh₁-,False
+A,refrain,3.63,"Latin, PIE",Latin: refringere / refrenare / re- | PIE: *bʰreg- / *dʰer-,False
+A,squash,3.63,Latin,Latin: *excoāctiāre / ex,False
+A,humane,3.62,Latin,Latin: hūmānus / homō,False
+A,vale,3.62,Latin,"Latin: ,  / valē",False
+A,bale,3.61,Proto-Germanic,Proto-Germanic: *balwą / *bēlą,False
+A,homage,3.61,Latin,Latin: homināticum / homō,False
+A,scarce,3.61,Latin,Latin: *scarpsus / ex-,False
+A,symposium,3.61,PIE,PIE: *sem- / *peh₃-,False
+A,utmost,3.61,PIE,PIE: *-mHo- / *úd,False
+A,allergy,3.6,PIE,PIE: *h₂el- (other) / *werǵ-,False
+A,cellar,3.6,Latin,Latin: cellārium / cella / salarius / sal,False
+A,mare,3.6,"PIE, Proto-Germanic",PIE: *mer- / *mor- | Proto-Germanic: *marhijō / *marǭ,False
+A,quarry,3.6,Latin,Latin: quarreria / quadrō / corium / corata / cor,False
+A,economical,3.59,PIE,PIE: *weyḱ- / *nem-,False
+A,duct,3.58,PIE,PIE: *dewk- / *-tus,False
+A,installment,3.58,Latin,Latin: installare / in- / stallum,False
+A,dungeon,3.57,"Latin, Old English vs French",Latin: dungiō / *dominiō | Old English vs French: dung / donjon,False
+A,hog,3.57,PIE,PIE: *kewh₂- / *suH-,False
+A,hen,3.56,"PIE, Proto-Germanic",PIE: *kan- / *ḱe- | Proto-Germanic: *hanjō / *hina,False
+A,lettuce,3.56,Old English vs French,Old English vs French: lēahtric / laitue,False
+A,rue,3.56,Old English vs French,Old English vs French: hrēow / ruwe,False
+A,schizophrenia,3.56,PIE,PIE: *skeyd- / *gʷʰren-,False
+A,kite,3.55,"PIE, Proto-Germanic",PIE: *gū- / *gʷet- | Proto-Germanic: *kūtijô / *kweþuz,False
+A,mash,3.55,"PIE, Proto-Germanic",PIE: *meyḱ- / *meyǵ- | Proto-Germanic: *maiskaz / *maiskijaną,False
+A,summon,3.55,PIE,PIE: *men- (think) / *monéyeti,False
+A,clap,3.54,Old English vs French,Old English vs French: clæppan / clapoir,False
+A,ethic,3.54,"Greek, Latin",Greek: ἠθῐκός / ἠθική | Latin: ēthicus / ēthica,False
+A,haunt,3.54,"Old English vs French, Proto-Germanic",Old English vs French: hāmettan / hanter | Proto-Germanic: *haimatjaną / *haimaz,False
+A,prosecute,3.54,PIE,PIE: *sekʷ- / *pro-,False
+A,sect,3.54,Latin,Latin: secta / sequi,False
+A,canopy,3.52,"Greek, Latin",Greek: κωνωπεῖον / κώνωψ | Latin: canapeum / cōnōpēum,False
+A,bleach,3.51,"PIE, Proto-Germanic",PIE: *bʰleyǵ- / *bʰel- | Proto-Germanic: *blaikaz / *blaikijaną / *blaikį̄,False
+A,perennial,3.51,PIE,PIE: *per- / *h₂et-,False
+A,prohibit,3.51,PIE,PIE: *pro- / *gʰeh₁bʰ-,False
+A,hind,3.5,"PIE, Proto-Germanic",PIE: *ḱem-ta- / *ḱem- | Proto-Germanic: *hinder / *hindō,False
+A,imam,3.5,Arabic,Arabic: إِمَام / ء م م,False
+A,locomotive,3.5,Latin,Latin: locō / mōtivus,False
+A,provoke,3.5,PIE,PIE: *pro- / *wekʷ-,False
+A,arbor,3.49,Latin,Latin: herba / herbārium / arbor,False
+A,dubious,3.49,Latin,Latin: dubius / duo,False
+A,hue,3.49,Old English vs French,Old English vs French: hīew / hu,False
+A,convent,3.48,"Latin, PIE",Latin: conventus / convenio | PIE: *gʷem- / *-tus,False
+A,squat,3.48,Latin,Latin: coactus / squatina,False
+A,stew,3.48,Latin,Latin: stupha / *extufāre,False
+A,grail,3.46,Latin,Latin: gradalis / crater / graduale,False
+A,obscene,3.46,PIE,PIE: *ḱweyn- / *skeh₂iwo-,False
+A,stalk,3.46,"PIE, Proto-Germanic",PIE: *stel- / *(s)telg | Proto-Germanic: *stalukaz / *stalô / *stalkōną,False
+A,boon,3.45,"Old English vs French, PIE",Old English vs French: bune / bon | PIE: *bʰeh₂- / *dū-,False
+A,synagogue,3.45,PIE,PIE: *sem- / *h₂eǵ-,False
+A,cafeteria,3.44,Arabic,Arabic: قَهْوَة / ق ه ي,False
+A,jubilee,3.44,PIE,PIE: *yu- / *-yós,False
+A,roe,3.44,"PIE, Proto-Germanic",PIE: *krek- / *rey- | Proto-Germanic: *hrugnaz / *raihô,False
+A,soluble,3.44,Latin,Latin: solubilis / solvere,False
+A,torpedo,3.44,PIE,PIE: *h₃enh₂- / *ster-,False
+A,ache,3.43,"Old English vs French, Proto-Germanic",Old English vs French: acan / ache | Proto-Germanic: *akaną / *akiz,False
+A,antiquity,3.43,PIE,PIE: *h₂en- / *h₃ekʷ-,False
+A,enact,3.43,Latin,Latin: in- / actum,False
+A,stale,3.43,Proto-Germanic,Proto-Germanic: *stāną / *stal- / *stel- / *stallaz,False
+A,camouflage,3.42,"Frankish, Proto-Germanic",Frankish: *molfell / *muffël | Proto-Germanic: *fellą / *mawwō,False
+A,intrusion,3.42,Latin,Latin: intrūsiō / in-,False
+A,muster,3.42,PIE,PIE: *men- (think) / *-trom,False
+A,artifact,3.41,PIE,PIE: *h₂er- / *dʰeh₁-,False
+A,rink,3.41,PIE,PIE: *reǵ- / *(s)ker- (turn),False
+A,solemn,3.41,PIE,PIE: *solh₂- / *h₁ed-,False
+A,amir,3.4,Arabic,Arabic: ء م ر / امير,False
+A,arithmetic,3.4,PIE,PIE: *h₂er- / *h₂ri-dʰh₁-mó-s,False
+A,arson,3.4,Latin,Latin: ardeō / *arciō / arcus,False
+A,traverse,3.4,Latin,Latin: trans / vertere,False
+A,conglomerate,3.39,PIE,PIE: *ḱóm / *gel-,False
+A,soar,3.39,Latin,Latin: *exaurare / ex,False
+A,barrow,3.38,Proto-Germanic,Proto-Germanic: *bergaz / *barwǭ / *barugaz,False
+A,meridian,3.38,PIE,PIE: *dyew- / *médʰyos,True
+A,rake,3.38,"PIE, Proto-Germanic",PIE: *h₃reǵ- / *h₁erǵʰ- | Proto-Germanic: *rakō / *raką,False
+A,sow,3.38,"PIE, Proto-Germanic",PIE: *suh₂kéh₂ / *seh₁- | Proto-Germanic: *sugō / *sēaną,False
+A,synopsis,3.38,PIE,PIE: *sem- / *h₃ekʷ-,False
+A,otter,3.37,PIE,PIE: *wed- / *udrós,False
+A,tart,3.37,"Latin, PIE, Proto-Germanic",Latin: *torta / tortus | PIE: *der- / *terkʷ- | Proto-Germanic: *tartaz / *teraną,False
+A,oncology,3.36,PIE,PIE: *h₂enk- / *leǵ-,False
+A,sensual,3.36,PIE,PIE: *sent- (feel) / *-tus,False
+A,moor,3.35,PIE,PIE: *móri / *mēyt-,False
+A,unilateral,3.35,Latin,Latin: ūnilaterālis / ūnus,False
+A,loom,3.34,"Old Norse, PIE",Old Norse: lómr / ljóma | PIE: *lem- / *leh₂-,False
+A,additive,3.33,Latin,Latin: additivus / addere,False
+A,dole,3.33,"Latin, Old English vs French",Latin: dolus / doleo | Old English vs French: dāl / doel,False
+A,mace,3.33,Latin,Latin: *mattia / mateola / macir,False
+A,monsoon,3.33,Arabic,Arabic: مَوْسِم / و س م,False
+A,montage,3.33,Latin,Latin: -āticum / *montāre,False
+A,aba,3.32,Arabic,Arabic: عَبَاءَة / ع ب و,False
+A,alligator,3.32,Latin,Latin: lacertus / alligātor,False
+A,mellow,3.32,"PIE, Proto-Germanic",PIE: *melh₂- / *mer(w)- | Proto-Germanic: *melwą / *marwaz,False
+A,pamphlet,3.32,PIE,PIE: *peh₂- / *bʰil-,False
+A,intimidate,3.31,Latin,Latin: intimidatus / in-,False
+A,quarrel,3.31,"Latin, PIE",Latin: querēla / quarellus / quadrum | PIE: *ḱwes- / *-lós / *kʷetwóres,False
+A,orchid,3.3,Latin,Latin: {{ll|mul|Orchideae}} / orchis,False
+A,ey,3.29,"PIE, Proto-Germanic",PIE: *h₂ōwyóm / *h₂ekʷeh₂ | Proto-Germanic: *ajją / *awjō,False
+A,fay,3.29,"Old English vs French, PIE",Old English vs French: fēġan / feie | PIE: *paḱ- / *pōḱ- / *bʰeh₂-,False
+A,proficient,3.29,PIE,PIE: *pro- / *dʰeh₁-,False
+A,fray,3.28,"Latin, PIE",Latin: fricāre / *exfridāre / ex- | PIE: *bʰreyH- / *preyH-,False
+A,harass,3.28,PIE,PIE: *-r / *ḱe,False
+A,pore,3.28,Old English vs French,Old English vs French: *purian / pore,False
+A,fret,3.27,"Latin, PIE, Proto-Germanic",Latin: frangō / -āre / fretum | PIE: *h₁ed- / *pro- / *bʰreg- / *h₃enh₂- | Proto-Germanic: *fraetaną / *fra-,False
+A,gratification,3.27,PIE,PIE: *gʷerH- / *dʰeh₁-,False
+A,proclaim,3.27,PIE,PIE: *pro- / *kelh₁-,False
+A,bison,3.26,PIE,PIE: *wisAn- / *weys-,False
+A,excise,3.26,Latin,Latin: *accensum / ad / excisus,False
+A,groin,3.26,"Old English vs French, Proto-Germanic",Old English vs French: grynde / groignier | Proto-Germanic: *grunduz / *grunnōną,False
+A,avenge,3.25,PIE,PIE: *weyh₁- / *deyḱ-,False
+A,fathom,3.25,"PIE, Proto-Germanic",PIE: *peth₂- / *pet- | Proto-Germanic: *faþmaz / *faþmōjan,False
+A,nectar,3.25,PIE,PIE: *neḱ- / *terh₂-,False
+A,prodigy,3.25,PIE,PIE: *per- / *h₁eǵ-,False
+A,euphoria,3.24,PIE,PIE: *h₁su- / *bʰer-,False
+A,nocturnal,3.24,Latin,Latin: nocturnus / nox,False
+A,yearning,3.24,"PIE, Proto-Germanic",PIE: *ǵʰer- / *h₃er- / *ḱóm / *h₃r̥-néw-ti | Proto-Germanic: *girnijaną / *ga- / *rinnaną,False
+A,budge,3.23,Latin,Latin: *bullicāre / *bogea,False
+A,sash,3.23,Arabic,Arabic: شَاش / ش و ش‎,False
+A,wight,3.23,"PIE, Proto-Germanic",PIE: *wekʷ- / *wekti- / *weyk- | Proto-Germanic: *wihtiz / *wīgaz,False
+A,armistice,3.22,"Latin, PIE",Latin: armistitium / arma | PIE: *h₂er- / *steh₂-,False
+A,coronavirus,3.22,PIE,PIE: *(s)ker- / *weys-,False
+A,familial,3.22,"Latin, PIE",Latin: familia / -ālis | PIE: *dʰeh₁- / *dʰh₁-m-eló- / *-li-,False
+A,fend,3.21,"Old English vs French, PIE",Old English vs French: fēond / deffendre | PIE: *gʷʰen- / *peh₁-,False
+A,gallant,3.21,Proto-Germanic,Proto-Germanic: *wal- / *gailaz,False
+A,inquest,3.21,Latin,Latin: inquiro / inquesta / quaesita,False
+A,kink,3.21,"PIE, Proto-Germanic",PIE: *gang- / *gengʰ- | Proto-Germanic: *kinkōną / *kenk-,False
+A,ras,3.21,Arabic,Arabic: رأس / ر ء س‎,False
+A,whoop,3.2,"Old English vs French, Proto-Germanic",Old English vs French: wōp / houper | Proto-Germanic: *hwōpaną / *wōpaz,False
+A,deprive,3.19,Latin,Latin: dēprīvō / dē-,False
+A,keel,3.19,Proto-Germanic,Proto-Germanic: *keluz / *kōlijaną,False
+A,scourge,3.19,Latin,Latin: *excorrigiō / ex-,False
+A,sprite,3.19,PIE,PIE: *(s)peys- / *-tus,False
+A,allege,3.18,Latin,Latin: ex / alleviāre,False
+A,firth,3.18,"PIE, Proto-Germanic",PIE: *per- (fare) / *-tus / *pértus / *perkʷ- | Proto-Germanic: *ferþu / *furhiþją,False
+A,horticulture,3.18,PIE,PIE: *ǵʰer- / *kʷel-,False
+A,amin,3.17,Arabic,Arabic: أَمِين / ء م ن,False
+A,felon,3.17,"Latin, Proto-Germanic",Latin: fellō / fel | Proto-Germanic: *fillô / *faluz,False
+A,insurrection,3.17,PIE,PIE: *n̥- / *h₃reǵ-,False
+A,infer,3.16,"Latin, PIE",Latin: inferō / in- | PIE: *bʰer- / *bʰéreti,False
+A,propel,3.16,PIE,PIE: *pro- / *pel- (beat),False
+A,ruse,3.16,Latin,Latin: rursus / recūsāre,False
+A,strut,3.16,PIE,PIE: *(s)ter- / *streudʰ-,False
+A,carcinoma,3.15,PIE,PIE: *(s)ker- / *-iHnos / *-mn̥,False
+A,circumvent,3.15,PIE,PIE: *(s)ker- (turn) / *gʷem-,False
+A,fortitude,3.15,PIE,PIE: *bʰerǵʰ- / *-tus,False
+A,redress,3.15,Latin,Latin: re- / *drēctiāre / dīrectus,False
+A,sickle,3.15,"PIE, Proto-Germanic",PIE: *sek- / *seg- | Proto-Germanic: *sikilō / *seką,False
+A,grouse,3.14,"Latin, PIE",Latin: gruta / grūs | PIE: *gerh₂- / *gʰer-,False
+A,pasha,3.14,Persian,Persian: پادشاه / بچّه,False
+A,stoop,3.14,"Old Norse, Proto-Germanic",Old Norse: stólpi / staup | Proto-Germanic: *stūpōną / *stulpô / *staupą,False
+A,dowry,3.13,Latin,Latin: dōtārium / dōs,False
+A,fraught,3.12,Proto-Germanic,Proto-Germanic: *fra- / *aihtiz,False
+A,grapple,3.12,PIE,PIE: *gʰrebʰ- / *grep- / *ger-,False
+A,counterpoint,3.11,Latin,Latin: contrāpūnctum / culcita,False
+A,daw,3.11,"PIE, Proto-Germanic",PIE: *dʰākʷ- / *dʰegʷʰ- | Proto-Germanic: *dēhǭ / *dagāną,False
+A,galore,3.11,PIE,PIE: *leh₂w- / *ḱóm,False
+A,horoscope,3.1,PIE,PIE: *yeh₁- / *speḱ-,False
+A,mow,3.1,"Old English vs French, Proto-Germanic",Old English vs French: māwan / moue | Proto-Germanic: *mēaną / *mawwō,False
+A,filament,3.09,Latin,Latin: fīlāmentum / fīlō / fīlum,False
+A,penultimate,3.09,PIE,PIE: *peh₁- / *h₂el-,False
+A,rout,3.09,"Latin, Old Norse, PIE, Proto-Germanic",Latin: rupta / rumpere | Old Norse: rauta / hrjóta | PIE: *Hrewp- / *ker- / *HrewdH- / *wréh₂ds / *kreu- / *krut- | Proto-Germanic: *hrūtaną / *wrōtaną,False
+A,yoke,3.09,PIE,PIE: *yewg- / *yugóm,False
+A,credence,3.08,"Latin, PIE",Latin: crēdentia / crēdēns | PIE: *ḱerd- / *dʰeh₁-,False
+A,specter,3.08,PIE,PIE: *speḱ- / *-trom,False
+A,brine,3.07,PIE,PIE: *bʰreyH- / *mriHnós,False
+A,churn,3.07,Proto-Germanic,Proto-Germanic: *kernǭ / *kirnijaną,False
+A,faucet,3.07,Latin,Latin: falsō / faux,False
+A,slough,3.06,Proto-Germanic,Proto-Germanic: *sluk- / *slōhaz,False
+A,valkyrie,3.06,PIE,PIE: *welh₃- / *ǵews-,False
+A,emir,3.05,Arabic,Arabic: أَمِير / ء م ر,False
+A,phenotype,3.05,Greek,Greek: φαίνω / τύπος,False
+A,hap,3.04,"Old Norse, Proto-Germanic","Old Norse: happ / ,  | Proto-Germanic: *hampą / *hampijaną",False
+A,gallop,3.03,PIE,PIE: *klaup- / *wel-,False
+A,olfactory,3.03,PIE,PIE: *h₃ed- / *dʰeh₁-,False
+A,pheasant,3.03,Old English vs French,Old English vs French: wōrhana / fesan,False
+A,retract,3.03,"Latin, PIE",Latin: retractus / retrahō / retractāre | PIE: *dʰregʰ- / *tregʰ-,False
+A,scaffold,3.03,Latin,Latin: ex- / *catafalcum / -falicum,False
+A,toil,3.03,Old English vs French,"Old English vs French: , , ,  / toiller",False
+A,agnostic,3.02,Greek,Greek: ἄγνωστος / ἀ-,False
+A,fawn,3.02,"Latin, Old English vs French",Latin: *fetonem / fētus | Old English vs French: fahnian / faon,False
+A,infallible,3.02,Latin,Latin: infallibilis / in-,False
+A,mince,3.02,"Old English vs French, Proto-Germanic",Old English vs French: minsian / mincer | Proto-Germanic: *minnisōną / *minniz,False
+A,inanimate,3.01,Latin,Latin: inanimātus / in- / inanimō,False
+A,mun,3.01,"Old Norse, Proto-Germanic",Old Norse: munu / muðr | Proto-Germanic: *munaną / *munþaz,False
+A,orc,3.01,"Latin, Old English vs French",Latin: orca / Orcus | Old English vs French: orc / orque,False
+A,stipend,3.01,PIE,PIE: *steyp- / *(s)pend-,False
+A,duchy,3.0,Latin,Latin: ducātus / dux,False
+A,extremity,3.0,PIE,PIE: *-teh₂ts / *h₁eǵʰs / *-is-,False
+A,mew,3.0,Old English vs French,Old English vs French: mǣw / mue,False
+A,progeny,3.0,PIE,PIE: *per- / *ǵenh₁-,False
+A,quell,3.0,Proto-Germanic,Proto-Germanic: *kwaljaną / *kwellǭ,False
+A,savory,3.0,"Latin, Old English vs French",Latin: sapōrāre / sapor / satureia | Old English vs French: sæþerie / savouré,False
+B,in,7.27,Proto-Germanic,Proto-Germanic: *in / *innai,False
+B,with,6.85,Proto-Germanic,Proto-Germanic: *wiþi / *wiþrą,False
+B,have,6.71,PIE,PIE: *keh₂p- / *kh₂pyéti,False
+B,can,6.46,Proto-Germanic,Proto-Germanic: *kunnaną / *kannǭ,False
+B,will,6.45,Proto-Germanic,Proto-Germanic: *wiljaną / *wiljô,False
+B,out,6.38,Proto-Germanic,Proto-Germanic: *ūt / *ūtai,False
+B,what,6.38,PIE,PIE: *kʷ- / *kʷód,False
+B,no,6.35,Proto-Germanic,Proto-Germanic: *nainaz / *nai,False
+B,who,6.34,PIE,PIE: *kʷ- / *kʷos,False
+B,time,6.29,PIE,PIE: *deh₂imō / *deh₂y-,False
+B,new,6.25,PIE,PIE: *new- (new) / *néwyos,False
+B,make,6.08,PIE,PIE: *meh₂ǵ- / *maǵ-,False
+B,very,6.0,Latin,Latin: *vērācus / vērāx,False
+B,even,5.99,Proto-Germanic,Proto-Germanic: *ebnaz / *ēbanþs,False
+B,work,5.96,Proto-Germanic,Proto-Germanic: *werką / *wurkijaną,False
+B,going,5.94,Proto-Germanic,Proto-Germanic: *gēndz / *gēną,False
+B,why,5.93,PIE,PIE: *kʷ- / *kʷey,False
+B,many,5.91,Proto-Germanic,Proto-Germanic: *managaz / *managō,False
+B,say,5.89,PIE,PIE: *sokʷ-h₁-yé- / *sekʷ-,False
+B,down,5.88,PIE,PIE: *dʰewh₂- / *dʰowh₂-nis,False
+B,great,5.88,PIE,PIE: *gʰer- / *gʰrewd-,False
+B,last,5.86,Proto-Germanic,Proto-Germanic: *laistijaną / *laistiz / *hlastuz,False
+B,home,5.81,PIE,PIE: *tḱey- / *tḱóymos,False
+B,part,5.78,PIE,PIE: *per- (sell) / *par-,False
+B,help,5.75,Proto-Germanic,Proto-Germanic: *helpō / *helpaną,False
+B,high,5.75,Proto-Germanic,Proto-Germanic: *hauhaz / *hugiz,False
+B,house,5.71,PIE,PIE: *(s)kewH- / *(s)kews-,False
+B,end,5.68,PIE,PIE: *h₂en- / *h₂entíos,False
+B,team,5.67,Proto-Germanic,Proto-Germanic: *taumaz / *taugijaną,True
+B,might,5.66,PIE,PIE: *megʰ- / *mógʰtis,False
+B,play,5.61,PIE,PIE: *blek- / *bal-,False
+B,let,5.6,Proto-Germanic,Proto-Germanic: *lētaną / *latjaną,False
+B,system,5.56,PIE,PIE: *sem- / *steh₂-,True
+B,point,5.54,Latin,Latin: pūnctum / punctare,False
+B,told,5.54,Proto-Germanic,Proto-Germanic: *talid- / *taljaną,False
+B,music,5.52,Greek,Greek: μουσική / Μοῦσα,True
+B,power,5.52,Latin,Latin: posso / possum,False
+B,stop,5.52,PIE,PIE: *(s)tewp- / *(s)teub-,False
+B,side,5.5,Proto-Germanic,Proto-Germanic: *sīdǭ / *sīdaz,False
+B,line,5.49,Proto-Germanic,Proto-Germanic: *līnǭ / *līną,True
+B,run,5.49,PIE,PIE: *h₃er- / *h₃reyH-,False
+B,open,5.48,Proto-Germanic,Proto-Germanic: *upanaz / *upanōną,False
+B,car,5.45,PIE,PIE: *ḱers- / *gers-,False
+B,face,5.45,Latin,Latin: *facia / faciēs,False
+B,health,5.44,Proto-Germanic,Proto-Germanic: *hailiþō / *hailaz / *haliþaz,False
+B,local,5.43,Latin,Latin: locālis / locus,False
+B,mind,5.41,PIE,PIE: *men- / *méntis,False
+B,pay,5.4,Latin,Latin: pācāre / pācō,True
+B,else,5.38,PIE,PIE: *h₂el- (other) / *h₂élyos,False
+B,close,5.36,PIE,PIE: *(s)kleh₂w- / *klāw-,False
+B,wait,5.35,Frankish,Frankish: *wahtwēn / *wahtu,False
+B,north,5.34,PIE,PIE: *h₁ner- / *ner-,False
+B,saw,5.34,PIE,PIE: *sek- / *sekʷe-,False
+B,age,5.32,Latin,Latin: *aetāticum / aetātem,False
+B,reason,5.32,PIE,PIE: *h₂er- / *h₂reh₁-,False
+B,red,5.32,PIE,PIE: *h₁rewdʰ- / *h₁rowdʰós,False
+B,check,5.31,Latin,Latin: scaccus / scaccarium,True
+B,act,5.3,PIE,PIE: *h₂eǵ- / *h₂éǵeti,False
+B,media,5.3,Latin,Latin: media / medium,True
+B,art,5.29,PIE,PIE: *h₂er- / *er-,False
+B,chance,5.26,Latin,Latin: *cadentia / cadere,True
+B,father,5.26,PIE,PIE: *peh₂- / *ph₂tḗr,False
+B,study,5.26,Latin,Latin: studiāre / studium,False
+B,action,5.25,PIE,PIE: *h₂eǵ- / *h₂éǵeti,False
+B,cut,5.24,Proto-Germanic,Proto-Germanic: *kutjaną / *kwetwą,False
+B,re,5.23,Latin,Latin: rē / resono,False
+B,summer,5.23,Latin,Latin: saumarius / sagma,False
+B,date,5.22,Latin,Latin: dactylus / data / datus,True
+B,miss,5.22,PIE,PIE: *mey- (change) / *meytH-,False
+B,sex,5.22,PIE,PIE: *sek- / *séksus,False
+B,security,5.2,Latin,Latin: sēcūritās / sēcūrus,False
+B,share,5.2,Proto-Germanic,Proto-Germanic: *skarō / *skaraz,False
+B,star,5.19,PIE,PIE: *h₂eHs- / *h₂stḗr,False
+B,test,5.19,Latin,Latin: testum / testis,True
+B,middle,5.18,Proto-Germanic,Proto-Germanic: *midlą / *midjō,False
+B,boy,5.17,Proto-Germanic,Proto-Germanic: *bōjô / *bō-,True
+B,gold,5.17,PIE,PIE: *ǵʰelh₃- / *ǵʰl̥tóm,False
+B,guess,5.17,Proto-Germanic,Proto-Germanic: *gitisōną / *getaną,False
+B,policy,5.17,Greek,Greek: πολιτεία / ἀπόδειξις,False
+B,society,5.17,PIE,PIE: *sekʷ- / *sokʷ-yo-,False
+B,bank,5.16,Proto-Germanic,Proto-Germanic: *bankiz / *bankô,True
+B,longer,5.16,Proto-Germanic,Proto-Germanic: *langizô / *langaz,False
+B,medical,5.16,Latin,Latin: medicālis / medicus,False
+B,original,5.16,Latin,Latin: orīginālis / orīgō,False
+B,worth,5.16,Proto-Germanic,Proto-Germanic: *werþaz / *werþaną,False
+B,director,5.15,Latin,Latin: director / directus,False
+B,source,5.15,PIE,PIE: *h₃reǵ- / *h₃réǵeti,False
+B,official,5.14,Latin,Latin: officiālis / officium,False
+B,drive,5.13,PIE,PIE: *dʰreybʰ- / *dʰer-,False
+B,eat,5.13,Proto-Germanic,Proto-Germanic: *etaną / *ētą,False
+B,fast,5.13,Proto-Germanic,Proto-Germanic: *fastuz / *fastāną,False
+B,felt,5.13,PIE,PIE: *pel- (beat) / *pilto,False
+B,green,5.13,Proto-Germanic,Proto-Germanic: *grōniz / *grōnijōną,False
+B,page,5.12,Latin,Latin: pagina / pagius,False
+B,cup,5.11,PIE,PIE: *kewp- / *gew-,False
+B,hate,5.11,Proto-Germanic,Proto-Germanic: *hataz / *hatāną,False
+B,language,5.1,Latin,Latin: *linguāticum / lingua,False
+B,born,5.09,Proto-Germanic,Proto-Germanic: *buranaz / *beraną,False
+B,cover,5.08,Latin,Latin: coperire / cooperiō,False
+B,sign,5.08,Latin,Latin: signum / signare,False
+B,union,5.08,Latin,Latin: ūniō / ūnus,False
+B,walk,5.08,PIE,PIE: *welH- / *walg-,True
+B,career,5.07,Latin,Latin: carrāria / carrus,True
+B,modern,5.07,Latin,Latin: modernus / modo,False
+B,version,5.07,Latin,Latin: versiō / vertō,False
+B,voice,5.07,PIE,PIE: *wekʷ- / *wṓkʷs,False
+B,army,5.06,Latin,Latin: armāta / armāre,False
+B,huge,5.06,PIE,PIE: *kewk- / *kowkós,False
+B,listen,5.06,Proto-Germanic,Proto-Germanic: *hlusnijaną / *hlusēną,False
+B,base,5.05,Latin,Latin: basis / bassus,False
+B,pass,5.05,PIE,PIE: *pth₂noh₂ / *peth₂-,False
+B,sleep,5.05,Proto-Germanic,Proto-Germanic: *slēpaną / *slēpaz,False
+B,build,5.04,Proto-Germanic,Proto-Germanic: *buþlijaną / *buþlą,False
+B,card,5.04,Latin,Latin: charta / *carito,False
+B,wall,5.04,PIE,PIE: *welH- / *welǝn-,False
+B,officer,5.03,Latin,Latin: officiarius / officium,False
+B,river,5.03,Latin,Latin: *rīpāria / rīpa,False
+B,rock,5.03,Proto-Germanic,Proto-Germanic: *rukkōną / *rugnōną,False
+B,specific,5.03,Latin,Latin: specificus / speciēs,False
+B,charge,5.02,Latin,Latin: carricō / carrus,False
+B,island,5.01,Proto-Germanic,Proto-Germanic: *awjōlandą / *awjō,False
+B,population,5.01,Latin,Latin: populatio / populus,False
+B,campaign,5.0,Latin,Latin: campānia / campus,True
+B,individual,5.0,Latin,Latin: indīviduālis / indīviduum,True
+B,region,5.0,PIE,PIE: *h₃enh₂- / *h₃reǵ-,False
+B,sort,5.0,Latin,Latin: sortem / sortire,False
+B,feet,4.99,PIE,PIE: *ped- / *pódes,False
+B,minute,4.98,Latin,Latin: minūta / minūtus,True
+B,quick,4.98,PIE,PIE: *gʷeyh₃- / *gʷih₃wós,True
+B,clean,4.97,PIE,PIE: *glēy- / *gel-,False
+B,movement,4.97,Latin,Latin: movimentum / movere,False
+B,safety,4.97,Latin,Latin: salvitās / salvus,False
+B,train,4.96,Latin,Latin: *traginō / trahō,True
+B,annual,4.94,Latin,Latin: annuālem / annālis,False
+B,brain,4.94,PIE,PIE: *mregʰ- / *men- (think) / *mregʰnom,False
+B,floor,4.94,PIE,PIE: *pleh₂- / *pleh₂ros,False
+B,majority,4.94,Latin,Latin: māiōritātem / māiōr,False
+B,rule,4.94,PIE,PIE: *h₃reǵ- / *h₃réǵeti,False
+B,stupid,4.94,PIE,PIE: *(s)tewp- / *(s)tup-,True
+B,active,4.93,PIE,PIE: *h₂eǵ- / *h₂éǵeti,False
+B,band,4.92,Proto-Germanic,Proto-Germanic: *bandą / *bandiz,False
+B,commercial,4.92,Latin,Latin: commercialis / commercium,False
+B,fan,4.92,PIE,PIE: *h₂weh₁- / *dʰeh₁-,False
+B,wear,4.92,PIE,PIE: *wes- / *wer-,False
+B,choose,4.91,PIE,PIE: *ǵews- / *ǵéwseti,False
+B,finish,4.91,PIE,PIE: *dʰeygʷ- / *bʰeyd-,False
+B,rich,4.91,Proto-Germanic,Proto-Germanic: *rīkijaz / *rīks,False
+B,damage,4.9,Latin,Latin: *damnaticum / damnum,False
+B,drink,4.9,Proto-Germanic,Proto-Germanic: *drinkaną / *drunkiz,False
+B,fish,4.9,Proto-Germanic,Proto-Germanic: *fiskaz / *fiskōną,False
+B,glad,4.9,PIE,PIE: *ǵʰelh₂- / *gʰladʰ-,True
+B,captain,4.89,Latin,Latin: capitāneus / caput,False
+B,smith,4.89,Proto-Germanic,Proto-Germanic: *smiþaz / *smiþōną,False
+B,comment,4.88,Latin,Latin: commentum / commentor,False
+B,purpose,4.88,Latin,Latin: prō- / propono,False
+B,showing,4.88,Proto-Germanic,Proto-Germanic: *skawwōndz / *skawwungō,False
+B,agency,4.87,Latin,Latin: agentia / agēns,False
+B,camera,4.87,Latin,Latin: camera / camera obscura,True
+B,catch,4.87,Latin,Latin: captiāre / captō,False
+B,cell,4.87,PIE,PIE: *ḱel- (cover) / *ḱelneh₂,False
+B,coast,4.87,Latin,Latin: costa / costicāre,False
+B,drug,4.87,Proto-Germanic,Proto-Germanic: *draugiz / *draganą,False
+B,foot,4.87,PIE,PIE: *ped- / *pṓds,False
+B,weather,4.87,PIE,PIE: *h₂weh₁- / *wedʰrom,False
+B,heat,4.86,Proto-Germanic,Proto-Germanic: *haitį̄ / *haitijaną,False
+B,murder,4.86,PIE,PIE: *mer- / *mr̥tro-,False
+B,actual,4.85,Latin,Latin: actuālis / actus,False
+B,protection,4.85,Latin,Latin: prōtectiō / prōtēctus,False
+B,serve,4.85,Latin,Latin: serviō / servus,False
+B,traffic,4.85,Arabic,Arabic: تَفْرِيق / ف ر ق‎,False
+B,demand,4.84,PIE,PIE: *(s)meh₂- / *deh₃-,False
+B,wind,4.84,Proto-Germanic,Proto-Germanic: *windaz / *windaną,False
+B,count,4.83,Latin,Latin: computō / comes,False
+B,lake,4.83,Proto-Germanic,Proto-Germanic: *lakō / *laiką / *lakaną,False
+B,smart,4.83,Proto-Germanic,Proto-Germanic: *smertaną / *smartaz,True
+B,click,4.82,Old English vs French,Old English vs French: *clēċan / clique,False
+B,feature,4.82,Latin,Latin: factūra / factus / faciō,False
+B,hill,4.82,PIE,PIE: *kelH- / *kl̥Hnís,False
+B,rose,4.82,PIE,PIE: *Hwerdʰ- / *wr̥dʰos,False
+B,village,4.82,Latin,Latin: villāticus / villa,False
+B,basis,4.81,PIE,PIE: *gʷem- / *gʷémtis,False
+B,rise,4.81,Proto-Germanic,Proto-Germanic: *rīsaną / *hrīsą,False
+B,firm,4.79,Latin,Latin: firmāre / firmus,False
+B,till,4.79,Old Norse,Old Norse: til / þilja,False
+B,cat,4.78,Latin,Latin: cattus / catta,False
+B,dinner,4.78,Latin,Latin: *disiūnō / dis-,True
+B,influence,4.78,Latin,Latin: īnfluentia / īnfluēns,True
+B,shut,4.78,Proto-Germanic,Proto-Germanic: *skutjaną / *skuttą,False
+B,wood,4.78,PIE,PIE: *dʰeh₁- / *h₁weydʰh₁-,False
+B,birth,4.77,PIE,PIE: *bʰer- / *bʰr̥tis,False
+B,dear,4.77,Proto-Germanic,Proto-Germanic: *diurijaz / *deuzaz,False
+B,host,4.77,Latin,Latin: hospitem / hostis,False
+B,balance,4.76,Latin,Latin: *bilancia / bilanx,True
+B,dress,4.76,Latin,Latin: *directiare / dīrēctus,False
+B,horse,4.76,PIE,PIE: *ḱers- / *ḱr̥sós,False
+B,map,4.76,Latin,Latin: mappa mundī / mappa,True
+B,wake,4.76,Proto-Germanic,Proto-Germanic: *wakaną / *wakō,False
+B,beauty,4.75,Latin,Latin: *bellitās / bellus,False
+B,criminal,4.75,Latin,Latin: criminalis / crimen,False
+B,farm,4.75,Proto-Germanic,Proto-Germanic: *fermō / *ferhwō,False
+B,fly,4.75,Proto-Germanic,Proto-Germanic: *fleugǭ / *fleuganą,False
+B,raise,4.75,Old Norse,Old Norse: reisa / hreysi,False
+B,roll,4.75,Latin,Latin: rotulāre / rotulus,False
+B,surprise,4.75,Latin,Latin: super- / prendere,False
+B,appreciate,4.74,Latin,Latin: appreciatus / pretium,False
+B,evil,4.74,PIE,PIE: *h₂upélos / *upo,False
+B,mad,4.74,Proto-Germanic,Proto-Germanic: *maidijaną / *maidaz,False
+B,magazine,4.74,Arabic,Arabic: مَخَازِن / خ ز ن,False
+B,arm,4.73,PIE,PIE: *h₂er- / *h₂r̥mós / *h₁erm-,False
+B,stress,4.73,Latin,Latin: distringō / *strictia / strictus,False
+B,emergency,4.72,Latin,Latin: emergentia / emergens,False
+B,festival,4.72,Latin,Latin: fēstīvālis / fēstīvus,False
+B,flat,4.72,Proto-Germanic,Proto-Germanic: *flataz / *flatjaną,False
+B,kick,4.72,Proto-Germanic,Proto-Germanic: *kaikaz / *kī-,False
+B,plane,4.72,Latin,Latin: plānum / plāna / platanus,False
+B,plenty,4.72,PIE,PIE: *pleh₁- / *pl̥h₁nós,False
+B,alternative,4.71,Latin,Latin: alternātīvus / alternō,False
+B,path,4.71,PIE,PIE: *pent- / *póntoh₁s,False
+B,warm,4.71,PIE,PIE: *gʷʰer- / *wer-,False
+B,command,4.7,PIE,PIE: *(s)meh₂- / *deh₃-,False
+B,limit,4.7,Latin,Latin: līmes / līmitō,False
+B,ben,4.69,Arabic,Arabic: ب و ن / بَان,False
+B,debt,4.69,Latin,Latin: dēbita / dēbitum,False
+B,ray,4.69,Latin,Latin: radius / raia,False
+B,joke,4.68,PIE,PIE: *yokos / *yek-,False
+B,planet,4.68,Greek,Greek: πλανήτης / πλανάω,False
+B,soft,4.68,PIE,PIE: *sem- / *semptio-,False
+B,milk,4.66,Proto-Germanic,Proto-Germanic: *meluks / *melkaną,False
+B,storm,4.66,Proto-Germanic,Proto-Germanic: *sturmaz / *sturmijaną,False
+B,journey,4.65,Latin,Latin: diurnata / diurnus,True
+B,kitchen,4.65,Latin,Latin: *cocīna / coquīna,False
+B,maintain,4.65,Latin,Latin: manuteneo / manū,False
+B,task,4.65,Latin,Latin: tasca / taxāre,False
+B,argument,4.64,Latin,Latin: argūmentum / argūmentārī,False
+B,fault,4.64,Latin,Latin: *fallita / falsus,False
+B,phase,4.64,Latin,Latin: phasis / phase,False
+B,blame,4.63,Latin,Latin: *blastēmāre / blasphēmō,False
+B,display,4.63,Latin,Latin: displicare / dis-,False
+B,false,4.63,Latin,Latin: falsus / falsō,False
+B,zero,4.63,Arabic,Arabic: صِفْر / ص ف ر,False
+B,champion,4.62,Latin,Latin: campio / campus,False
+B,cream,4.62,Latin,Latin: chrisma / crāmum,False
+B,jail,4.62,Latin,Latin: gabiola / *caveola,False
+B,signal,4.62,Latin,Latin: signāle / signum,False
+B,stream,4.62,PIE,PIE: *srew- / *srowmos,False
+B,alcohol,4.61,Arabic,Arabic: كحل / ك ح ل,False
+B,id,4.61,Latin,Latin: id / idem,False
+B,cycle,4.6,PIE,PIE: *kʷel- / *kʷékʷlos,False
+B,affect,4.59,Latin,Latin: affectāre / affectus / afficere,False
+B,assistance,4.59,Latin,Latin: assistentia / assistō,False
+B,bell,4.59,Proto-Germanic,Proto-Germanic: *bellǭ / *bellaną,False
+B,danger,4.59,Latin,Latin: *dominārium / dominus,True
+B,gender,4.59,Latin,Latin: genus / generāre,False
+B,reasonable,4.59,Latin,Latin: rationabilis / ratio,False
+B,register,4.59,Latin,Latin: registrum / regesta / regero,False
+B,typical,4.59,Latin,Latin: typicalis / typicus,False
+B,attitude,4.58,Latin,Latin: aptitūdō / aptō,False
+B,kiss,4.58,Proto-Germanic,Proto-Germanic: *kussijaną / *kussaz,False
+B,rent,4.58,Latin,Latin: renta / *rendere,False
+B,academic,4.57,Latin,Latin: acadēmicus / academia,False
+B,bottle,4.57,Latin,Latin: butticula / buttis,False
+B,diet,4.57,Latin,Latin: dieta / diēs,False
+B,navy,4.57,Latin,Latin: nāvigia / nāvigō,False
+B,opposition,4.57,Latin,Latin: oppositiō / oppōnō,False
+B,tend,4.57,PIE,PIE: *tend- / *den-,False
+B,tight,4.57,PIE,PIE: *tenkt- / *ten-,False
+B,yard,4.57,PIE,PIE: *gʰerdʰ- / *gʰórdʰos,False
+B,combat,4.56,Latin,Latin: *combattere / com-,False
+B,revolution,4.56,Latin,Latin: revolūtiōnem / revolvō,False
+B,joy,4.55,Latin,Latin: gaudia / gaudium,False
+B,manner,4.55,Latin,Latin: *manāria / manuarius,False
+B,noise,4.55,Latin,Latin: nausia / noxia,False
+B,plate,4.55,Latin,Latin: plata / *plattus,False
+B,relief,4.55,Latin,Latin: relevare / relevō,False
+B,shame,4.55,Proto-Germanic,Proto-Germanic: *skamō / *skamāną,False
+B,cable,4.54,Latin,Latin: capulum / capiō,False
+B,client,4.54,PIE,PIE: *ḱlew- / *ḱley-,False
+B,dumb,4.54,Proto-Germanic,Proto-Germanic: *dumbaz / *dumbijaną,False
+B,loud,4.53,PIE,PIE: *ḱlew- / *ḱlewtos,False
+B,marine,4.53,PIE,PIE: *mer- (sea) / *móri,False
+B,ultimate,4.53,Latin,Latin: ultimātus / ultimo,False
+B,grab,4.52,Arabic,Arabic: غُرَاب / غ ر ب,False
+B,survive,4.52,Latin,Latin: supervivere / super,False
+B,fee,4.51,Old English vs French,Old English vs French: feoh / fieu,True
+B,jan,4.51,Arabic,Arabic: جَنّ / ج ن ن,False
+B,quote,4.51,Latin,Latin: quotāre / quotus,False
+B,tie,4.51,Proto-Germanic,Proto-Germanic: *taugō / *taugijaną,False
+B,bread,4.5,Proto-Germanic,Proto-Germanic: *braudą / *braidį̄ / *braidijaną,False
+B,gang,4.5,Proto-Germanic,Proto-Germanic: *ganganą / *gangaz,False
+B,lift,4.5,Proto-Germanic,Proto-Germanic: *luftijaną / *luftuz,False
+B,rid,4.5,Proto-Germanic,Proto-Germanic: *hradjaną / *riudijaną,False
+B,visual,4.5,Latin,Latin: visualis / visus,False
+B,wheel,4.5,PIE,PIE: *kʷel- / *kʷekʷlóm,False
+B,gallery,4.49,Latin,Latin: galeria / Galilaea,False
+B,jury,4.49,Latin,Latin: iūrāta / iūrō / adiūtō,False
+B,smell,4.49,PIE,PIE: *(s)meld- / *smel-,False
+B,stable,4.48,Latin,Latin: stabulum / stabilis,False
+B,trick,4.48,Latin,Latin: *triccāre / tricor,False
+B,gate,4.47,Proto-Germanic,Proto-Germanic: *gatą / *gatwǭ,False
+B,mount,4.47,Latin,Latin: mons / montare,False
+B,adventure,4.46,Latin,Latin: adventurus / advenire,False
+B,egg,4.46,Old Norse,Old Norse: egg / eggja,False
+B,hip,4.46,Proto-Germanic,Proto-Germanic: *hupiz / *heupǭ,False
+B,offensive,4.46,Latin,Latin: offensivus / offendo,False
+B,thick,4.46,PIE,PIE: *(s)teg- (pole) / *tégus,False
+B,castle,4.45,Latin,Latin: castellum / castrum,False
+B,temple,4.45,Latin,Latin: templum / tempora,False
+B,chase,4.44,Latin,Latin: captiāre / captō,False
+B,ideal,4.44,Latin,Latin: ideālis / idea,False
+B,rank,4.44,Proto-Germanic,Proto-Germanic: *rankaz / *hringaz,False
+B,desk,4.43,Latin,Latin: desca / discus,False
+B,nervous,4.42,PIE,PIE: *(s)neh₁- / *snéh₁wr̥,False
+B,skill,4.42,Proto-Germanic,Proto-Germanic: *skilją / *skilōną,False
+B,comfort,4.41,Latin,Latin: confortō / con-,True
+B,inspiration,4.41,Latin,Latin: īnspīrātiōnem / īnspīrātus,False
+B,minority,4.41,Latin,Latin: minōritās / minor,False
+B,promotion,4.41,Latin,Latin: promotio / promoveo,False
+B,rail,4.41,Old English vs French,Old English vs French: regol / reille,False
+B,repair,4.41,Latin,Latin: reparō / repatriare,False
+B,root,4.41,Proto-Germanic,Proto-Germanic: *wrōts / *wrōtaną,False
+B,steal,4.41,PIE,PIE: *ster- / *stel(H)- / *tsel-,False
+B,delay,4.4,Frankish,Frankish: *lattjan / *laibijan,False
+B,desert,4.4,Latin,Latin: dēserviō / dēsertum,False
+B,disaster,4.39,PIE,PIE: *h₂eHs- / *h₂stḗr,True
+B,medal,4.39,Latin,Latin: *medālia / mediāle / medius,False
+B,currency,4.37,Latin,Latin: currentia / currēns,True
+B,legacy,4.37,Latin,Latin: lēgātia / lego,False
+B,settle,4.37,PIE,PIE: *sed- / *sed-lo-,False
+B,spell,4.37,PIE,PIE: *spel- / *bʰel-,False
+B,ward,4.37,Proto-Germanic,Proto-Germanic: *warduz / *wardō,False
+B,comprehensive,4.36,Latin,Latin: comprehēnsīvus / comprehendō,False
+B,drove,4.36,PIE,PIE: *dʰreybʰ- / *dʰer-,False
+B,initiative,4.36,Latin,Latin: *initiativus / initiare / initium,False
+B,discount,4.35,Latin,Latin: discomputō / dis-,False
+B,epic,4.35,Greek,Greek: ἐπικός / ἐπί,False
+B,fancy,4.35,PIE,PIE: *bʰeh₂- (shine) / *bʰh₂nyéti,False
+B,sequence,4.35,Latin,Latin: sequentia / sequens,False
+B,bull,4.34,PIE,PIE: *bʰel- / *bʰl̥no-,False
+B,contribution,4.34,Latin,Latin: contribūtiōnem / contribuēre,False
+B,principle,4.34,PIE,PIE: *keh₂p- / *preh₂-,False
+B,tail,4.34,PIE,PIE: *doḱ- / *deḱ-,False
+B,twin,4.34,PIE,PIE: *dwino- / *dwóh₁,False
+B,fleet,4.33,Proto-Germanic,Proto-Germanic: *flutōną / *fleutą,False
+B,fundamental,4.33,Latin,Latin: fundamentālis / fundamentum,False
+B,proven,4.33,Latin,Latin: probō / probus,False
+B,teen,4.33,Proto-Germanic,Proto-Germanic: *teuną / *tiunijaną,False
+B,pound,4.32,Proto-Germanic,Proto-Germanic: *pundą / *pūnōną,False
+B,dare,4.31,PIE,PIE: *dʰers- / *dʰedʰórse,False
+B,terminal,4.31,Latin,Latin: terminalis / terminus,False
+B,cape,4.3,Latin,Latin: caput / cappa,False
+B,sauce,4.3,Latin,Latin: *salsa / salsus,True
+B,stem,4.3,Proto-Germanic,Proto-Germanic: *stamniz / *stammijaną,False
+B,toy,4.3,Proto-Germanic,Proto-Germanic: *teugą / *teuhaną,False
+B,alien,4.29,PIE,PIE: *h₂el- (other) / *h₂élyos,False
+B,jet,4.29,Latin,Latin: iactus / gagātēs,False
+B,polish,4.29,PIE,PIE: *pel- (beat) / *pelh₂-,False
+B,judgment,4.28,Latin,Latin: iūdicāmentum / iūdicō,False
+B,mature,4.28,Latin,Latin: mātūrus / mātūrō,False
+B,spare,4.28,Proto-Germanic,Proto-Germanic: *sparaz / *sparōną,False
+B,auction,4.27,Latin,Latin: auctiō / augeō,False
+B,weed,4.27,Proto-Germanic,Proto-Germanic: *weudōną / *wēdiz,False
+B,federation,4.26,Latin,Latin: foederatio / foederare,False
+B,panic,4.26,PIE,PIE: *peh₂- / *(s)penh₁-,True
+B,scope,4.26,Latin,Latin: scopus / scopa,False
+B,pipe,4.25,Latin,Latin: *pīpa / pipire,False
+B,powder,4.25,Latin,Latin: pulverem / pulvis,False
+B,ye,4.25,Proto-Germanic,Proto-Germanic: *jīz / *jūz,False
+B,brush,4.23,Proto-Germanic,Proto-Germanic: *burstiz / *bruskaz,False
+B,coalition,4.23,Latin,Latin: coalitiō / coalitus,False
+B,cock,4.23,Old English vs French,Old English vs French: coc / coque,False
+B,expense,4.23,Latin,Latin: expēnsa / expendō,True
+B,healing,4.23,Proto-Germanic,Proto-Germanic: *hailingō / *hailijaną,False
+B,legendary,4.23,Latin,Latin: legendārius / legenda,False
+B,recipe,4.23,Latin,Latin: recipe / recipiō,False
+B,shed,4.23,PIE,PIE: *skey- / *(s)ḱeh₃-,False
+B,bearing,4.22,Proto-Germanic,Proto-Germanic: *berandz / *beraną,False
+B,climb,4.22,PIE,PIE: *gelybʰ- / *gley-,False
+B,ho,4.22,Proto-Germanic,Proto-Germanic: *hugô / *hugjaną,False
+B,sue,4.22,Latin,Latin: *sequere / sequi,False
+B,vulnerable,4.21,Latin,Latin: vulnerābilis / vulnerō,False
+B,blowing,4.2,Proto-Germanic,Proto-Germanic: *blēandz / *blēaną,False
+B,cave,4.2,Latin,Latin: cava / cavē,False
+B,implement,4.2,Latin,Latin: implēmentum / impleō,False
+B,corn,4.19,PIE,PIE: *ǵerh₂- / *ǵr̥h₂nóm,False
+B,bare,4.18,Proto-Germanic,Proto-Germanic: *bazaz / *bazōną,False
+B,compound,4.18,Latin,Latin: componō / com-,False
+B,earl,4.18,Proto-Germanic,Proto-Germanic: *erlaz / *erōną,False
+B,grain,4.18,PIE,PIE: *ǵerh₂- / *ǵr̥h₂nóm,False
+B,couch,4.17,Old English vs French,Old English vs French: cwice / couche,False
+B,diabetes,4.17,Greek,Greek: διαβήτης / διαβαίνω,False
+B,lease,4.17,Proto-Germanic,Proto-Germanic: *lesaną / *lausijaną,False
+B,partial,4.17,Latin,Latin: partiālis / pars,False
+B,propaganda,4.17,Latin,Latin: propāganda / prōpāgō,False
+B,ash,4.16,Proto-Germanic,Proto-Germanic: *askǭ / *askaz,False
+B,flew,4.16,Proto-Germanic,Proto-Germanic: *flaug / *fleuganą,False
+B,par,4.15,Latin,Latin: per / pār,False
+B,stake,4.15,PIE,PIE: *(s)teg- (pole) / *stog-,False
+B,torture,4.15,Latin,Latin: tortūra / tortus,False
+B,inventory,4.14,Latin,Latin: inventārium / inveniō,False
+B,lecture,4.14,Latin,Latin: lectura / lectus,False
+B,mason,4.14,PIE,PIE: *mag- / *mat-,False
+B,pile,4.14,Latin,Latin: pīla / pīlum,False
+B,sweat,4.14,Proto-Germanic,Proto-Germanic: *swait- / *swaitijaną,False
+B,combine,4.13,Latin,Latin: combīnāre / con-,False
+B,embassy,4.13,PIE,PIE: *h₂ent- / *h₂eǵ-,False
+B,miracle,4.13,PIE,PIE: *(s)mey- / *(s)meyh₂-,False
+B,owe,4.13,PIE,PIE: *h₂eyḱ- / *h₂eh₂óyḱe,False
+B,charm,4.12,Old English vs French,Old English vs French: cierm / charme,True
+B,resume,4.12,Latin,Latin: resumere / resumo,False
+B,strongest,4.12,Proto-Germanic,Proto-Germanic: *strangistô / *strangaz,False
+B,canon,4.11,Latin,Latin: canōn / canonicus,False
+B,closure,4.11,Latin,Latin: clausura / claudere,False
+B,eternal,4.11,Latin,Latin: aeternālis / aeternus,False
+B,handful,4.11,Proto-Germanic,Proto-Germanic: *handufullō / *handuz,False
+B,rage,4.11,Latin,Latin: *rabia / rabiēs,False
+B,sergeant,4.11,Latin,Latin: servientem / serviēns,False
+B,brutal,4.1,Latin,Latin: brutalis / brūtus,False
+B,fig,4.1,Latin,Latin: *fīca / fīcus,False
+B,hunger,4.1,Proto-Germanic,Proto-Germanic: *hungruz / *hungrijaną,False
+B,advise,4.09,Latin,Latin: advisō / videō,False
+B,mice,4.09,Proto-Germanic,Proto-Germanic: *mūsiz / *mūs,False
+B,skull,4.09,Old Norse,Old Norse: skalli / skoltr,False
+B,approve,4.08,Latin,Latin: approbō / prōsum,False
+B,beneficial,4.08,Latin,Latin: beneficiālis / beneficium,False
+B,fairy,4.08,Latin,Latin: *Fāta / fātum,False
+B,freak,4.08,Proto-Germanic,Proto-Germanic: *frekaz / *frekô,False
+B,merchant,4.08,Latin,Latin: *mercatantem / mercātus,False
+B,toll,4.08,Latin,Latin: tolōneum / tollō,False
+B,tooth,4.08,PIE,PIE: *h₃ed- (bite) / *h₃dónts,False
+B,assess,4.07,Latin,Latin: assessare / assessus,False
+B,drain,4.07,Proto-Germanic,Proto-Germanic: *drauhnōną / *draugiz,False
+B,span,4.07,Proto-Germanic,Proto-Germanic: *spannō / *spannaną,False
+B,cemetery,4.06,Latin,Latin: cimitērium / coemētērium,False
+B,cheat,4.06,Latin,Latin: *excadō / ex,False
+B,hull,4.06,PIE,PIE: *ḱel- / *kal-,False
+B,rope,4.06,PIE,PIE: *h₁reyp- / *h₁roypnós,False
+B,alter,4.05,Latin,Latin: alterare / alter,False
+B,foul,4.05,Proto-Germanic,Proto-Germanic: *fūlaz / *fūlāną,False
+B,stance,4.05,Latin,Latin: stāns / stō,False
+B,tent,4.05,Latin,Latin: *tenta / tentus / tīnctus,False
+B,tide,4.05,PIE,PIE: *déh₂itis / *deh₂y-,False
+B,authentic,4.04,Greek,Greek: αὐθεντικός / αὐθέντης,False
+B,echo,4.04,Latin,Latin: ecco / echo,False
+B,flavor,4.04,PIE,PIE: *bʰleh₁- / *bʰel-,False
+B,intermediate,4.04,Latin,Latin: intermediatus / mediare,False
+B,spite,4.04,Latin,Latin: dēspectum / dēspiciō,False
+B,jo,4.03,Latin,Latin: gaudia / gaudium,False
+B,kidney,4.03,Proto-Germanic,Proto-Germanic: *neurô / *keudō,False
+B,ladder,4.03,PIE,PIE: *ḱley- / *ḱlóydʰrom,False
+B,pill,4.03,Latin,Latin: pila / pilō,False
+B,threshold,4.03,Proto-Germanic,Proto-Germanic: *þreskudlaz / *þreskaną,False
+B,dignity,4.02,PIE,PIE: *deḱ- / *dḱ-nos,False
+B,buck,4.01,Proto-Germanic,Proto-Germanic: *bukkaz / *būganą,False
+B,massage,4.01,Arabic,Arabic: مَسَّ / م س س,False
+B,stark,4.01,Proto-Germanic,Proto-Germanic: *starkuz / *starkōną,False
+B,transparent,4.01,Latin,Latin: trānspārēns / trans,False
+B,void,4.01,Latin,Latin: *vocitus / vacuus,False
+B,pause,4.0,Greek,Greek: παῦσις / παύω,False
+B,publicity,4.0,Latin,Latin: pūblicitātem / pūblicus,False
+B,barn,3.99,PIE,PIE: *h₁erh₁- / *bʰer-,False
+B,clause,3.99,Latin,Latin: clausa / clausus,False
+B,dock,3.99,PIE,PIE: *dʰew- / *dʰeu-k-,False
+B,insult,3.99,Latin,Latin: īnsultāre / insultus,True
+B,liking,3.99,Proto-Germanic,Proto-Germanic: *līkāndz / *līkāną,False
+B,speculation,3.99,Latin,Latin: speculātiō / speculor,False
+B,steep,3.99,Proto-Germanic,Proto-Germanic: *staupaz / *staupijaną,False
+B,weigh,3.99,PIE,PIE: *weǵʰ- / *wéǵʰeti,False
+B,absent,3.98,Latin,Latin: absens / absentāre,False
+B,hazard,3.98,Arabic,Arabic: زهر / ز ه ر,False
+B,organize,3.98,Latin,Latin: organizō / organum,False
+B,porter,3.98,Latin,Latin: portātor / portō / portarius,False
+B,ankle,3.97,Proto-Germanic,Proto-Germanic: *ankulaz / *ankijǭ,False
+B,bachelor,3.97,Latin,Latin: baccalārius / baculum,False
+B,berry,3.97,Proto-Germanic,Proto-Germanic: *bazją / *bergaz / *barjaną,False
+B,compatible,3.97,Latin,Latin: compatibilis / compator,False
+B,mandate,3.97,PIE,PIE: *(s)meh₂- / *deh₃-,False
+B,artillery,3.96,Latin,Latin: *apticlō / aptō,False
+B,circular,3.96,Latin,Latin: circularis / circulus,False
+B,integral,3.96,Latin,Latin: integrālis / integer,False
+B,sprint,3.96,PIE,PIE: *sprend- / *sper-,False
+B,wit,3.96,Proto-Germanic,Proto-Germanic: *witją / *witaną,False
+B,binary,3.95,Latin,Latin: bīnārius / bīnī,False
+B,collision,3.95,Latin,Latin: collisio / collidere,False
+B,feast,3.95,Latin,Latin: festa / festum,False
+B,rhetoric,3.95,Latin,Latin: rēthoricus / rhētorica,False
+B,sovereign,3.95,Latin,Latin: *superānus / super,False
+B,tense,3.95,Latin,Latin: tempus / tēnsus,False
+B,fare,3.94,PIE,PIE: *per- (fare) / *por-,False
+B,leap,3.94,Proto-Germanic,Proto-Germanic: *hlaupaną / *laupaz,False
+B,newer,3.94,Proto-Germanic,Proto-Germanic: *niwizô / *niwjaz,False
+B,bore,3.93,Proto-Germanic,Proto-Germanic: *burōną / *bērō,False
+B,dial,3.93,Latin,Latin: diālis / diēs,False
+B,jar,3.93,Arabic,Arabic: جَرَّة / ج ر ر,False
+B,pierce,3.93,Latin,Latin: *pertūsiō / pertūsus,False
+B,sanctuary,3.93,Latin,Latin: sanctuarium / sanctus,False
+B,siege,3.93,Latin,Latin: *sēdicum / sēdēs,False
+B,tenure,3.93,Latin,Latin: *tenitura / tentus,False
+B,honda,3.92,Latin,Latin: funda / fundus,False
+B,mint,3.92,Latin,Latin: monēta / menta,False
+B,pasta,3.92,Greek,Greek: πάστα / πάσσω,False
+B,ambition,3.91,PIE,PIE: *h₂en- / *h₁ey-,False
+B,collector,3.91,Latin,Latin: collector / colligō,False
+B,feminine,3.91,PIE,PIE: *dʰeh₁(y)- / *dʰeh₁-m̥h₁n-eh₂,False
+B,fury,3.91,Latin,Latin: furia / fur,False
+B,massacre,3.91,Latin,Latin: mazacrium / macellum,False
+B,territorial,3.91,Latin,Latin: territorialis / territorium,False
+B,wool,3.91,PIE,PIE: *h₂welh₁- / *h₂wĺ̥h₁neh₂,False
+B,balloon,3.9,PIE,PIE: *bʰoln- / *bʰel-,False
+B,champagne,3.9,Latin,Latin: campānia / campus,False
+B,chorus,3.9,Latin,Latin: chorus / chorī,False
+B,coordination,3.9,Latin,Latin: coordinationem / coordinare,False
+B,discretion,3.9,Latin,Latin: discrētiō / discerno,False
+B,gesture,3.9,Latin,Latin: gestūra / gerō,False
+B,stern,3.9,Proto-Germanic,Proto-Germanic: *sturnijaz / *stiurijaną,False
+B,vault,3.9,Latin,Latin: *volta / volvere,False
+B,wagon,3.9,PIE,PIE: *weǵʰ- / *woǵʰnos,False
+B,walt,3.9,Proto-Germanic,Proto-Germanic: *waltijaną / *waltaz,False
+B,fist,3.89,Proto-Germanic,Proto-Germanic: *fistaz / *fīsaną,False
+B,fry,3.89,PIE,PIE: *bʰer- / *(s)per-,False
+B,mosque,3.89,Arabic,Arabic: مَسْجِد / س ج د,False
+B,trim,3.89,Proto-Germanic,Proto-Germanic: *trumjaną / *trumaz,False
+B,umbrella,3.89,Latin,Latin: umbrella / umbra,False
+B,candle,3.88,Latin,Latin: candēla / candeō,False
+B,haul,3.88,Old English vs French,Old English vs French: *halian / haler,False
+B,juvenile,3.88,PIE,PIE: *h₂ey- / *h₂yuh₁en-,False
+B,verify,3.88,PIE,PIE: *weh₁- / *dʰeh₁-,False
+B,villain,3.88,Latin,Latin: villanus / villa,False
+B,curtain,3.86,Latin,Latin: cōrtīna / cohors,False
+B,fade,3.86,Latin,Latin: *fatidus / fatuus,False
+B,whore,3.86,PIE,PIE: *keh₂- / *kéh₂ros,False
+B,bait,3.85,Proto-Germanic,Proto-Germanic: *baitō / *baitijaną,False
+B,bark,3.85,Proto-Germanic,Proto-Germanic: *berkaną / *barkuz,False
+B,genesis,3.85,PIE,PIE: *ǵenh₁- / *ǵénh₁tis,False
+B,niche,3.85,Latin,Latin: *nīdicāre / nīdus,False
+B,spiral,3.85,Latin,Latin: spiralis / spira,False
+B,spit,3.85,PIE,PIE: *spid- / *spey- / *sp(y)ēw,False
+B,doe,3.84,Proto-Germanic,Proto-Germanic: *dajjǭ / *dajjaną,False
+B,elbow,3.84,PIE,PIE: *Heh₃l- / *bʰewgʰ-,False
+B,outrage,3.84,Latin,Latin: *ultrāgium / ultrā,False
+B,slaughter,3.84,Proto-Germanic,Proto-Germanic: *slahtrą / *slahaną,False
+B,decay,3.83,Latin,Latin: *dēcadere / dēcidō,False
+B,discourse,3.83,Latin,Latin: discursus / discurrō,False
+B,humidity,3.83,Latin,Latin: humiditas / umidus,False
+B,shave,3.83,Proto-Germanic,Proto-Germanic: *skabaną / *skabô,False
+B,certainty,3.82,Latin,Latin: *certānitās / certus,False
+B,lace,3.82,Latin,Latin: *laceum / laqueus,False
+B,pier,3.82,Latin,Latin: pera / *petricus,False
+B,premise,3.82,Latin,Latin: premissa / praemitto,False
+B,surge,3.82,PIE,PIE: *h₃reǵ- / *h₃réǵeti,False
+B,archer,3.81,Latin,Latin: *arcārius / arcus,False
+B,carpenter,3.81,Latin,Latin: carpentārius / carpentum,False
+B,cuisine,3.81,Latin,Latin: *cocina / coquina,False
+B,doom,3.81,PIE,PIE: *dʰeh₁- / *dʰóh₁mos,False
+B,crow,3.8,Proto-Germanic,Proto-Germanic: *krēǭ / *krēaną,False
+B,glue,3.8,Latin,Latin: glūs / glūten,False
+B,sausage,3.8,Latin,Latin: salsīcia / salsus,False
+B,sting,3.8,Proto-Germanic,Proto-Germanic: *stangiz / *stinganą,False
+B,tick,3.8,Proto-Germanic,Proto-Germanic: *tīkkô / *tīgô,False
+B,vent,3.8,Latin,Latin: ventus / vendo,False
+B,queue,3.78,Latin,Latin: cōda / cauda,False
+B,traction,3.78,Latin,Latin: tractio / tractus,False
+B,comparative,3.77,Latin,Latin: comparātīvus / -īvus,False
+B,conquer,3.77,Latin,Latin: conquaero / con-,False
+B,fortress,3.77,Latin,Latin: fortalitia / fortis,False
+B,herd,3.77,Proto-Germanic,Proto-Germanic: *herdō / *hirdijaz,False
+B,maternal,3.77,Latin,Latin: māternālis / māternus,False
+B,pinch,3.76,Latin,Latin: *pincio / punctiō,False
+B,restriction,3.76,Latin,Latin: restrictiō / restringō,False
+B,syrup,3.76,Arabic,Arabic: شَرَاب / ش ر ب,False
+B,chandler,3.75,Latin,Latin: candelarius / candela,False
+B,cue,3.75,Latin,Latin: quadrāns / quandō,False
+B,deed,3.75,PIE,PIE: *dʰeh₁- / *dʰéh₁tis,False
+B,gallon,3.75,Latin,Latin: galum / *galla,False
+B,infamous,3.75,Latin,Latin: infamosus / infamis,False
+B,lib,3.75,PIE,PIE: *lewbʰ- / *lew-,False
+B,coma,3.74,Greek,Greek: κῶμα / κόμη,False
+B,compass,3.74,Latin,Latin: compassus / com-,False
+B,rust,3.74,PIE,PIE: *h₁rewdʰ- / *rudʰso-,False
+B,scrutiny,3.74,Latin,Latin: scrūtinium / scrūtor / scrūta,False
+B,singular,3.74,Latin,Latin: singulāris / singulus,False
+B,torch,3.74,Latin,Latin: *torca / torquēs,False
+B,glove,3.73,Proto-Germanic,Proto-Germanic: *galōfô / *ga-,False
+B,greet,3.73,Proto-Germanic,Proto-Germanic: *grōtijaną / *grētaną,False
+B,proxy,3.73,Latin,Latin: procuratia / prōcūrō,False
+B,thrive,3.73,PIE,PIE: *terp- / *trep-,False
+B,vest,3.73,PIE,PIE: *wes- / *wes-ti(h₂)-,False
+B,auburn,3.72,Latin,Latin: alburnus / albus,False
+B,grease,3.72,Latin,Latin: *grassia / crassus,False
+B,hulk,3.72,PIE,PIE: *ḱel- / *ḱewh₁-,False
+B,insanity,3.72,Latin,Latin: insānus / sanitās,False
+B,steer,3.72,Proto-Germanic,Proto-Germanic: *stiurijaną / *steuraz,False
+B,beck,3.71,Proto-Germanic,Proto-Germanic: *bakiz / *baukną,False
+B,funk,3.71,Latin,Latin: fūmicāre / fumigo,False
+B,litter,3.71,Latin,Latin: lectaria / lectus,False
+B,slack,3.71,Proto-Germanic,Proto-Germanic: *slakaz / *slakōną,False
+B,stove,3.71,Latin,Latin: *extūfa / ex-,False
+B,deploy,3.7,Latin,Latin: displicāre / dis-,False
+B,jumper,3.7,Arabic,Arabic: جُبَّة / ج ب ب,False
+B,verification,3.7,PIE,PIE: *weh₁- / *dʰeh₁-,False
+B,blaze,3.69,Proto-Germanic,Proto-Germanic: *blasǭ / *blēsaną,False
+B,coaster,3.69,Latin,Latin: costa / costicāre,False
+B,flock,3.69,Proto-Germanic,Proto-Germanic: *flukkaz / *flukkōn-,False
+B,grim,3.69,Proto-Germanic,Proto-Germanic: *grimmaz / *grimmį̄,False
+B,mart,3.69,Latin,Latin: marcātus / Mārs,False
+B,moist,3.69,Latin,Latin: mūcidus / mustum,False
+B,squirrel,3.69,Latin,Latin: *scūriolus / sciūrus,False
+B,trait,3.69,Latin,Latin: tractus / traho,False
+B,pandemic,3.68,PIE,PIE: *peh₂- / *deh₂-,False
+B,terminology,3.68,Latin,Latin: terminologia / terminus,False
+B,chaotic,3.67,Latin,Latin: chaoticus / chaos,False
+B,dell,3.67,Proto-Germanic,Proto-Germanic: *daljō / *dalą,False
+B,harness,3.67,Old Norse,Old Norse: *hernest / herr,False
+B,holt,3.67,PIE,PIE: *kald- / *kola-,False
+B,mattress,3.67,Arabic,Arabic: مَطْرَح / ط ر ح,False
+B,molecule,3.67,Latin,Latin: molecula / moles,False
+B,susceptible,3.67,Latin,Latin: susceptibilis / susceptus,False
+B,verge,3.67,Latin,Latin: virga / vergō,False
+B,mute,3.66,Latin,Latin: mūtus / mutare,False
+B,pint,3.66,Latin,Latin: *pincta / pingō,False
+B,poop,3.66,Latin,Latin: *puppa / puppis,False
+B,tangible,3.66,Latin,Latin: tangibilis / tangere,False
+B,salvage,3.65,Latin,Latin: salvo / salvus / *salvāticus,False
+B,flank,3.64,Proto-Germanic,Proto-Germanic: *hlankō / *hlankaz,False
+B,incidence,3.64,Latin,Latin: incidentia / incidens,False
+B,quarantine,3.64,Latin,Latin: quarentena / *quaranta,True
+B,scarlet,3.64,Latin,Latin: scarlatum / sigillātus,False
+B,stitch,3.64,Proto-Germanic,Proto-Germanic: *stikiz / *stikjaną,False
+B,sultan,3.64,Arabic,Arabic: سُلْطَان / س ل ط,False
+B,groom,3.63,Proto-Germanic,Proto-Germanic: *gumô / *grōmô,False
+B,safari,3.63,Arabic,Arabic: سَفَر / س ف ر,False
+B,warp,3.63,Proto-Germanic,Proto-Germanic: *warpą / *werpaną,False
+B,ambient,3.62,PIE,PIE: *h₂en- / *h₁ey-,False
+B,gale,3.62,Proto-Germanic,Proto-Germanic: *galaną / *gagulaz,False
+B,peasant,3.62,Latin,Latin: pāgēnsis / pāgus,False
+B,tally,3.62,Latin,Latin: tallia / talea / taliare,True
+B,alloy,3.61,Latin,Latin: alligō / alligare,False
+B,casualty,3.61,Latin,Latin: casualitas / cāsus,False
+B,lantern,3.61,Latin,Latin: lanterna / lucerna,False
+B,precinct,3.61,Latin,Latin: precinctum / praecingō,False
+B,rotary,3.61,Latin,Latin: rotarius / rota,False
+B,stint,3.61,Proto-Germanic,Proto-Germanic: *stuntijaną / *stintaną,False
+B,storey,3.61,Latin,Latin: historia / instaurare,False
+B,tailor,3.61,Latin,Latin: taliō / tālea,False
+B,trajectory,3.61,Latin,Latin: trāiectōrium / trāiectus,False
+B,dexter,3.6,PIE,PIE: *deḱs- / *deḱs(i)-tero-,False
+B,emerald,3.6,Latin,Latin: *smaralda / smaragdus,False
+B,hale,3.6,Proto-Germanic,Proto-Germanic: *hailaz / *halōną,False
+B,meadow,3.6,PIE,PIE: *h₂meh₁- / *h₂met-,False
+B,yarn,3.6,PIE,PIE: *ǵʰer- / *ǵʰorn-,False
+B,claw,3.59,Proto-Germanic,Proto-Germanic: *klawō / *klawjaną,False
+B,commence,3.59,Latin,Latin: *cominitiō / com-,False
+B,impeachment,3.59,Latin,Latin: impedicāre / impedicō / impetere,False
+B,poppy,3.59,Latin,Latin: *papavum / papāver,False
+B,abdominal,3.58,Latin,Latin: abdōminālis / abdōmen,False
+B,cushion,3.58,Latin,Latin: *coxīnus / coxa,False
+B,drip,3.58,Proto-Germanic,Proto-Germanic: *drupjaną / *drupô,False
+B,glacier,3.58,Latin,Latin: *glacia / glacies,False
+B,mosaic,3.58,Latin,Latin: musaicum / museum,False
+B,orphan,3.58,PIE,PIE: *h₃erbʰ- / *h₃órbʰos,False
+B,scissors,3.58,Latin,Latin: *cīsōria / scissor,False
+B,alma,3.57,Arabic,Arabic: ع ل م / عَالِمَة,False
+B,ambiguous,3.57,PIE,PIE: *h₂en- / *h₂eǵ-,False
+B,intuitive,3.57,Latin,Latin: intuitivus / intueri,False
+B,lea,3.57,PIE,PIE: *lewk- / *lówkos,False
+B,orchard,3.57,Proto-Germanic,Proto-Germanic: *urtiz / *wurt-,True
+B,venom,3.57,Latin,Latin: *venīmen / venēnum,False
+B,din,3.56,Proto-Germanic,Proto-Germanic: *duniz / *dunjaną,False
+B,rhyme,3.56,PIE,PIE: *h₂er- / *h₂rey-,False
+B,savvy,3.56,Latin,Latin: sapiō / *sapere,False
+B,tame,3.56,Proto-Germanic,Proto-Germanic: *tamaz / *tamjaną,False
+B,chimney,3.55,Latin,Latin: camīnāta / camīnus,False
+B,convertible,3.55,Latin,Latin: convertibilis / convertere,False
+B,detrimental,3.55,Latin,Latin: *dētrīmentālis / dētrīmentum,False
+B,ware,3.55,Proto-Germanic,Proto-Germanic: *waraz / *warō,False
+B,cringe,3.54,Proto-Germanic,Proto-Germanic: *krangijaną / *kringaną,False
+B,intuition,3.54,Latin,Latin: intuitiō / intueor,False
+B,pea,3.54,Latin,Latin: pisa / pāvō,False
+B,almond,3.53,Latin,Latin: *amendla / amygdala,False
+B,burgess,3.53,Latin,Latin: burgensis / burgus,False
+B,devote,3.53,Latin,Latin: dēvōtus / dēvoveō,False
+B,flourish,3.53,Latin,Latin: *florīre / flōreō,False
+B,pawn,3.53,Latin,Latin: pedo / pes,False
+B,quota,3.53,Latin,Latin: quota pars / quota,False
+B,simultaneous,3.53,Latin,Latin: simultaneus / simul,False
+B,dew,3.52,Proto-Germanic,Proto-Germanic: *dawwaz / *dawwāną,False
+B,fidelity,3.52,PIE,PIE: *bʰeydʰ- / *bʰidʰ-,False
+B,jeopardy,3.52,Latin,Latin: iocus partītus / iocus,False
+B,starve,3.52,PIE,PIE: *(s)terp- / *sterbʰ-,False
+B,stool,3.52,PIE,PIE: *steh₂- / *stoh₂los,False
+B,cass,3.51,Latin,Latin: cassō / cassus,False
+B,quotation,3.51,Latin,Latin: quotatio / quotāre,False
+B,speculative,3.51,Latin,Latin: speculativus / speculor,False
+B,vascular,3.51,Latin,Latin: vasculāris / vasculum,False
+B,annex,3.5,Latin,Latin: annexus / annexāre / annectō,False
+B,barge,3.5,Latin,Latin: barca / baris,False
+B,cradle,3.5,Proto-Germanic,Proto-Germanic: *kradulaz / *kradô,False
+B,longing,3.5,Proto-Germanic,Proto-Germanic: *langōndz / *langungō,False
+B,monumental,3.5,Latin,Latin: monumentālis / monumentum,False
+B,brag,3.49,Old Norse,Old Norse: bragr / braka,False
+B,dine,3.49,Latin,Latin: *disiūnāre / ieiūnus,False
+B,intellect,3.49,Latin,Latin: intellēctus / intellegō,False
+B,jihad,3.49,Arabic,Arabic: جِهَاد / ج ه د,False
+B,paddle,3.49,Latin,Latin: padela / patella,False
+B,remorse,3.49,Latin,Latin: remorsum / remordeō,False
+B,tariff,3.49,Arabic,Arabic: تَعْرِفَة / ع ر ف,False
+B,avalanche,3.48,Latin,Latin: *labanka / lābīna / lābēs,False
+B,caramel,3.48,Latin,Latin: calamellus / cannamellis,False
+B,corrosion,3.48,Latin,Latin: corrōsiōnem / corrōdō,False
+B,faggot,3.48,Latin,Latin: *facus / fascis,False
+B,fir,3.48,PIE,PIE: *perkʷ- / *pŕ̥kʷeh₂,False
+B,paw,3.48,Frankish,Frankish: *pōta / *pōtōn,False
+B,sublime,3.48,Latin,Latin: sublimō / līmis,False
+B,char,3.47,Proto-Germanic,Proto-Germanic: *skardaz / *karzijaną,False
+B,crate,3.47,PIE,PIE: *gred- / *ger-,False
+B,pear,3.47,Latin,Latin: *pira / pirum,False
+B,annoy,3.46,Latin,Latin: inodiō / odium,False
+B,barr,3.46,Latin,Latin: barriō / barrus,False
+B,chestnut,3.46,Old English vs French,Old English vs French: ċisten / chastaigne,False
+B,despicable,3.46,Latin,Latin: despicabilis / dēspicor,False
+B,penal,3.46,PIE,PIE: *kʷoynéh₂ / *kʷey-,False
+B,plank,3.46,Latin,Latin: planca / phalanga,False
+B,propulsion,3.46,Latin,Latin: propulsio / propello,False
+B,audible,3.45,Latin,Latin: audibilis / audire,False
+B,pinnacle,3.45,Latin,Latin: pinnaculum / pinna,False
+B,radial,3.45,Latin,Latin: radiālis / radius,False
+B,sew,3.45,PIE,PIE: *syuh₁- / *syewh₁-,False
+B,variance,3.45,Latin,Latin: variaunce / variantia,False
+B,dusk,3.44,PIE,PIE: *dʰewh₂- / *dʰuh₂s-,False
+B,lavender,3.44,Latin,Latin: lavendula / lividus,False
+B,parry,3.44,Latin,Latin: parāta / parāre,False
+B,provocative,3.44,Latin,Latin: provocativus / provocare,False
+B,renal,3.44,Latin,Latin: renalis / renes,False
+B,swarm,3.44,Proto-Germanic,Proto-Germanic: *swarmaz / *swarmijaną,False
+B,abduction,3.43,Latin,Latin: abductiō / abductus,False
+B,chubby,3.43,Old Norse,Old Norse: kubbr / kumben,False
+B,clement,3.43,PIE,PIE: *ḱlew- / *ḱley-,False
+B,haram,3.43,Arabic,Arabic: حَرَام / ح ر م,False
+B,hound,3.43,PIE,PIE: *ḱwṓ / *ḱewh₁-,False
+B,lunatic,3.43,Latin,Latin: lunaticus / luna,True
+B,repertoire,3.43,Latin,Latin: repertorium / reperiō,False
+B,torrent,3.43,Latin,Latin: torrentem / torrēre,False
+B,cultivate,3.42,Latin,Latin: cultivātus / cultus,False
+B,defy,3.42,Latin,Latin: *disfidare / dis-,False
+B,noodle,3.42,Latin,Latin: minutulus / nodulus,False
+B,psyche,3.42,Latin,Latin: psychē / psychologia,False
+B,coop,3.41,Latin,Latin: cupa / copa,False
+B,eviction,3.41,Latin,Latin: ēvictiō / ēvincō,False
+B,genie,3.41,Arabic,Arabic: جِنّ / ج ن ن,False
+B,obituary,3.41,Latin,Latin: obituarius / obitus,False
+B,extravagant,3.4,Latin,Latin: extravagans / extra,False
+B,gorge,3.4,Latin,Latin: *gorga / gurges,False
+B,hinder,3.39,Proto-Germanic,Proto-Germanic: *hindrōną / *hinder,False
+B,maxim,3.39,Latin,Latin: maxima / maximus,False
+B,sharif,3.39,Arabic,Arabic: شَرِيف / ش ر ف‎,False
+B,vanish,3.39,Latin,Latin: *exvanire / evanesco,False
+B,authorize,3.38,Latin,Latin: auctorizare / auctor,False
+B,hysteria,3.38,Latin,Latin: hysteria / hystericus,False
+B,brochure,3.37,Latin,Latin: brocca / broccus,False
+B,rein,3.37,Latin,Latin: *retina / retineō / rēnēs,False
+B,stun,3.37,Proto-Germanic,Proto-Germanic: *stunōną / *stenaną,False
+B,wrench,3.37,Proto-Germanic,Proto-Germanic: *wrankiz / *wrankijaną,False
+B,duff,3.36,PIE,PIE: *dʰeyǵʰ- / *dʰewbʰ-,False
+B,annuity,3.35,Latin,Latin: annuitās / annuus,False
+B,pip,3.35,Latin,Latin: pipita / pītuīta,False
+B,burglar,3.34,Latin,Latin: burglātor / burgus,False
+B,fang,3.34,Proto-Germanic,Proto-Germanic: *fanhaną / *fangą,False
+B,infirmary,3.34,Latin,Latin: infirmaria / infirmus,False
+B,alba,3.33,Latin,Latin: albus / alba,False
+B,bonfire,3.33,PIE,PIE: *bʰeyh₂- / *péh₂wr̥,False
+B,causal,3.33,Latin,Latin: causalis / causa,False
+B,dun,3.33,PIE,PIE: *dʰewh₂- / *dʰews-,False
+B,saline,3.33,Latin,Latin: salīna / sal,False
+B,medina,3.32,Arabic,Arabic: مَدِينَة / م د ن,False
+B,melon,3.32,Latin,Latin: melonem / melopeponem,False
+B,primal,3.32,Latin,Latin: primalis / primus,False
+B,receptive,3.32,PIE,PIE: *keh₂p- / *kap-,False
+B,shred,3.32,Proto-Germanic,Proto-Germanic: *skraudō / *skraudaną,False
+B,supervise,3.32,Latin,Latin: supervisus / super,False
+B,synod,3.32,PIE,PIE: *sem- / *sed-,False
+B,kyrie,3.31,PIE,PIE: *ḱewh₁- / *ḱēw-,False
+B,nurture,3.31,Latin,Latin: nutritura / nutrire,False
+B,soprano,3.31,Latin,Latin: *superānus / super,False
+B,abstraction,3.3,Latin,Latin: abstrāctiō / abstrahō,False
+B,omission,3.3,Latin,Latin: omissio / omitto,False
+B,prelude,3.3,Latin,Latin: preludium / praelūdere,False
+B,waffle,3.3,Proto-Germanic,Proto-Germanic: *wēbilǭ / *wabōną,False
+B,feral,3.29,Latin,Latin: ferālis / ferus,False
+B,grange,3.29,Latin,Latin: *granica / granum,False
+B,ovation,3.29,Latin,Latin: ovātiōnem / ōvum,False
+B,barbarian,3.28,Latin,Latin: barbarinus / barbaria,False
+B,decimal,3.28,Latin,Latin: decimalis / decimus,False
+B,dune,3.28,PIE,PIE: *dʰewh₂- / *dʰuHnom,False
+B,medley,3.28,Latin,Latin: misculata / *misculō,False
+B,abort,3.27,Latin,Latin: abortus / abortare,False
+B,audacity,3.27,Latin,Latin: audacitas / audax,False
+B,chevron,3.27,Latin,Latin: *capriō / caper,False
+B,flatter,3.27,Proto-Germanic,Proto-Germanic: *flutrōną / *flaþrōną,False
+B,granger,3.27,Latin,Latin: granicārium / *granica / granum,False
+B,petit,3.27,Latin,Latin: *pitittus / *pit-,False
+B,bane,3.26,PIE,PIE: *gʷʰen- / *gʷʰon-on-,False
+B,paternal,3.26,Latin,Latin: paternālis / paternus,False
+B,sorority,3.26,Latin,Latin: sorōritās / soror,False
+B,tortoise,3.26,Latin,Latin: tortuca / tartarūcha / tortus,False
+B,alkaline,3.25,Arabic,Arabic: ق ل ي / قلي,False
+B,commend,3.25,PIE,PIE: *(s)meh₂- / *deh₃-,False
+B,hoe,3.25,Old English vs French,Old English vs French: hōh / houe,False
+B,leach,3.25,Proto-Germanic,Proto-Germanic: *lēkijō / *lakjaną,False
+B,pastel,3.25,Latin,Latin: pastellum / pasta,False
+B,regency,3.25,Latin,Latin: regentia / regēns,False
+B,reptile,3.25,Latin,Latin: rēptile / rēpō,False
+B,derogatory,3.24,Latin,Latin: dērogātōrius / dērogāre,False
+B,rectangle,3.24,Latin,Latin: rectangulum / rectus,False
+B,terrier,3.24,Latin,Latin: terrarius / terra,False
+B,clout,3.23,PIE,PIE: *gel- / *gelewdos,False
+B,goth,3.23,Greek,Greek: Γοτθικός / Γότθοι,False
+B,choral,3.22,Latin,Latin: choralis / chorus,False
+B,clientele,3.22,PIE,PIE: *ḱlew- / *ḱley-,False
+B,cripple,3.22,PIE,PIE: *grewb- / *ger-,False
+B,curvature,3.22,Latin,Latin: curvare / curvatura,False
+B,diversification,3.22,Latin,Latin: diversificatiō / diversus,False
+B,intangible,3.22,Latin,Latin: intangibilis / tango,False
+B,reverence,3.22,Latin,Latin: reverentia / revereor,False
+B,absurdity,3.21,Latin,Latin: absurditas / absurdus,False
+B,ara,3.21,Arabic,Arabic: ع ر ق / عرق,False
+B,bled,3.21,Arabic,Arabic: ب ل د / بِلَاد,False
+B,cot,3.21,Proto-Germanic,Proto-Germanic: *kutą / *kuttô,False
+B,debacle,3.21,Latin,Latin: *bacculare / baculum,False
+B,entail,3.21,Latin,Latin: taliare / talea,False
+B,kali,3.21,Arabic,Arabic: قِلْي / ق ل ي,False
+B,aptitude,3.2,Latin,Latin: aptitudo / aptus,False
+B,defer,3.2,Latin,Latin: differō / dēferō,False
+B,flask,3.2,PIE,PIE: *ploḱ-skō / *pleḱ-,False
+B,lien,3.2,Latin,Latin: ligāmen / lien,False
+B,linden,3.2,Proto-Germanic,Proto-Germanic: *lindīnaz / *lindō,False
+B,mahal,3.2,Arabic,Arabic: مَحَلّ / ح ل ل,False
+B,rudder,3.2,Proto-Germanic,Proto-Germanic: *rōþrą / *-þrą,False
+B,augment,3.19,Latin,Latin: augmentare / augmentum,False
+B,lewd,3.19,Latin,Latin: *laigo- / lāicus,False
+B,raffle,3.19,PIE,PIE: *(s)kreb(h)- / *(s)ker-,False
+B,shrub,3.19,Arabic,Arabic: شِرَاب / ش ر ب,False
+B,slag,3.19,Proto-Germanic,Proto-Germanic: *slaggô / *slagōną,False
+B,stead,3.19,PIE,PIE: *steh₂- / *stéh₂tis,False
+B,sulfate,3.19,Latin,Latin: sulphatum / sulphur,False
+B,bruise,3.18,Old English vs French,Old English vs French: brȳsan / bruiser,False
+B,circumference,3.18,PIE,PIE: *(s)ker- (turn) / *bʰer-,False
+B,flannel,3.18,PIE,PIE: *h₂welh₁- / *h₂wĺ̥h₁neh₂,False
+B,nook,3.18,PIE,PIE: *knewg- / *ken-,False
+B,circulate,3.17,Latin,Latin: circulatus / circulo,False
+B,grate,3.17,Latin,Latin: grāta / cratis / grātus,False
+B,leech,3.17,Proto-Germanic,Proto-Germanic: *lēkijaz / *līką,False
+B,parmesan,3.17,Latin,Latin: *parmēsānus / parmēnsis / Parma,False
+B,rectify,3.17,Latin,Latin: rēctificō / rēctus,False
+B,valet,3.17,Latin,Latin: *vassellittus / vassallus,False
+B,kennel,3.16,Latin,Latin: *canile / canis / canna,False
+B,procure,3.16,Latin,Latin: prōcūrāre / prōcūrō,False
+B,seniority,3.16,Latin,Latin: senioritas / senior,False
+B,aqueous,3.15,Latin,Latin: aqua / aqueus,False
+B,deteriorate,3.15,Latin,Latin: dēteriorātus / dēteriorō,False
+B,grunt,3.15,Proto-Germanic,Proto-Germanic: *grunnatjaną / *grunnōną,False
+B,halal,3.15,Arabic,Arabic: حَلَال / ح ل ل,False
+B,hijab,3.15,Arabic,Arabic: حِجَاب / ح ج ب,False
+B,hornet,3.15,Proto-Germanic,Proto-Germanic: *hurznutō / *hursulǭ,False
+B,zenith,3.15,Arabic,Arabic: سَمْت / س م ت,False
+B,diss,3.14,Arabic,Arabic: دِيس / د و س,False
+B,fluke,3.14,Proto-Germanic,Proto-Germanic: *flakaz / *flugilaz,False
+B,growl,3.14,Old English vs French,Old English vs French: gryllan / groler,False
+B,sorcerer,3.14,Latin,Latin: *sortiarius / sors,False
+B,astral,3.13,Latin,Latin: astralis / astrum,False
+B,astray,3.13,Latin,Latin: extravagari / extra,False
+B,harem,3.13,Arabic,Arabic: حَرَم / ح ر م,False
+B,modal,3.13,Latin,Latin: modālis / modus,False
+B,quail,3.13,Latin,Latin: quaccola / coāgulāre,False
+B,tectonic,3.13,Greek,Greek: τεκτονικός / τέκτων,False
+B,armada,3.12,Latin,Latin: armāta / armō,False
+B,cadence,3.12,PIE,PIE: *ḱh₂d- / *ḱad-,False
+B,cipher,3.12,Arabic,Arabic: صِفْر / ص ف ر,False
+B,lasagna,3.12,Latin,Latin: *lasania / lasanum,False
+B,esquire,3.11,Latin,Latin: scutarius / scutum,False
+B,mantis,3.11,PIE,PIE: *men- / *méntis,False
+B,revel,3.11,Latin,Latin: rebello / revellere,False
+B,salaam,3.11,Arabic,Arabic: سَلَام / س ل م‎,False
+B,shambles,3.11,Latin,Latin: scamellum / scamnum,False
+B,vibrator,3.11,Latin,Latin: vibrātor / vibrō,False
+B,compulsion,3.1,Latin,Latin: compulsiō / compellere,False
+B,palliative,3.1,Latin,Latin: *palliātīvus / palliō / pallium,False
+B,parable,3.1,Latin,Latin: parabola / parābilis,False
+B,pellet,3.1,Latin,Latin: *pilotta / pila,False
+B,sheik,3.1,Arabic,Arabic: شَيْخ / ش ي خ‎,False
+B,foyer,3.09,Latin,Latin: *focārium / focus,False
+B,motley,3.09,Old English vs French,Old English vs French: mot / motteley,False
+B,archdiocese,3.08,Latin,Latin: archdiocesis / dioecēsis,False
+B,moratorium,3.08,Latin,Latin: morātōrium / moror,False
+B,sexton,3.08,Latin,Latin: sacristanus / sacer,False
+B,banish,3.07,Old English vs French,Old English vs French: bannan / banir,False
+B,compress,3.07,Latin,Latin: compressare / compressus,False
+B,testimonial,3.07,Latin,Latin: testimonialis / testimonium,False
+B,verbatim,3.07,PIE,PIE: *werh₁- / *dʰeh₁-,False
+B,brim,3.06,Proto-Germanic,Proto-Germanic: *brimą / *bremaną,False
+B,devolution,3.06,Latin,Latin: devolutio / devolvo,False
+B,pompous,3.06,Latin,Latin: pomposus / pompa,False
+B,thwart,3.06,Proto-Germanic,Proto-Germanic: *þwerhaz / *þweraną / *þerh-,False
+B,bosom,3.05,PIE,PIE: *bʰuH- / *bʰewH-,False
+B,diffraction,3.05,Latin,Latin: diffrāctiō / diffringo,False
+B,glorify,3.05,Latin,Latin: glorificō / gloria,False
+B,meager,3.05,PIE,PIE: *meh₂ḱ- / *mh₂ḱrós,False
+B,morn,3.05,PIE,PIE: *mr̥kéno / *mr̥Hko,False
+B,ostrich,3.05,Greek,Greek: στρουθίων / στρουθιοκάμηλος,False
+B,rump,3.05,Proto-Germanic,Proto-Germanic: *rumpō / *hrimpaną,False
+B,waning,3.05,Proto-Germanic,Proto-Germanic: *wanōndz / *wanōną / *wanungō,False
+B,causeway,3.04,Latin,Latin: *calciāta / calx,False
+B,convene,3.04,PIE,PIE: *gʷem- / *gʷm̥yéti,False
+B,decadent,3.04,Latin,Latin: decadentia / decadens,False
+B,dredge,3.04,Old English vs French,Old English vs French: *dreċġ / dragee,False
+B,ebb,3.04,Proto-Germanic,Proto-Germanic: *abjô / *ab,False
+B,garnish,3.04,Proto-Germanic,Proto-Germanic: *warnijaną / *warnōną,False
+B,hajj,3.04,Arabic,Arabic: حَجّ / ح ج ج,False
+B,horned,3.04,Proto-Germanic,Proto-Germanic: *hurnidaz / *hurnijaną,False
+B,mortuary,3.04,Latin,Latin: mortuārium / mortuus,False
+B,nutmeg,3.04,Latin,Latin: nux muga / nux muscata,False
+B,smirk,3.04,Proto-Germanic,Proto-Germanic: *smarōną / *-kōną,False
+B,curate,3.03,Latin,Latin: cūrātus / cūrō,False
+B,gingerbread,3.03,Latin,Latin: *gingimbrātus / zingiber,False
+B,kebab,3.03,Arabic,Arabic: كَبَاب / ك ب ب,False
+B,papacy,3.02,Latin,Latin: papatia / papa,False
+B,shag,3.02,Proto-Germanic,Proto-Germanic: *skaggô / *skakkōną,False
+B,ambivalent,3.01,PIE,PIE: *h₂en- / *h₂welh₁-,False
+B,berserk,3.01,PIE,PIE: *bʰerH- / *ser-,False
+B,bovine,3.01,Latin,Latin: bovīnus / bōs,False
+B,chit,3.01,Proto-Germanic,Proto-Germanic: *kittīną / *kīþą,False
+B,cumin,3.01,Old English vs French,Old English vs French: cymen / cummin,False
+B,drab,3.01,PIE,PIE: *dʰrebʰ- / *drep-,False
+B,ferret,3.01,Latin,Latin: *furittum / fūr,False
+B,flagrant,3.01,Latin,Latin: flagrantem / frāgrans,False
+B,pretense,3.01,Latin,Latin: praetēnsus / praetendō,False
+B,sahib,3.01,Arabic,Arabic: صَاحِب / ص ح ب‎,False
+B,skew,3.01,PIE,PIE: *(s)kewH- / *skey-,False
+B,stanza,3.01,Latin,Latin: *stantia / stans,False
+B,alight,3.0,PIE,PIE: *h₁lengʷʰ- / *lewk-,False
+B,bower,3.0,PIE,PIE: *bʰuH- / *bʰōw-,False
+B,heretic,3.0,Greek,Greek: αἱρετικός / αἱρέω,False
+B,leprosy,3.0,Latin,Latin: leprōsia / leprōsus / lepra,False
+B,molasses,3.0,Latin,Latin: mellacium / mellacea,False
+B,narcotic,3.0,Greek,Greek: ναρκωτῐκόν / ναρκόω,False
+B,rehabilitate,3.0,Latin,Latin: rehabilitātus / rehabilitō,False
+B,travesty,3.0,PIE,PIE: *wes- / *wéstis,False

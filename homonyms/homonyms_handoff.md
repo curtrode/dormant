@@ -24,6 +24,8 @@ Context carried over from a chat session (2026-09-26). Nothing in the Dormant re
 - `dormant_homonym_candidates.csv` — 1,560 candidates; columns: `tier`, `word`, `zipf`, `split_in`, `distinct_etyma`, `in_dormant` (72 already in the lexicon).
 - `find_homonym_candidates.py` — the generating script.
 
+**Regenerating.** Needs `pandas`, `pyarrow`, `wordfreq`. Download `etymology.parquet` from the droher/etymology-db 2023-12 release, filter it to English (`pd.read_parquet('etymology.parquet', filters=[('lang','==','English')]).to_parquet('en.parquet')`), then run the script from the directory holding `en.parquet`. It reads `../canonical.json` and writes the CSV next to itself. The data is ~140 MB, so keep it out of the repo.
+
 **Method.** Source: droher/etymology-db (Wiktionary-derived, 2023-12 release), which merges each word's etymology sections into one record. The script flags words whose ancestry contains dissimilar deep etyma within one family (Latin, Greek, Proto-Germanic, PIE, Old Norse, Arabic, etc.), or an Old English line beside an unrelated French one. Filtered to wordfreq Zipf ≥ 3.0 and lowercase alphabetic words.
 
 **Quality.** Recall is good: bank, mint, grave, school, sound, date, host, quarry, policy, fair, temple, bark all found; kind and salary correctly skipped; **cleave missed**. Precision is poor (likely a third or less): verb/participle pairs (*data*/*datus*) and compound roots read as separate lineages, and related forms inflate counts (quarry shows five Latin roots for two histories). The A/B tier is a weak signal, not a quality ranking. Next step: cull to true homonyms (est. 150–200).
