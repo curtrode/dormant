@@ -478,6 +478,47 @@ because it has no buried image.
 
 ------------------------------------------------------------------------
 
+### 2026-09-29 — Constraint-writing idea (recorded)
+
+User idea: a composition mode. The user writes a text (for example, a
+12-line poem) under a constraint: every line must contain one or more
+lexicon words. The words come either from the whole lexicon or from a
+random draw of lexicon words dealt to the writer. It is an Oulipian
+turn: the lexicon becomes a word bank to write *with*, not only a lens
+to read through. Not yet designed or built. Open questions: how many
+words per line; does the draw fix the words or only the pool; does the
+finished poem then stir (so each required word surfaces its buried
+image); and are lines validated live as the writer types.
+
+Prototype built the same day: `docs/write.html` (engine shared with
+`index.html` through `docs/stir.js`). First findings from the user's
+own writing:
+
+- The Whole lexicon rule is too loose. Lines hold three to five words
+  without trying; even *line* is an entry.
+- A writer who knows the lexicon writes *toward* the images (*window*,
+  *trade winds*, *library of gusts* all lean on *wind eye*). That gives
+  two modes: knowing the images, the writer plants a second poem under
+  the first, like a pun or a cipher; not knowing them, the stir
+  surprises the writer too and the lexicon co-writes. A tap-to-turn
+  peek on hand cards was built and then removed at the user's call:
+  no peek for now; the hand stays blind.
+- Homonym hand sketched in chat and **paused** by the user. Open
+  choices recorded for later: which ghost the stir surfaces (the unused
+  sense, both tangled, or a cycle through both); homonyms as rare cards
+  (2–3 per hand) rather than a whole hand; an honour-rule variant that
+  uses the word in both senses. A prototype would use a small draft
+  data file in `docs/`, leaving `canonical.json` and the duplicate-word
+  rule untouched. The review page had no marks saved as of 2026-09-29.
+- Ghosts, not only replacements: the finished poem now opens in a
+  *Bleed* view ported from `homonyms/dormant-bleed-study.html` (the
+  poem stays as written; images rise above the words). Every lexicon
+  word bleeds. Ghosts from the hand ("called") rise first; others
+  ("uninvited") rise last, one by one, fainter. The user wanted these
+  inadvertent ghosts. Replacement stays as the second view, *Stir*.
+
+------------------------------------------------------------------------
+
 ## Start Here (as of 2026-09-26, end of session)
 
 State: 288 verified entries (278 glossed, 10 contested) + 19 derived
@@ -516,6 +557,9 @@ Candidate next tasks (user to choose):
    clause; how the ghosts render (light direction picks one, or both
    tangled); whether polysemy renders differently; ratifying the Zipf
    3.0 cutoff.
+5. **Constraint writing** (idea recorded 2026-09-29, see log). The
+   writer composes a poem (e.g. 12 lines) in which every line holds one
+   or more lexicon words, from the full lexicon or a random draw.
 
 **Pending decision (user):** the zero-derivation verb gloss — a noun
 gloss used as a verb where no verb image is attested (focused →

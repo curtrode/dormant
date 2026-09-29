@@ -41,6 +41,8 @@ piece is also live on the web; nothing else in the repository is served.
 ## Files
 
 - `docs/index.html` — the electronic-literature piece, and what Pages serves
+- `docs/write.html` — constraint writing (prototype): a poem in which every line must hold a word from a dealt hand; finished, it bleeds (images rise as ghosts over the words) or stirs
+- `docs/stir.js` — matching and stirring engine shared by both pages
 - `docs/lexicon.js` — generated lexicon data (run `python3 build_lexicon.py` from the repository root to rebuild from `canonical.json`)
 - `build_lexicon.py` — validates `canonical.json` (required fields, score ranges,
   contested entries unglossed, unique words, sources on every entry and form),
