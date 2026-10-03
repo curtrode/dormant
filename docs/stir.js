@@ -14,7 +14,8 @@
   // that produced it (lightweight morphology). "s" is ambiguous (plural noun
   // or 3rd-person verb) and resolved later by part of speech.
   // Irregular verb forms the suffix rules cannot reach.
-  var IRREG_FORMS = {wrote:"write", written:"write", sold:"sell", paid:"pay"};
+  var IRREG_FORMS = {wrote:"write", written:"write", sold:"sell", paid:"pay",
+                     drew:"draw", drawn:"draw", hid:"hide", hidden:"hide"};
 
   function lemmas(w){
     w = w.toLowerCase();
@@ -64,8 +65,9 @@
   var IRREG_PLURAL = {mouse:"mice", man:"men"};
   var IRREG_PAST   = {make:"made", come:"came", take:"took", cut:"cut", put:"put", sit:"sat",
                       swear:"swore", slip:"slipped", unbuild:"unbuilt", send:"sent", see:"saw",
-                      say:"said", sing:"sang", give:"gave", strike:"struck", go:"went", tread:"trod", hang:"hung", throw:"threw"};
-  var IRREG_GERUND = {cut:"cutting", put:"putting", sit:"sitting", slip:"slipping"};
+                      say:"said", sing:"sang", give:"gave", strike:"struck", go:"went", tread:"trod", hang:"hung", throw:"threw",
+                      drag:"dragged", span:"spanned"};
+  var IRREG_GERUND = {cut:"cutting", put:"putting", sit:"sitting", slip:"slipping", drag:"dragging", span:"spanning"};
   var NO_INFLECT_VERB = {from:1};                    // gloss not headed by a verb (desire -> from the stars)
   var NO_INFLECT   = {money:1, news:1, pain:1, white:1, hand:1, salt:1}; // mass/adjectival heads
 

@@ -1110,6 +1110,29 @@ window.LEXICON = [
     "plural": "valley coins"
   },
   {
+    "word": "draft",
+    "gloss": "pulling",
+    "etymon": "draght",
+    "language": "Middle English",
+    "note": "a noun from the root of Old English dragan 'to drag, pull' (Proto-Germanic *drahtuz 'a pulling'): a pull of drink (c. 1200), a pull of air (1770s), a drawn sketch (1520s), a rough copy of writing (14c.).",
+    "part_of_speech": "noun",
+    "recovery_type": "literal",
+    "image_family": "Hands",
+    "surprise_score": 3,
+    "verb_gloss": "pull"
+  },
+  {
+    "word": "draw",
+    "gloss": "drag",
+    "etymon": "dragan",
+    "language": "Old English",
+    "note": "'to drag, pull'; to draw a picture (c. 1200) was to drag a pencil across the page.",
+    "part_of_speech": "verb",
+    "recovery_type": "literal",
+    "image_family": "Hands",
+    "surprise_score": 2
+  },
+  {
     "word": "earwig",
     "gloss": "ear insect",
     "etymon": "ēarwicga",
@@ -1338,6 +1361,17 @@ window.LEXICON = [
     "surprise_score": 4
   },
   {
+    "word": "fathom",
+    "gloss": "span with outstretched arms",
+    "etymon": "fæþm",
+    "language": "Old English",
+    "note": "'the two arms outstretched, an embrace'; a fathom was the span of the arms (about six feet), then a depth measured in arm-spans, then to take soundings (c. 1600), then to understand (1620s).",
+    "part_of_speech": "verb",
+    "recovery_type": "literal",
+    "image_family": "Measurement",
+    "surprise_score": 5
+  },
+  {
     "word": "fee",
     "gloss": "cattle",
     "etymon": "feoh",
@@ -1542,6 +1576,17 @@ window.LEXICON = [
     "surprise_score": 4
   },
   {
+    "word": "hawthorn",
+    "gloss": "hedge thorn",
+    "etymon": "hagaþorn",
+    "language": "Old English",
+    "note": "haga 'enclosure, hedge' + þorn 'thorn': so called because it was used in hedges.",
+    "part_of_speech": "noun",
+    "recovery_type": "literal",
+    "image_family": "Trees",
+    "surprise_score": 3
+  },
+  {
     "word": "heathen",
     "gloss": "a dweller on the heath",
     "etymon": "hæðen",
@@ -1550,6 +1595,29 @@ window.LEXICON = [
     "part_of_speech": "noun",
     "recovery_type": "conceptual",
     "image_family": "Geography",
+    "surprise_score": 3
+  },
+  {
+    "word": "hedge",
+    "gloss": "fence",
+    "etymon": "hecg",
+    "language": "Old English",
+    "note": "'a fence', originally any fence, living or built; to hedge in speech (1590s) was to dodge as if hiding in a hedge; to hedge a bet (1670s) was to fence in one's losses.",
+    "part_of_speech": "noun",
+    "recovery_type": "literal",
+    "image_family": "Enclosures",
+    "surprise_score": 4,
+    "verb_gloss": "fence in"
+  },
+  {
+    "word": "hide",
+    "gloss": "cover",
+    "etymon": "hȳdan",
+    "language": "Old English",
+    "note": "West Germanic *hudjan; kin to hide, the skin (Old English hȳd): both come from a root meaning 'to cover'.",
+    "part_of_speech": "verb",
+    "recovery_type": "literal",
+    "image_family": "Body",
     "surprise_score": 3
   },
   {
@@ -2284,6 +2352,18 @@ window.LEXICON = [
     "surprise_score": 5
   },
   {
+    "word": "patent",
+    "gloss": "open letter",
+    "etymon": "patentem",
+    "language": "Latin",
+    "note": "'lying open'; letters patent were royal grants issued open, the seal hanging below instead of closing them, so anyone could read them. The inventor's patent descends from them.",
+    "part_of_speech": "noun",
+    "recovery_type": "literal",
+    "image_family": "Law",
+    "surprise_score": 4,
+    "verb_gloss": "open-letter"
+  },
+  {
     "word": "patience",
     "gloss": "suffering",
     "etymon": "patiēns",
@@ -2580,6 +2660,19 @@ window.LEXICON = [
     "recovery_type": "literal",
     "image_family": "Body",
     "surprise_score": 5
+  },
+  {
+    "word": "rebel",
+    "gloss": "one who wars again",
+    "etymon": "rebellis",
+    "language": "Latin",
+    "note": "re- 'again' + bellum 'war'; rebellare was said of a conquered people taking up arms a second time (Lewis & Short).",
+    "part_of_speech": "noun",
+    "recovery_type": "literal",
+    "image_family": "Strife",
+    "surprise_score": 4,
+    "plural": "ones who war again",
+    "verb_gloss": "make war again"
   },
   {
     "word": "record",
@@ -3335,6 +3428,17 @@ window.LEXICON = [
     "recovery_type": "literal",
     "image_family": "Sky",
     "surprise_score": 5
+  },
+  {
+    "word": "vegetable",
+    "gloss": "quickening thing",
+    "etymon": "vegetabilis",
+    "language": "Medieval Latin",
+    "note": "'growing, flourishing', from Late Latin vegetabilis 'animating, enlivening', from Latin vegetare 'to enliven', from vegetus 'lively', from vegere 'to quicken, be lively'.",
+    "part_of_speech": "noun",
+    "recovery_type": "literal",
+    "image_family": "Agriculture",
+    "surprise_score": 3
   },
   {
     "word": "verdict",

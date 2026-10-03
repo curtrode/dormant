@@ -599,6 +599,12 @@ contested entries carry "perhaps" theories? If so, it should follow the
 same rules: sourced, always marked "perhaps", never shown as the only
 reading.
 
+*Corrected after the queue run (below):* the link is not debated.
+Wiktionary *pandō*, etymonline *expand* and Beekes (*EDG* p. 1181)
+all derive *pandere* from \*peth₂-. It is plain kin, no "perhaps". The
+open question about hedged membership stands, but this is not a case
+of it.
+
 **Third family: Proto-Germanic \*hag- "enclosure".** Root id `hag`.
 Queued, unverified and unscored:
 
@@ -615,49 +621,126 @@ Deeper, perhaps: PIE \*kagh- "to catch; wattle, fence" (Welsh *cae*,
 perhaps *quay* via Gaulish). From memory and unsourced, so kept in
 editorial notes only.
 
+*Corrected after the queue run:* the \*kagh- kinship is sourced.
+Etymonline (*hedge*, *quay*, *haw*) and Wiktionary (*hedge* a doublet of
+*quay*) both give it. Only its status as true PIE is doubted (Pronk
+2019: perhaps a substrate word). Also wrong above: the evasive *hedge*
+(1590s) is hiding as if in a hedge, not fencing a claim; *thornbush*
+belongs to *hawthorn*. The gloss is now *fence in*.
+
+**Family noted, not queued: Latin *currere* "to run".** Already in the
+lexicon: *currency* (*a flowing*) with the form *current* (*running*).
+Members to consider: *course*, *occur* (run against), *recur*,
+*concur*, *excursion*, *courier*, *corridor*, *curriculum* (a
+racecourse), *succor* (run beneath, run to help). *Currently* is not
+caught: the engine does not strip *-ly*. **Trap:** *career* (canonical,
+*racecourse*) looks like a member but comes from *carrus* "wagon", not
+*currere*. Same kind of trap as *drawing room* in the *dragan* family.
+
+**Also queued this session** (unverified, unscored; details in each
+entry's editorial notes): *hide* (*cover*, root `skew` with *sky*; the
+land *hide* is from \*ḱey- "to lie", as is *cemetery*), *rebel* (with a
+`verb_gloss`, an initial-stress pair rather than a homonym), *entrance*
+(the verb, *put into a passing-over*), the ship's *wake* (*open
+channel*), *vegetable* (opens a `weg` family with *wake* "rouse",
+*watch*, *vigil*, *vigor*), *vet* (*horse-doctor*).
+
+**Shared blocker:** *entrance*, *wake*, *vet*, and the homonyms *hide*,
+*lie* and *desert* all need the engine to pick a sense by part of speech
+and context, since it matches spelling only. Design this once, with the
+homonym collection, before promoting any of them.
+
+**Filter gaps:** *hide* is in the homonym candidates but not the
+shortlist; *entrance* and *vet* are in neither. Reasons unchecked.
+
+**Queue run (2026-10-02).** All 13 candidates checked against
+etymonline and Wiktionary (Lewis & Short, LacusCurtius, Wikipedia where
+noted). Scores, sources and verdicts are in each entry. 12 verified;
+*vet* left unverified.
+
+- **Promote-ready:** *draw*, *draft*, *fathom*, *patent*, *hide*,
+  *rebel*, *vegetable*, *hawthorn* (as hedge's sibling), *petal*
+  (claims sound, image thin: better as kin under *fathom*).
+- **Promote once the gloss is settled:** *hedge* (*fence in*, or *hide
+  in a hedge*).
+- **Hold for sense by part of speech:** *entrance*, *wake*.
+- **Hold, leaning reject:** *vet*. The image is weak; the interesting
+  question (*veterinae* from *vetus* "old", or from *vehō* "carry")
+  belongs to *veterinarian*, as a contested entry with both theories.
+
+Corrections the sources forced (my claims from memory, made earlier
+this session):
+
+- *patent*: letters patent were not unsealed. The seal hung below, so
+  they could be read without breaking it.
+- *hide*: the Proto-Germanic form was wrong (\*huzdijaną "to hoard",
+  or West Germanic \*hudjan); the verb is kin to the skin, not from it.
+  *Civis* and *cuticle* are sourced kin; *obscure* is contested (de Vaan
+  derives it from a root meaning "dark").
+- *wake*: the ship's wake is from a root meaning "wet" (\*wegʷ-), not
+  kin to waking (\*weǵ-).
+- *vegetable*: *vegetabilis* is active, "enlivening", so the gloss is
+  *quickening thing*, not *enlivened thing*.
+- *draft*: Middle English *draght*, related to *dragan* rather than
+  from it; a *drawn* sketch, not a drawn-out one.
+
+**Promoted (2026-10-02):** *draw*, *draft*, *hawthorn*, *fathom*,
+*patent*, *hide*, *rebel*, *vegetable* (288 → 296 entries). Engine
+fixes so they read in running text: irregular forms *drew*, *drawn*,
+*hid*, *hidden*; pasts and gerunds *dragged*/*dragging*,
+*spanned*/*spanning*; `verb_gloss` for *draft* (*pull*) and *patent*
+(*open-letter*); *rebel* plural *ones who war again*; *draft*'s gloss
+lost its article (*a cold draft* had read *a cold a pulling*).
+
+**Mundus patet citation confirmed:** Varro, quoted in Macrobius,
+*Saturnalia* 1.16.18 (LacusCurtius Latin text). The three dates come
+from Festus s.v. *mundus* (p. 154 Müller), who credits Ateius Capito,
+not Varro. The footer's cite now says so.
+
 ------------------------------------------------------------------------
 
-## Start Here (as of 2026-09-26, end of session)
+## Start Here (as of 2026-10-02, end of session)
 
-State: 288 verified entries (278 glossed, 10 contested) + 19 derived
-forms = 307 words; ~40 recovered words per 1,000 in modern English.
-`index.html` opens in the *Stir* view (text stirred in place: word →
-root → image), with *Translate* as the second view; no estrangement
-dial. `build_lexicon.py` validates before building. Everything pushed.
+State: 297 verified entries (287 glossed, 10 contested) + 19 derived
+forms = 316 words. The piece is retitled *Mundus patet, verbum patet* /
+*The world lies open, the word lies open* / *Notes towards a Semantic
+Archaeology*, with Read and Write as cards under the title and a
+footer note on the Roman rite (Macrobius, *Saturnalia* 1.16.18; dates
+from Festus). Easter egg: *lies* in the English line stirs through both
+of its words (*licgan* rests, *lēogan* deceives), quiet and italic.
+Write's *Whole lexicon* rule now lists every playable word by image
+family. Everything pushed.
 
-Last session (2026-09-26): homonym collection begun in `homonyms/`.
-374-word Wiktionary shortlist, now under hand review; nothing added to
-`canonical.json`. See the 2026-09-26 log entry above and
-`homonyms/homonyms_handoff.md`. (2026-09-18: hedged glosses approved,
-stir-fry built, two high-frequency passes 106 → 288, dial removed.)
+Last session (2026-10-02): root families begun (`root` field; `dragan`,
+`peth2`, `hag`, `skew`, `weg`); first queue run against sources (see the
+2026-10-02 log): 9 promoted (draw, draft, hawthorn, fathom, patent,
+hide, rebel, vegetable, hedge), several of my from-memory claims
+corrected. Queue left: *petal* (kin only), *entrance* and *wake* (held
+for sense by part of speech), *vet* (hold, leaning reject; its real
+question belongs to *veterinarian*).
 
 Candidate next tasks (user to choose):
 
-1. **Resume the stir-fry.** It was paused because too few words stirred
-   (4–9 per 1,000); coverage is now ~40, so test whether new poems
-   emerge on real prose. Ideas: "Stir all" ordered by `surprise_score`
-   (strongest images first); saving or sharing poems beyond the
-   clipboard; hover-stir feel (width jumps).
-2. **Contested-words feature** — `theories` / `elsewhere` fields (policy
-   decided: sourced, always "perhaps"). Six contested entries already
-   carry sourced theories in `editorial_notes` (soul, silver, book,
-   calm, human, religion); boy, girl, bride, sycophant still need
-   research. Validator must require a `source` per theory. Plan
-   `concept` ids in (see direction below).
-3. **More coverage** — deeper down the `wordfreq` list (ranks
-   1,500–6,000); revisit held words (place, island, fan, believe,
-   doubt, satisfy, peculiar …, reasons in the logs).
-4. **Homonyms.** Once the user has marked the shortlist, read the marks
-   (review page linked in the 2026-09-26 log). Draft and verify both
-   histories and their images for the keeps and maybes. Before any
-   entry lands, the user decides: the `build_lexicon.py` change so one
-   spelling can hold several entries; adding the Homonymous Archaeology
-   clause; how the ghosts render (light direction picks one, or both
-   tangled); whether polysemy renders differently; ratifying the Zipf
-   3.0 cutoff.
-5. **Constraint writing** (idea recorded 2026-09-29, see log). The
-   writer composes a poem (e.g. 12 lines) in which every line holds one
-   or more lexicon words, from the full lexicon or a random draw.
+1. **Sense by part of speech.** The shared blocker for *entrance*,
+   *wake*, *vet* and the homonyms *hide* (skin, land), *lie*, *desert*:
+   the engine matches spelling only. Design it once, with the homonym
+   collection.
+2. **Homonyms.** The review page has no marks yet: the user marks the
+   374-word shortlist (*lie* and *wake* are strong keeps). Check why
+   the filter dropped *hide* and why the finder missed *entrance* and
+   *vet*.
+3. **Root families in the interface.** Siblings waking together (a
+   draft from the window and a drawn outline both surface as pulling).
+   Prototype passage first. Open: does a sibling wake only in the same
+   passage? How far back does a family reach? Families noted, not
+   queued: *currere* (course, occur, curriculum; trap: *career*),
+   *weg* (vigil, vigor, bivouac), *dragan* (drawer, withdraw, dray).
+4. **Contested-words feature** — `theories` / `elsewhere` fields (policy
+   decided: sourced, always "perhaps"). New contested case found:
+   *veterinarian* (*vetus* "old" or *vehō* "carry").
+5. **More coverage** — deeper down the `wordfreq` list; revisit held
+   words. *Stir-fry* and constraint writing both exist now; test them on
+   real prose and real poems.
 
 **Pending decision (user):** the zero-derivation verb gloss — a noun
 gloss used as a verb where no verb image is attested (focused →
