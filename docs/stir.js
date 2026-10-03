@@ -190,6 +190,30 @@
     return {out:out.join(""), src:src.join(""), count:n, stir:STIR};
   }
 
+  // Easter egg: "lies" in the title's English line is two words, not one
+  // (Old English licgan "to recline" and leogan "to deceive"; see
+  // homonyms/dormant_homonym_shortlist.csv). Stirring it sinks to one root,
+  // surfaces as its image, then does the same for the other. Unmarked until
+  // stirred; mouse stirs on pass, touch and pen on tap, keyboard on Enter.
+  var LIES = [{text:"lies", kind:"word"}, {text:"licgan", kind:"ety"}, {text:"rests", kind:"gloss"},
+              {text:"l\u0113ogan", kind:"ety"}, {text:"deceives", kind:"gloss"}];
+  [].forEach.call(document.querySelectorAll("[data-egg=lies]"), function(el){
+    var at = 0, last = 0;
+    function stirLies(){
+      last = Date.now(); at = (at + 1) % LIES.length;
+      el.textContent = LIES[at].text;
+      el.className = "w " + LAYER_CLASS[LIES[at].kind];
+      void el.offsetWidth; el.classList.add("stirred");
+    }
+    el.addEventListener("pointerenter", function(ev){
+      if(ev.pointerType === "mouse" && Date.now() - last >= 500) stirLies();
+    });
+    el.addEventListener("pointerup", function(ev){ if(ev.pointerType !== "mouse") stirLies(); });
+    el.addEventListener("keydown", function(ev){
+      if(ev.key === "Enter" || ev.key === " "){ ev.preventDefault(); stirLies(); }
+    });
+  });
+
   window.DORMANT = {MAP:MAP, TOKEN:TOKEN, LAYER_CLASS:LAYER_CLASS, lookup:lookup,
                     asVerb:asVerb, render:render, matchCase:matchCase, takesAn:takesAn, esc:esc};
 })();
