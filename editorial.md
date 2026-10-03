@@ -173,6 +173,13 @@ Each entry should include:
   used as a verb (answer → *counter-oath*; answered → *swore against*). Where
   no verb image is attested, use the noun gloss itself as a verb (focus →
   *hearth*, focused → *hearthed*); this adds no etymological claim.
+- `root` (optional) — a shared id linking entries descended from one
+  root, so siblings can wake together (draw, draft → `dragan`; fathom,
+  patent → `peth2`; hedge, hawthorn → `hag`). It asserts shared descent,
+  so a sourced link only; a debated member stays out of the field and
+  is noted, marked "perhaps", in `editorial_notes`. Watch for look-alike
+  traps (*drawing room* belongs with *withdraw*; *career* is from
+  *carrus* "wagon", not *currere*).
 - `theories` (planned; contested entries only) — competing theories,
   each with a hedged `gloss`, a `summary` and a `source`.
 - `elsewhere` (planned) — Romance and Germanic equivalents, each with
