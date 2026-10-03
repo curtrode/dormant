@@ -21,7 +21,7 @@ FIELDS = ("word", "gloss", "etymon", "language", "note", "part_of_speech",
 REQUIRED = ("word", "gloss", "etymon", "language", "note", "part_of_speech",
             "image_family", "recovery_type", "surprise_score", "frequency_score",
             "confidence_score", "verified", "verification_source", "editorial_notes")
-OPTIONAL = ("forms", "plural", "verb_gloss")
+OPTIONAL = ("forms", "plural", "verb_gloss", "root")
 RECOVERY_TYPES = ("literal", "conceptual", "semantic", "contested")
 PARTS_OF_SPEECH = ("noun", "verb", "adjective", "adverb")
 
@@ -85,6 +85,9 @@ def validate(data):
             errors.append(f"{where}: part_of_speech {e.get('part_of_speech')!r} not in {PARTS_OF_SPEECH}")
         if "plural" in e and (e.get("part_of_speech") != "noun" or not is_text(e["plural"])):
             errors.append(f"{where}: plural must be a non-empty string on a noun")
+        # root: shared id linking entries descended from one root (draw, draft -> "dragan").
+        if "root" in e and not is_text(e["root"]):
+            errors.append(f"{where}: root must be a non-empty string")
         # verb_gloss: a noun entry's gloss when the word is used as a verb
         # (answer -> "counter-oath", but answered -> "swore against").
         if "verb_gloss" in e and (e.get("part_of_speech") == "verb" or not is_text(e["verb_gloss"])):

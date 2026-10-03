@@ -517,6 +517,104 @@ own writing:
   ("uninvited") rise last, one by one, fainter. The user wanted these
   inadvertent ghosts. Replacement stays as the second view, *Stir*.
 
+### 2026-10-02 — Root families (idea recorded)
+
+User question: *draft* is not in the homonym corpus (correctly: it is
+polysemy, one word with many senses), nor in the lexicon. Its senses all
+descend from Old English *dragan* "to drag, pull": a draft of air, a
+draught of beer, the draft of an essay, the military draft, a draft
+horse, a bank draft, a ship's draft. *Draw a picture* hides the same
+pull: a line is a stylus dragged across a surface.
+
+The idea: a draft of wind can *summon* the dragged stylus. These are
+siblings, not layers. Neither contains the other; they are two branches
+of one root. The lexicon cannot express this yet: every entry stands
+alone, and no two of the 288 canonical entries share an etymon.
+
+Two directions, kept distinct:
+
+- **Depth** (already practised): one word's chain of images, e.g. write
+  *score* → Proto-Germanic *tear, scratch*. Deeper links are cut when
+  hedged (thing, *tenk-).
+- **Breadth** (new): a root family whose members wake one another. In
+  a passage holding "a draft from the window" and "she drew the
+  outline", both surface as pulling. Pairs with write *scratch*: one
+  hand-motion scratches, the other drags.
+
+Done this session: optional `root` field (a shared id, e.g. `dragan`)
+added to the `candidates.json` schema and to `build_lexicon.py`
+OPTIONAL (validated as a non-empty string). First family queued, both
+unverified and unscored: **draw** *drag* (picture sense) and **draft**
+*a pulling*.
+
+Other members noted for the family (from memory, unverified, not yet
+queued):
+
+- **drag** — the pull is still alive in the modern sense, so it has
+  little buried. Probably a family member that anchors the others, not
+  an entry of its own. Possibly via Old Norse *draga*; check.
+- **dray** — a low cart without sides, dragged rather than rolled;
+  Old English *dræge* "dragnet". Rare word, so a low frequency score.
+- **drawer** — the box you pull out. Nobody hears the pull, though it
+  is literal. A good candidate.
+- **withdraw** — "draw back"; *with-* in its old sense "against, back".
+  Two buried images in one word. A strong candidate.
+- **drawing room** — short for *withdrawing room*. Belongs with
+  withdraw rather than with the picture sense of draw; a trap to note.
+
+Next step: a small prototype passage holding three or four family
+members, to test whether siblings waking together lands before the
+interface uses `root`. Open questions: does a sibling wake only when
+the other is in the same passage, or always; how far a family reaches
+(Old English root only, or back to PIE, where links grow hedged).
+
+**Second family: \*peth₂- "to spread out" (PIE).** Came up while
+weighing titles: *Mundus Patet* (the Roman pit of the dead, opened three
+days a year) suggested *Verbum Patet*, "the word lies open". *Patet*
+also means "it is evident", so the phrase holds both the thesis and the
+illusion it undoes. *Verbum* and English *word* are cognates (PIE
+\*werh₁- "to speak").
+
+Queued, root id `peth2`, all unverified and unscored:
+
+- **fathom** *span with outstretched arms* — Old English *fæþm* "the
+  two arms outstretched, an embrace"; arm-span, then a depth measured
+  in arm-spans, then to sound a depth, then to understand. "Can't
+  fathom" hides the arms. The strongest of the three.
+- **petal** *a thing spread flat* — Greek *petalon* "leaf", from
+  *petalos* "spread out". The image may be thin.
+- **patent** *open letter* — Latin *patentem* "lying open"; letters
+  patent were royal grants issued unsealed. The noun hides the
+  openness; the adjective keeps it.
+
+**Hedged member: Latin *pandere* "to spread"** (expand, pace, pass,
+compass). Perhaps from the same root. The link is debated (de Vaan,
+*Etymological Dictionary of Latin*, is the usual reference; check the
+exact entry before citing). *Pandere*'s own origin is not the question,
+so this is not Contested Archaeology. What is disputed is its
+membership in the family. Kept out of the `root` field, which asserts
+shared descent; recorded as "perhaps" kin in fathom's editorial notes.
+Open question: does a family need a hedged-membership marker, the way
+contested entries carry "perhaps" theories? If so, it should follow the
+same rules: sourced, always marked "perhaps", never shown as the only
+reading.
+
+**Third family: Proto-Germanic \*hag- "enclosure".** Root id `hag`.
+Queued, unverified and unscored:
+
+- **hedge** *fence with thornbush* — Old English *hecg*, a row of
+  bushes planted as a fence. To hedge a bet was to fence in one's
+  losses; to hedge a statement, to fence a claim with qualifiers.
+  "She hedged" hides the thornbush. It also describes the lexicon's
+  own method: a "perhaps" is a hedge planted around a claim. Adds to
+  the thin Enclosures family (court, town, camera).
+- **hawthorn** *hedge thorn* — Old English *haga* "enclosure" +
+  *þorn*. Probably a family anchor rather than a strong entry.
+
+Deeper, perhaps: PIE \*kagh- "to catch; wattle, fence" (Welsh *cae*,
+perhaps *quay* via Gaulish). From memory and unsourced, so kept in
+editorial notes only.
+
 ------------------------------------------------------------------------
 
 ## Start Here (as of 2026-09-26, end of session)
